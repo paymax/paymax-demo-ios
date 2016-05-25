@@ -18,8 +18,6 @@
 		3D517D981CEEE7110084E6AD /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D517D0B1CEEE7110084E6AD /* AlipaySDK.bundle */; };
 		3D517D991CEEE7110084E6AD /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517D0C1CEEE7110084E6AD /* AlipaySDK.framework */; };
 		3D517D9A1CEEE7110084E6AD /* libPaymax+alipay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517D0D1CEEE7110084E6AD /* libPaymax+alipay.a */; };
-		3D517D9B1CEEE7110084E6AD /* libPaymax+lkl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517D0F1CEEE7110084E6AD /* libPaymax+lkl.a */; };
-		3D517E181CEEE7110084E6AD /* libMRPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517D8E1CEEE7110084E6AD /* libMRPaySDK.a */; };
 		3D517E191CEEE7110084E6AD /* libPaymax+wx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517D911CEEE7110084E6AD /* libPaymax+wx.a */; };
 		3D517E1A1CEEE7120084E6AD /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517D931CEEE7110084E6AD /* libWeChatSDK.a */; };
 		3D517E1C1CEEE73A0084E6AD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E1B1CEEE73A0084E6AD /* CFNetwork.framework */; };
@@ -29,132 +27,134 @@
 		3D517E241CEEE7690084E6AD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E231CEEE7690084E6AD /* libz.tbd */; };
 		3D517E261CEEE7750084E6AD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E251CEEE7750084E6AD /* libsqlite3.tbd */; };
 		3D517E281CEEE7890084E6AD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E271CEEE7890084E6AD /* CoreTelephony.framework */; };
-		3D517EA91CEEED520084E6AD /* Bar_导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E2B1CEEED520084E6AD /* Bar_导航条.png */; };
-		3D517EAA1CEEED520084E6AD /* Bar_导航条@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E2C1CEEED520084E6AD /* Bar_导航条@2x.png */; };
-		3D517EAB1CEEED520084E6AD /* Bar_导航条@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E2D1CEEED520084E6AD /* Bar_导航条@3x.png */; };
-		3D517EAC1CEEED520084E6AD /* Bar_首页底部导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E2E1CEEED520084E6AD /* Bar_首页底部导航条.png */; };
-		3D517EAD1CEEED520084E6AD /* Bar_首页顶部导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E2F1CEEED520084E6AD /* Bar_首页顶部导航条.png */; };
-		3D517EAE1CEEED520084E6AD /* Bar_首页顶部导航条_选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E301CEEED520084E6AD /* Bar_首页顶部导航条_选中.png */; };
-		3D517EAF1CEEED520084E6AD /* Button_80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E311CEEED520084E6AD /* Button_80px.png */; };
-		3D517EB01CEEED520084E6AD /* button_jb_line_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E321CEEED520084E6AD /* button_jb_line_s@2x.png */; };
-		3D517EB11CEEED520084E6AD /* button_jb_line_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E331CEEED520084E6AD /* button_jb_line_s@3x.png */; };
-		3D517EB21CEEED520084E6AD /* Button_交易状态.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E341CEEED520084E6AD /* Button_交易状态.png */; };
-		3D517EB31CEEED520084E6AD /* Button_信用卡还款_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E351CEEED520084E6AD /* Button_信用卡还款_Circle@2x.png */; };
-		3D517EB41CEEED520084E6AD /* Button_信用卡还款_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E361CEEED520084E6AD /* Button_信用卡还款_Circle@3x.png */; };
-		3D517EB51CEEED520084E6AD /* Button_充值_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E371CEEED520084E6AD /* Button_充值_Circle@2x.png */; };
-		3D517EB61CEEED520084E6AD /* Button_充值_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E381CEEED520084E6AD /* Button_充值_line@2x.png */; };
-		3D517EB71CEEED520084E6AD /* Button_充值_line_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E391CEEED520084E6AD /* Button_充值_line_white@2x.png */; };
-		3D517EB81CEEED520084E6AD /* Button_充值_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E3A1CEEED520084E6AD /* Button_充值_solid@2x.png */; };
-		3D517EB91CEEED520084E6AD /* Button_关于_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E3B1CEEED520084E6AD /* Button_关于_line_32px@2x.png */; };
-		3D517EBA1CEEED520084E6AD /* Button_删除_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E3C1CEEED520084E6AD /* Button_删除_line_32px@2x.png */; };
-		3D517EBB1CEEED520084E6AD /* Button_卡_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E3D1CEEED520084E6AD /* Button_卡_line_32px@2x.png */; };
-		3D517EBC1CEEED520084E6AD /* Button_头像_110px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E3E1CEEED520084E6AD /* Button_头像_110px@2x.png */; };
-		3D517EBD1CEEED520084E6AD /* Button_头像_80px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E3F1CEEED520084E6AD /* Button_头像_80px@2x.png */; };
-		3D517EBE1CEEED520084E6AD /* Button_实名_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E401CEEED520084E6AD /* Button_实名_Circle@2x.png */; };
-		3D517EBF1CEEED520084E6AD /* Button_密码_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E411CEEED520084E6AD /* Button_密码_line_32px@2x.png */; };
-		3D517EC01CEEED520084E6AD /* Button_帮付宝_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E421CEEED520084E6AD /* Button_帮付宝_line@2x.png */; };
-		3D517EC11CEEED520084E6AD /* Button_帮付宝_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E431CEEED520084E6AD /* Button_帮付宝_solid@2x.png */; };
-		3D517EC21CEEED520084E6AD /* Button_待办_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E441CEEED520084E6AD /* Button_待办_Circle@2x.png */; };
-		3D517EC31CEEED520084E6AD /* Button_待办_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E451CEEED520084E6AD /* Button_待办_line@2x.png */; };
-		3D517EC41CEEED520084E6AD /* Button_待办_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E461CEEED520084E6AD /* Button_待办_solid@2x.png */; };
-		3D517EC51CEEED520084E6AD /* Button_手机_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E471CEEED520084E6AD /* Button_手机_line_32px@2x.png */; };
-		3D517EC61CEEED520084E6AD /* Button_手机充值_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E481CEEED520084E6AD /* Button_手机充值_Circle@2x.png */; };
-		3D517EC71CEEED520084E6AD /* Button_手机充值_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E491CEEED520084E6AD /* Button_手机充值_Circle@3x.png */; };
-		3D517EC81CEEED520084E6AD /* Button_扫码支付_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E4A1CEEED520084E6AD /* Button_扫码支付_Circle@2x.png */; };
-		3D517EC91CEEED520084E6AD /* Button_扫码支付_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E4B1CEEED520084E6AD /* Button_扫码支付_Circle@3x.png */; };
-		3D517ECA1CEEED520084E6AD /* Button_扫码登陆_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E4C1CEEED520084E6AD /* Button_扫码登陆_Circle@2x.png */; };
-		3D517ECB1CEEED520084E6AD /* Button_扫码登陆_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E4D1CEEED520084E6AD /* Button_扫码登陆_Circle@3x.png */; };
-		3D517ECC1CEEED520084E6AD /* Button_提现_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E4E1CEEED520084E6AD /* Button_提现_Circle@2x.png */; };
-		3D517ECD1CEEED520084E6AD /* Button_提现_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E4F1CEEED520084E6AD /* Button_提现_line@2x.png */; };
-		3D517ECE1CEEED520084E6AD /* Button_提现_line_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E501CEEED520084E6AD /* Button_提现_line_white@2x.png */; };
-		3D517ECF1CEEED520084E6AD /* Button_提现_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E511CEEED520084E6AD /* Button_提现_solid@2x.png */; };
-		3D517ED01CEEED520084E6AD /* Button_收付款扫码_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E521CEEED520084E6AD /* Button_收付款扫码_Circle@2x.png */; };
-		3D517ED11CEEED520084E6AD /* Button_收付款扫码_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E531CEEED520084E6AD /* Button_收付款扫码_Circle@3x.png */; };
-		3D517ED21CEEED520084E6AD /* Button_流量充值_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E541CEEED520084E6AD /* Button_流量充值_Circle@2x.png */; };
-		3D517ED31CEEED520084E6AD /* Button_流量充值_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E551CEEED520084E6AD /* Button_流量充值_Circle@3x.png */; };
-		3D517ED41CEEED520084E6AD /* Button_消费_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E561CEEED520084E6AD /* Button_消费_line@2x.png */; };
-		3D517ED51CEEED520084E6AD /* Button_消费_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E571CEEED520084E6AD /* Button_消费_solid@2x.png */; };
-		3D517ED61CEEED520084E6AD /* Button_添加银行卡+.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E581CEEED520084E6AD /* Button_添加银行卡+.png */; };
-		3D517ED71CEEED520084E6AD /* Button_添加银行卡.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E591CEEED520084E6AD /* Button_添加银行卡.png */; };
-		3D517ED81CEEED520084E6AD /* Button_理财推荐_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E5A1CEEED520084E6AD /* Button_理财推荐_Circle@2x.png */; };
-		3D517ED91CEEED520084E6AD /* Button_理财推荐_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E5B1CEEED520084E6AD /* Button_理财推荐_Circle@3x.png */; };
-		3D517EDA1CEEED520084E6AD /* Button_确认_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E5C1CEEED520084E6AD /* Button_确认_line@2x.png */; };
-		3D517EDB1CEEED520084E6AD /* Button_确认框580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E5D1CEEED520084E6AD /* Button_确认框580px.png */; };
-		3D517EDC1CEEED520084E6AD /* Button_管家_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E5E1CEEED520084E6AD /* Button_管家_line@2x.png */; };
-		3D517EDD1CEEED520084E6AD /* Button_管家_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E5F1CEEED520084E6AD /* Button_管家_solid@2x.png */; };
-		3D517EDE1CEEED520084E6AD /* Button_箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E601CEEED520084E6AD /* Button_箭头@2x.png */; };
-		3D517EDF1CEEED520084E6AD /* Button_设置_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E611CEEED520084E6AD /* Button_设置_line@2x.png */; };
-		3D517EE01CEEED520084E6AD /* Button_设置_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E621CEEED520084E6AD /* Button_设置_solid@2x.png */; };
-		3D517EE11CEEED520084E6AD /* Button_账单_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E631CEEED520084E6AD /* Button_账单_line@2x.png */; };
-		3D517EE21CEEED520084E6AD /* Button_账单_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E641CEEED520084E6AD /* Button_账单_solid@2x.png */; };
-		3D517EE31CEEED520084E6AD /* Button_账户_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E651CEEED520084E6AD /* Button_账户_line_32px@2x.png */; };
-		3D517EE41CEEED520084E6AD /* Button_转账_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E661CEEED520084E6AD /* Button_转账_Circle@2x.png */; };
-		3D517EE51CEEED520084E6AD /* Button_转账_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E671CEEED520084E6AD /* Button_转账_line@2x.png */; };
-		3D517EE61CEEED520084E6AD /* Button_转账_line_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E681CEEED520084E6AD /* Button_转账_line_white@2x.png */; };
-		3D517EE71CEEED520084E6AD /* Button_转账_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E691CEEED520084E6AD /* Button_转账_solid@2x.png */; };
-		3D517EE81CEEED520084E6AD /* Button_输入支付密码_取消@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E6A1CEEED520084E6AD /* Button_输入支付密码_取消@2x.png */; };
-		3D517EE91CEEED520084E6AD /* Button_输入支付密码_确认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E6B1CEEED520084E6AD /* Button_输入支付密码_确认@2x.png */; };
-		3D517EEA1CEEED520084E6AD /* Button_输入框330px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E6C1CEEED520084E6AD /* Button_输入框330px.png */; };
-		3D517EEB1CEEED520084E6AD /* Button_输入框580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E6D1CEEED520084E6AD /* Button_输入框580px.png */; };
-		3D517EEC1CEEED520084E6AD /* Button_输入框三栏580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E6E1CEEED520084E6AD /* Button_输入框三栏580px.png */; };
-		3D517EED1CEEED520084E6AD /* Button_输入框两栏580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E6F1CEEED520084E6AD /* Button_输入框两栏580px.png */; };
-		3D517EEE1CEEED520084E6AD /* Button_输入框四栏580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E701CEEED520084E6AD /* Button_输入框四栏580px.png */; };
-		3D517EEF1CEEED520084E6AD /* Button_返回@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E711CEEED520084E6AD /* Button_返回@2x.png */; };
-		3D517EF01CEEED520084E6AD /* Button_通讯录_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E721CEEED520084E6AD /* Button_通讯录_line@2x.png */; };
-		3D517EF11CEEED520084E6AD /* Button_重发按钮_220px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E731CEEED520084E6AD /* Button_重发按钮_220px.png */; };
-		3D517EF21CEEED520084E6AD /* Button_重发按钮_等待220px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E741CEEED520084E6AD /* Button_重发按钮_等待220px.png */; };
-		3D517EF31CEEED520084E6AD /* Button_银行卡_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E751CEEED520084E6AD /* Button_银行卡_line@2x.png */; };
-		3D517EF41CEEED520084E6AD /* Button_银行卡_Solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E761CEEED520084E6AD /* Button_银行卡_Solid@2x.png */; };
-		3D517EF51CEEED520084E6AD /* choice2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E771CEEED520084E6AD /* choice2@2x.png */; };
-		3D517EF61CEEED520084E6AD /* choice2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E781CEEED520084E6AD /* choice2@3x.png */; };
-		3D517EF71CEEED520084E6AD /* choice_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E791CEEED520084E6AD /* choice_icon@2x.png */; };
-		3D517EF81CEEED520084E6AD /* choice_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E7A1CEEED520084E6AD /* choice_icon@3x.png */; };
-		3D517EF91CEEED520084E6AD /* Cover_iPhone5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E7B1CEEED520084E6AD /* Cover_iPhone5.png */; };
-		3D517EFA1CEEED520084E6AD /* Image_Cover字.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E7C1CEEED520084E6AD /* Image_Cover字.png */; };
-		3D517EFB1CEEED520084E6AD /* Image_帮付宝首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E7D1CEEED520084E6AD /* Image_帮付宝首页.png */; };
-		3D517EFC1CEEED520084E6AD /* Image_空页面.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E7E1CEEED520084E6AD /* Image_空页面.png */; };
-		3D517EFD1CEEED520084E6AD /* Image_管家首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E7F1CEEED520084E6AD /* Image_管家首页.png */; };
-		3D517EFE1CEEED520084E6AD /* Image_账单详情半圆_右.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E801CEEED520084E6AD /* Image_账单详情半圆_右.png */; };
-		3D517EFF1CEEED520084E6AD /* Image_账单详情半圆_左.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E811CEEED520084E6AD /* Image_账单详情半圆_左.png */; };
-		3D517F001CEEED520084E6AD /* jt_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E821CEEED520084E6AD /* jt_btn@2x.png */; };
-		3D517F011CEEED520084E6AD /* jt_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E831CEEED520084E6AD /* jt_btn@3x.png */; };
-		3D517F021CEEED520084E6AD /* Layer_修改密码成功580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E841CEEED520084E6AD /* Layer_修改密码成功580px.png */; };
-		3D517F031CEEED520084E6AD /* Layer_输入支付密码580px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E851CEEED520084E6AD /* Layer_输入支付密码580px@2x.png */; };
-		3D517F041CEEED520084E6AD /* Layer_银行卡类型580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E861CEEED520084E6AD /* Layer_银行卡类型580px.png */; };
-		3D517F051CEEED520084E6AD /* mrlogo_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E871CEEED520084E6AD /* mrlogo_btn@2x.png */; };
-		3D517F061CEEED520084E6AD /* mrlogo_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E881CEEED520084E6AD /* mrlogo_btn@3x.png */; };
-		3D517F071CEEED520084E6AD /* nochoice_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E891CEEED520084E6AD /* nochoice_icon@2x.png */; };
-		3D517F081CEEED520084E6AD /* nochoice_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E8A1CEEED520084E6AD /* nochoice_icon@3x.png */; };
-		3D517F091CEEED520084E6AD /* qbye_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E8B1CEEED520084E6AD /* qbye_btn@2x.png */; };
-		3D517F0A1CEEED520084E6AD /* qbye_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E8C1CEEED520084E6AD /* qbye_btn@3x.png */; };
-		3D517F0B1CEEED520084E6AD /* tc_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E8D1CEEED520084E6AD /* tc_btn@2x.png */; };
-		3D517F0C1CEEED520084E6AD /* tc_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E8E1CEEED520084E6AD /* tc_btn@3x.png */; };
-		3D517F0D1CEEED520084E6AD /* tck_qx_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E8F1CEEED520084E6AD /* tck_qx_icon@2x.png */; };
-		3D517F0E1CEEED520084E6AD /* tck_qx_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E901CEEED520084E6AD /* tck_qx_icon@3x.png */; };
-		3D517F0F1CEEED520084E6AD /* tck_yeqb_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E911CEEED520084E6AD /* tck_yeqb_icon@2x.png */; };
-		3D517F101CEEED520084E6AD /* tck_yeqb_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E921CEEED520084E6AD /* tck_yeqb_icon@3x.png */; };
-		3D517F111CEEED520084E6AD /* tjyhk_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E931CEEED520084E6AD /* tjyhk_icon@2x.png */; };
-		3D517F121CEEED520084E6AD /* tjyhk_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E941CEEED520084E6AD /* tjyhk_icon@3x.png */; };
-		3D517F131CEEED520084E6AD /* unchoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E951CEEED520084E6AD /* unchoice@2x.png */; };
-		3D517F141CEEED520084E6AD /* unchoice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E961CEEED520084E6AD /* unchoice@3x.png */; };
-		3D517F151CEEED520084E6AD /* 叹号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E971CEEED520084E6AD /* 叹号@2x.png */; };
-		3D517F161CEEED520084E6AD /* 叹号@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E981CEEED520084E6AD /* 叹号@3x.png */; };
-		3D517F171CEEED520084E6AD /* 对勾@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E991CEEED520084E6AD /* 对勾@2x.png */; };
-		3D517F181CEEED520084E6AD /* 对勾@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E9A1CEEED520084E6AD /* 对勾@3x.png */; };
-		3D517F191CEEED520084E6AD /* 支付失败@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E9B1CEEED520084E6AD /* 支付失败@2x.png */; };
-		3D517F1A1CEEED520084E6AD /* 支付失败@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E9C1CEEED520084E6AD /* 支付失败@3x.png */; };
-		3D517F1B1CEEED520084E6AD /* 支付成功@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E9D1CEEED520084E6AD /* 支付成功@2x.png */; };
-		3D517F1C1CEEED520084E6AD /* 支付成功@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E9E1CEEED520084E6AD /* 支付成功@3x.png */; };
-		3D517F1D1CEEED520084E6AD /* 未点击@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517E9F1CEEED520084E6AD /* 未点击@2x.png */; };
-		3D517F1E1CEEED520084E6AD /* 未点击@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517EA01CEEED520084E6AD /* 未点击@3x.png */; };
-		3D517F1F1CEEED520084E6AD /* 未选@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517EA11CEEED520084E6AD /* 未选@2x.png */; };
-		3D517F201CEEED520084E6AD /* 未选@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517EA21CEEED520084E6AD /* 未选@3x.png */; };
-		3D517F211CEEED520084E6AD /* 点击@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517EA31CEEED520084E6AD /* 点击@2x.png */; };
-		3D517F221CEEED520084E6AD /* 点击@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517EA41CEEED520084E6AD /* 点击@3x.png */; };
-		3D517F231CEEED520084E6AD /* 箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517EA51CEEED520084E6AD /* 箭头@2x.png */; };
-		3D517F241CEEED520084E6AD /* 箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517EA61CEEED520084E6AD /* 箭头@3x.png */; };
-		3D517F251CEEED520084E6AD /* 返回剪头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517EA71CEEED520084E6AD /* 返回剪头@2x.png */; };
-		3D517F261CEEED520084E6AD /* 返回剪头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D517EA81CEEED520084E6AD /* 返回剪头@3x.png */; };
+		3D6D47E01CF596A900C3AF93 /* libPaymax+lkl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6D47DF1CF596A900C3AF93 /* libPaymax+lkl.a */; };
+		3D6D48621CF596B600C3AF93 /* Bar_导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47E21CF596B600C3AF93 /* Bar_导航条.png */; };
+		3D6D48631CF596B600C3AF93 /* Bar_导航条@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47E31CF596B600C3AF93 /* Bar_导航条@2x.png */; };
+		3D6D48641CF596B600C3AF93 /* Bar_导航条@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47E41CF596B600C3AF93 /* Bar_导航条@3x.png */; };
+		3D6D48651CF596B600C3AF93 /* Bar_首页底部导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47E51CF596B600C3AF93 /* Bar_首页底部导航条.png */; };
+		3D6D48661CF596B600C3AF93 /* Bar_首页顶部导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47E61CF596B600C3AF93 /* Bar_首页顶部导航条.png */; };
+		3D6D48671CF596B600C3AF93 /* Bar_首页顶部导航条_选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47E71CF596B600C3AF93 /* Bar_首页顶部导航条_选中.png */; };
+		3D6D48681CF596B600C3AF93 /* Button_80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47E81CF596B600C3AF93 /* Button_80px.png */; };
+		3D6D48691CF596B600C3AF93 /* button_jb_line_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47E91CF596B600C3AF93 /* button_jb_line_s@2x.png */; };
+		3D6D486A1CF596B600C3AF93 /* button_jb_line_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47EA1CF596B600C3AF93 /* button_jb_line_s@3x.png */; };
+		3D6D486B1CF596B600C3AF93 /* Button_交易状态.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47EB1CF596B600C3AF93 /* Button_交易状态.png */; };
+		3D6D486C1CF596B600C3AF93 /* Button_信用卡还款_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47EC1CF596B600C3AF93 /* Button_信用卡还款_Circle@2x.png */; };
+		3D6D486D1CF596B600C3AF93 /* Button_信用卡还款_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47ED1CF596B600C3AF93 /* Button_信用卡还款_Circle@3x.png */; };
+		3D6D486E1CF596B600C3AF93 /* Button_充值_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47EE1CF596B600C3AF93 /* Button_充值_Circle@2x.png */; };
+		3D6D486F1CF596B600C3AF93 /* Button_充值_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47EF1CF596B600C3AF93 /* Button_充值_line@2x.png */; };
+		3D6D48701CF596B600C3AF93 /* Button_充值_line_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47F01CF596B600C3AF93 /* Button_充值_line_white@2x.png */; };
+		3D6D48711CF596B600C3AF93 /* Button_充值_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47F11CF596B600C3AF93 /* Button_充值_solid@2x.png */; };
+		3D6D48721CF596B600C3AF93 /* Button_关于_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47F21CF596B600C3AF93 /* Button_关于_line_32px@2x.png */; };
+		3D6D48731CF596B600C3AF93 /* Button_删除_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47F31CF596B600C3AF93 /* Button_删除_line_32px@2x.png */; };
+		3D6D48741CF596B600C3AF93 /* Button_卡_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47F41CF596B600C3AF93 /* Button_卡_line_32px@2x.png */; };
+		3D6D48751CF596B600C3AF93 /* Button_头像_110px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47F51CF596B600C3AF93 /* Button_头像_110px@2x.png */; };
+		3D6D48761CF596B600C3AF93 /* Button_头像_80px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47F61CF596B600C3AF93 /* Button_头像_80px@2x.png */; };
+		3D6D48771CF596B600C3AF93 /* Button_实名_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47F71CF596B600C3AF93 /* Button_实名_Circle@2x.png */; };
+		3D6D48781CF596B600C3AF93 /* Button_密码_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47F81CF596B600C3AF93 /* Button_密码_line_32px@2x.png */; };
+		3D6D48791CF596B600C3AF93 /* Button_帮付宝_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47F91CF596B600C3AF93 /* Button_帮付宝_line@2x.png */; };
+		3D6D487A1CF596B600C3AF93 /* Button_帮付宝_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47FA1CF596B600C3AF93 /* Button_帮付宝_solid@2x.png */; };
+		3D6D487B1CF596B600C3AF93 /* Button_待办_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47FB1CF596B600C3AF93 /* Button_待办_Circle@2x.png */; };
+		3D6D487C1CF596B600C3AF93 /* Button_待办_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47FC1CF596B600C3AF93 /* Button_待办_line@2x.png */; };
+		3D6D487D1CF596B600C3AF93 /* Button_待办_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47FD1CF596B600C3AF93 /* Button_待办_solid@2x.png */; };
+		3D6D487E1CF596B600C3AF93 /* Button_手机_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47FE1CF596B600C3AF93 /* Button_手机_line_32px@2x.png */; };
+		3D6D487F1CF596B600C3AF93 /* Button_手机充值_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D47FF1CF596B600C3AF93 /* Button_手机充值_Circle@2x.png */; };
+		3D6D48801CF596B600C3AF93 /* Button_手机充值_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48001CF596B600C3AF93 /* Button_手机充值_Circle@3x.png */; };
+		3D6D48811CF596B600C3AF93 /* Button_扫码支付_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48011CF596B600C3AF93 /* Button_扫码支付_Circle@2x.png */; };
+		3D6D48821CF596B600C3AF93 /* Button_扫码支付_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48021CF596B600C3AF93 /* Button_扫码支付_Circle@3x.png */; };
+		3D6D48831CF596B600C3AF93 /* Button_扫码登陆_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48031CF596B600C3AF93 /* Button_扫码登陆_Circle@2x.png */; };
+		3D6D48841CF596B600C3AF93 /* Button_扫码登陆_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48041CF596B600C3AF93 /* Button_扫码登陆_Circle@3x.png */; };
+		3D6D48851CF596B600C3AF93 /* Button_提现_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48051CF596B600C3AF93 /* Button_提现_Circle@2x.png */; };
+		3D6D48861CF596B600C3AF93 /* Button_提现_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48061CF596B600C3AF93 /* Button_提现_line@2x.png */; };
+		3D6D48871CF596B600C3AF93 /* Button_提现_line_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48071CF596B600C3AF93 /* Button_提现_line_white@2x.png */; };
+		3D6D48881CF596B600C3AF93 /* Button_提现_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48081CF596B600C3AF93 /* Button_提现_solid@2x.png */; };
+		3D6D48891CF596B600C3AF93 /* Button_收付款扫码_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48091CF596B600C3AF93 /* Button_收付款扫码_Circle@2x.png */; };
+		3D6D488A1CF596B600C3AF93 /* Button_收付款扫码_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D480A1CF596B600C3AF93 /* Button_收付款扫码_Circle@3x.png */; };
+		3D6D488B1CF596B600C3AF93 /* Button_流量充值_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D480B1CF596B600C3AF93 /* Button_流量充值_Circle@2x.png */; };
+		3D6D488C1CF596B600C3AF93 /* Button_流量充值_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D480C1CF596B600C3AF93 /* Button_流量充值_Circle@3x.png */; };
+		3D6D488D1CF596B600C3AF93 /* Button_消费_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D480D1CF596B600C3AF93 /* Button_消费_line@2x.png */; };
+		3D6D488E1CF596B600C3AF93 /* Button_消费_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D480E1CF596B600C3AF93 /* Button_消费_solid@2x.png */; };
+		3D6D488F1CF596B600C3AF93 /* Button_添加银行卡+.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D480F1CF596B600C3AF93 /* Button_添加银行卡+.png */; };
+		3D6D48901CF596B600C3AF93 /* Button_添加银行卡.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48101CF596B600C3AF93 /* Button_添加银行卡.png */; };
+		3D6D48911CF596B600C3AF93 /* Button_理财推荐_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48111CF596B600C3AF93 /* Button_理财推荐_Circle@2x.png */; };
+		3D6D48921CF596B600C3AF93 /* Button_理财推荐_Circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48121CF596B600C3AF93 /* Button_理财推荐_Circle@3x.png */; };
+		3D6D48931CF596B600C3AF93 /* Button_确认_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48131CF596B600C3AF93 /* Button_确认_line@2x.png */; };
+		3D6D48941CF596B600C3AF93 /* Button_确认框580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48141CF596B600C3AF93 /* Button_确认框580px.png */; };
+		3D6D48951CF596B600C3AF93 /* Button_管家_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48151CF596B600C3AF93 /* Button_管家_line@2x.png */; };
+		3D6D48961CF596B600C3AF93 /* Button_管家_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48161CF596B600C3AF93 /* Button_管家_solid@2x.png */; };
+		3D6D48971CF596B600C3AF93 /* Button_箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48171CF596B600C3AF93 /* Button_箭头@2x.png */; };
+		3D6D48981CF596B600C3AF93 /* Button_设置_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48181CF596B600C3AF93 /* Button_设置_line@2x.png */; };
+		3D6D48991CF596B600C3AF93 /* Button_设置_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48191CF596B600C3AF93 /* Button_设置_solid@2x.png */; };
+		3D6D489A1CF596B600C3AF93 /* Button_账单_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D481A1CF596B600C3AF93 /* Button_账单_line@2x.png */; };
+		3D6D489B1CF596B600C3AF93 /* Button_账单_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D481B1CF596B600C3AF93 /* Button_账单_solid@2x.png */; };
+		3D6D489C1CF596B600C3AF93 /* Button_账户_line_32px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D481C1CF596B600C3AF93 /* Button_账户_line_32px@2x.png */; };
+		3D6D489D1CF596B600C3AF93 /* Button_转账_Circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D481D1CF596B600C3AF93 /* Button_转账_Circle@2x.png */; };
+		3D6D489E1CF596B600C3AF93 /* Button_转账_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D481E1CF596B600C3AF93 /* Button_转账_line@2x.png */; };
+		3D6D489F1CF596B600C3AF93 /* Button_转账_line_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D481F1CF596B600C3AF93 /* Button_转账_line_white@2x.png */; };
+		3D6D48A01CF596B600C3AF93 /* Button_转账_solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48201CF596B600C3AF93 /* Button_转账_solid@2x.png */; };
+		3D6D48A11CF596B600C3AF93 /* Button_输入支付密码_取消@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48211CF596B600C3AF93 /* Button_输入支付密码_取消@2x.png */; };
+		3D6D48A21CF596B600C3AF93 /* Button_输入支付密码_确认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48221CF596B600C3AF93 /* Button_输入支付密码_确认@2x.png */; };
+		3D6D48A31CF596B600C3AF93 /* Button_输入框330px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48231CF596B600C3AF93 /* Button_输入框330px.png */; };
+		3D6D48A41CF596B600C3AF93 /* Button_输入框580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48241CF596B600C3AF93 /* Button_输入框580px.png */; };
+		3D6D48A51CF596B600C3AF93 /* Button_输入框三栏580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48251CF596B600C3AF93 /* Button_输入框三栏580px.png */; };
+		3D6D48A61CF596B600C3AF93 /* Button_输入框两栏580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48261CF596B600C3AF93 /* Button_输入框两栏580px.png */; };
+		3D6D48A71CF596B600C3AF93 /* Button_输入框四栏580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48271CF596B600C3AF93 /* Button_输入框四栏580px.png */; };
+		3D6D48A81CF596B600C3AF93 /* Button_返回@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48281CF596B600C3AF93 /* Button_返回@2x.png */; };
+		3D6D48A91CF596B600C3AF93 /* Button_通讯录_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48291CF596B600C3AF93 /* Button_通讯录_line@2x.png */; };
+		3D6D48AA1CF596B600C3AF93 /* Button_重发按钮_220px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D482A1CF596B600C3AF93 /* Button_重发按钮_220px.png */; };
+		3D6D48AB1CF596B600C3AF93 /* Button_重发按钮_等待220px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D482B1CF596B600C3AF93 /* Button_重发按钮_等待220px.png */; };
+		3D6D48AC1CF596B600C3AF93 /* Button_银行卡_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D482C1CF596B600C3AF93 /* Button_银行卡_line@2x.png */; };
+		3D6D48AD1CF596B600C3AF93 /* Button_银行卡_Solid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D482D1CF596B600C3AF93 /* Button_银行卡_Solid@2x.png */; };
+		3D6D48AE1CF596B600C3AF93 /* choice2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D482E1CF596B600C3AF93 /* choice2@2x.png */; };
+		3D6D48AF1CF596B600C3AF93 /* choice2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D482F1CF596B600C3AF93 /* choice2@3x.png */; };
+		3D6D48B01CF596B600C3AF93 /* choice_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48301CF596B600C3AF93 /* choice_icon@2x.png */; };
+		3D6D48B11CF596B600C3AF93 /* choice_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48311CF596B600C3AF93 /* choice_icon@3x.png */; };
+		3D6D48B21CF596B600C3AF93 /* Cover_iPhone5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48321CF596B600C3AF93 /* Cover_iPhone5.png */; };
+		3D6D48B31CF596B600C3AF93 /* Image_Cover字.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48331CF596B600C3AF93 /* Image_Cover字.png */; };
+		3D6D48B41CF596B600C3AF93 /* Image_帮付宝首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48341CF596B600C3AF93 /* Image_帮付宝首页.png */; };
+		3D6D48B51CF596B600C3AF93 /* Image_空页面.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48351CF596B600C3AF93 /* Image_空页面.png */; };
+		3D6D48B61CF596B600C3AF93 /* Image_管家首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48361CF596B600C3AF93 /* Image_管家首页.png */; };
+		3D6D48B71CF596B600C3AF93 /* Image_账单详情半圆_右.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48371CF596B600C3AF93 /* Image_账单详情半圆_右.png */; };
+		3D6D48B81CF596B600C3AF93 /* Image_账单详情半圆_左.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48381CF596B600C3AF93 /* Image_账单详情半圆_左.png */; };
+		3D6D48B91CF596B600C3AF93 /* jt_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48391CF596B600C3AF93 /* jt_btn@2x.png */; };
+		3D6D48BA1CF596B600C3AF93 /* jt_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D483A1CF596B600C3AF93 /* jt_btn@3x.png */; };
+		3D6D48BB1CF596B600C3AF93 /* Layer_修改密码成功580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D483B1CF596B600C3AF93 /* Layer_修改密码成功580px.png */; };
+		3D6D48BC1CF596B600C3AF93 /* Layer_输入支付密码580px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D483C1CF596B600C3AF93 /* Layer_输入支付密码580px@2x.png */; };
+		3D6D48BD1CF596B600C3AF93 /* Layer_银行卡类型580px.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D483D1CF596B600C3AF93 /* Layer_银行卡类型580px.png */; };
+		3D6D48BE1CF596B600C3AF93 /* mrlogo_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D483E1CF596B600C3AF93 /* mrlogo_btn@2x.png */; };
+		3D6D48BF1CF596B600C3AF93 /* mrlogo_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D483F1CF596B600C3AF93 /* mrlogo_btn@3x.png */; };
+		3D6D48C01CF596B600C3AF93 /* nochoice_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48401CF596B600C3AF93 /* nochoice_icon@2x.png */; };
+		3D6D48C11CF596B600C3AF93 /* nochoice_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48411CF596B600C3AF93 /* nochoice_icon@3x.png */; };
+		3D6D48C21CF596B600C3AF93 /* qbye_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48421CF596B600C3AF93 /* qbye_btn@2x.png */; };
+		3D6D48C31CF596B600C3AF93 /* qbye_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48431CF596B600C3AF93 /* qbye_btn@3x.png */; };
+		3D6D48C41CF596B600C3AF93 /* tc_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48441CF596B600C3AF93 /* tc_btn@2x.png */; };
+		3D6D48C51CF596B600C3AF93 /* tc_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48451CF596B600C3AF93 /* tc_btn@3x.png */; };
+		3D6D48C61CF596B600C3AF93 /* tck_qx_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48461CF596B600C3AF93 /* tck_qx_icon@2x.png */; };
+		3D6D48C71CF596B600C3AF93 /* tck_qx_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48471CF596B600C3AF93 /* tck_qx_icon@3x.png */; };
+		3D6D48C81CF596B600C3AF93 /* tck_yeqb_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48481CF596B600C3AF93 /* tck_yeqb_icon@2x.png */; };
+		3D6D48C91CF596B600C3AF93 /* tck_yeqb_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48491CF596B600C3AF93 /* tck_yeqb_icon@3x.png */; };
+		3D6D48CA1CF596B600C3AF93 /* tjyhk_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D484A1CF596B600C3AF93 /* tjyhk_icon@2x.png */; };
+		3D6D48CB1CF596B600C3AF93 /* tjyhk_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D484B1CF596B600C3AF93 /* tjyhk_icon@3x.png */; };
+		3D6D48CC1CF596B600C3AF93 /* unchoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D484C1CF596B600C3AF93 /* unchoice@2x.png */; };
+		3D6D48CD1CF596B600C3AF93 /* unchoice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D484D1CF596B600C3AF93 /* unchoice@3x.png */; };
+		3D6D48CE1CF596B600C3AF93 /* 叹号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D484E1CF596B600C3AF93 /* 叹号@2x.png */; };
+		3D6D48CF1CF596B600C3AF93 /* 叹号@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D484F1CF596B600C3AF93 /* 叹号@3x.png */; };
+		3D6D48D01CF596B600C3AF93 /* 对勾@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48501CF596B600C3AF93 /* 对勾@2x.png */; };
+		3D6D48D11CF596B600C3AF93 /* 对勾@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48511CF596B600C3AF93 /* 对勾@3x.png */; };
+		3D6D48D21CF596B600C3AF93 /* 支付失败@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48521CF596B600C3AF93 /* 支付失败@2x.png */; };
+		3D6D48D31CF596B600C3AF93 /* 支付失败@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48531CF596B600C3AF93 /* 支付失败@3x.png */; };
+		3D6D48D41CF596B600C3AF93 /* 支付成功@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48541CF596B600C3AF93 /* 支付成功@2x.png */; };
+		3D6D48D51CF596B600C3AF93 /* 支付成功@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48551CF596B600C3AF93 /* 支付成功@3x.png */; };
+		3D6D48D61CF596B600C3AF93 /* 未点击@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48561CF596B600C3AF93 /* 未点击@2x.png */; };
+		3D6D48D71CF596B600C3AF93 /* 未点击@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48571CF596B600C3AF93 /* 未点击@3x.png */; };
+		3D6D48D81CF596B600C3AF93 /* 未选@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48581CF596B600C3AF93 /* 未选@2x.png */; };
+		3D6D48D91CF596B600C3AF93 /* 未选@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D48591CF596B600C3AF93 /* 未选@3x.png */; };
+		3D6D48DA1CF596B600C3AF93 /* 点击@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D485A1CF596B600C3AF93 /* 点击@2x.png */; };
+		3D6D48DB1CF596B600C3AF93 /* 点击@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D485B1CF596B600C3AF93 /* 点击@3x.png */; };
+		3D6D48DC1CF596B600C3AF93 /* 箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D485C1CF596B600C3AF93 /* 箭头@2x.png */; };
+		3D6D48DD1CF596B600C3AF93 /* 箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D485D1CF596B600C3AF93 /* 箭头@3x.png */; };
+		3D6D48DE1CF596B600C3AF93 /* 返回剪头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D485E1CF596B600C3AF93 /* 返回剪头@2x.png */; };
+		3D6D48DF1CF596B600C3AF93 /* 返回剪头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D485F1CF596B600C3AF93 /* 返回剪头@3x.png */; };
+		3D6D48E01CF596B600C3AF93 /* libLKLPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6D48601CF596B600C3AF93 /* libLKLPaySDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -172,9 +172,6 @@
 		3D517D0B1CEEE7110084E6AD /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		3D517D0C1CEEE7110084E6AD /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		3D517D0D1CEEE7110084E6AD /* libPaymax+alipay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPaymax+alipay.a"; sourceTree = "<group>"; };
-		3D517D0F1CEEE7110084E6AD /* libPaymax+lkl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPaymax+lkl.a"; sourceTree = "<group>"; };
-		3D517D8E1CEEE7110084E6AD /* libMRPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMRPaySDK.a; sourceTree = "<group>"; };
-		3D517D8F1CEEE7110084E6AD /* MRPaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPaySDK.h; sourceTree = "<group>"; };
 		3D517D911CEEE7110084E6AD /* libPaymax+wx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPaymax+wx.a"; sourceTree = "<group>"; };
 		3D517D931CEEE7110084E6AD /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		3D517D941CEEE7110084E6AD /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
@@ -187,132 +184,135 @@
 		3D517E231CEEE7690084E6AD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		3D517E251CEEE7750084E6AD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		3D517E271CEEE7890084E6AD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		3D517E2B1CEEED520084E6AD /* Bar_导航条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条.png"; sourceTree = "<group>"; };
-		3D517E2C1CEEED520084E6AD /* Bar_导航条@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条@2x.png"; sourceTree = "<group>"; };
-		3D517E2D1CEEED520084E6AD /* Bar_导航条@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条@3x.png"; sourceTree = "<group>"; };
-		3D517E2E1CEEED520084E6AD /* Bar_首页底部导航条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_首页底部导航条.png"; sourceTree = "<group>"; };
-		3D517E2F1CEEED520084E6AD /* Bar_首页顶部导航条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_首页顶部导航条.png"; sourceTree = "<group>"; };
-		3D517E301CEEED520084E6AD /* Bar_首页顶部导航条_选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_首页顶部导航条_选中.png"; sourceTree = "<group>"; };
-		3D517E311CEEED520084E6AD /* Button_80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_80px.png; sourceTree = "<group>"; };
-		3D517E321CEEED520084E6AD /* button_jb_line_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_jb_line_s@2x.png"; sourceTree = "<group>"; };
-		3D517E331CEEED520084E6AD /* button_jb_line_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_jb_line_s@3x.png"; sourceTree = "<group>"; };
-		3D517E341CEEED520084E6AD /* Button_交易状态.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_交易状态.png"; sourceTree = "<group>"; };
-		3D517E351CEEED520084E6AD /* Button_信用卡还款_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_信用卡还款_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E361CEEED520084E6AD /* Button_信用卡还款_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_信用卡还款_Circle@3x.png"; sourceTree = "<group>"; };
-		3D517E371CEEED520084E6AD /* Button_充值_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_充值_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E381CEEED520084E6AD /* Button_充值_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_充值_line@2x.png"; sourceTree = "<group>"; };
-		3D517E391CEEED520084E6AD /* Button_充值_line_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_充值_line_white@2x.png"; sourceTree = "<group>"; };
-		3D517E3A1CEEED520084E6AD /* Button_充值_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_充值_solid@2x.png"; sourceTree = "<group>"; };
-		3D517E3B1CEEED520084E6AD /* Button_关于_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_关于_line_32px@2x.png"; sourceTree = "<group>"; };
-		3D517E3C1CEEED520084E6AD /* Button_删除_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_删除_line_32px@2x.png"; sourceTree = "<group>"; };
-		3D517E3D1CEEED520084E6AD /* Button_卡_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_卡_line_32px@2x.png"; sourceTree = "<group>"; };
-		3D517E3E1CEEED520084E6AD /* Button_头像_110px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_头像_110px@2x.png"; sourceTree = "<group>"; };
-		3D517E3F1CEEED520084E6AD /* Button_头像_80px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_头像_80px@2x.png"; sourceTree = "<group>"; };
-		3D517E401CEEED520084E6AD /* Button_实名_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_实名_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E411CEEED520084E6AD /* Button_密码_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_密码_line_32px@2x.png"; sourceTree = "<group>"; };
-		3D517E421CEEED520084E6AD /* Button_帮付宝_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_帮付宝_line@2x.png"; sourceTree = "<group>"; };
-		3D517E431CEEED520084E6AD /* Button_帮付宝_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_帮付宝_solid@2x.png"; sourceTree = "<group>"; };
-		3D517E441CEEED520084E6AD /* Button_待办_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_待办_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E451CEEED520084E6AD /* Button_待办_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_待办_line@2x.png"; sourceTree = "<group>"; };
-		3D517E461CEEED520084E6AD /* Button_待办_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_待办_solid@2x.png"; sourceTree = "<group>"; };
-		3D517E471CEEED520084E6AD /* Button_手机_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_手机_line_32px@2x.png"; sourceTree = "<group>"; };
-		3D517E481CEEED520084E6AD /* Button_手机充值_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_手机充值_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E491CEEED520084E6AD /* Button_手机充值_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_手机充值_Circle@3x.png"; sourceTree = "<group>"; };
-		3D517E4A1CEEED520084E6AD /* Button_扫码支付_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_扫码支付_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E4B1CEEED520084E6AD /* Button_扫码支付_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_扫码支付_Circle@3x.png"; sourceTree = "<group>"; };
-		3D517E4C1CEEED520084E6AD /* Button_扫码登陆_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_扫码登陆_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E4D1CEEED520084E6AD /* Button_扫码登陆_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_扫码登陆_Circle@3x.png"; sourceTree = "<group>"; };
-		3D517E4E1CEEED520084E6AD /* Button_提现_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_提现_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E4F1CEEED520084E6AD /* Button_提现_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_提现_line@2x.png"; sourceTree = "<group>"; };
-		3D517E501CEEED520084E6AD /* Button_提现_line_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_提现_line_white@2x.png"; sourceTree = "<group>"; };
-		3D517E511CEEED520084E6AD /* Button_提现_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_提现_solid@2x.png"; sourceTree = "<group>"; };
-		3D517E521CEEED520084E6AD /* Button_收付款扫码_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_收付款扫码_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E531CEEED520084E6AD /* Button_收付款扫码_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_收付款扫码_Circle@3x.png"; sourceTree = "<group>"; };
-		3D517E541CEEED520084E6AD /* Button_流量充值_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_流量充值_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E551CEEED520084E6AD /* Button_流量充值_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_流量充值_Circle@3x.png"; sourceTree = "<group>"; };
-		3D517E561CEEED520084E6AD /* Button_消费_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_消费_line@2x.png"; sourceTree = "<group>"; };
-		3D517E571CEEED520084E6AD /* Button_消费_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_消费_solid@2x.png"; sourceTree = "<group>"; };
-		3D517E581CEEED520084E6AD /* Button_添加银行卡+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_添加银行卡+.png"; sourceTree = "<group>"; };
-		3D517E591CEEED520084E6AD /* Button_添加银行卡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_添加银行卡.png"; sourceTree = "<group>"; };
-		3D517E5A1CEEED520084E6AD /* Button_理财推荐_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_理财推荐_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E5B1CEEED520084E6AD /* Button_理财推荐_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_理财推荐_Circle@3x.png"; sourceTree = "<group>"; };
-		3D517E5C1CEEED520084E6AD /* Button_确认_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_确认_line@2x.png"; sourceTree = "<group>"; };
-		3D517E5D1CEEED520084E6AD /* Button_确认框580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_确认框580px.png"; sourceTree = "<group>"; };
-		3D517E5E1CEEED520084E6AD /* Button_管家_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_管家_line@2x.png"; sourceTree = "<group>"; };
-		3D517E5F1CEEED520084E6AD /* Button_管家_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_管家_solid@2x.png"; sourceTree = "<group>"; };
-		3D517E601CEEED520084E6AD /* Button_箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_箭头@2x.png"; sourceTree = "<group>"; };
-		3D517E611CEEED520084E6AD /* Button_设置_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_设置_line@2x.png"; sourceTree = "<group>"; };
-		3D517E621CEEED520084E6AD /* Button_设置_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_设置_solid@2x.png"; sourceTree = "<group>"; };
-		3D517E631CEEED520084E6AD /* Button_账单_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_账单_line@2x.png"; sourceTree = "<group>"; };
-		3D517E641CEEED520084E6AD /* Button_账单_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_账单_solid@2x.png"; sourceTree = "<group>"; };
-		3D517E651CEEED520084E6AD /* Button_账户_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_账户_line_32px@2x.png"; sourceTree = "<group>"; };
-		3D517E661CEEED520084E6AD /* Button_转账_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_转账_Circle@2x.png"; sourceTree = "<group>"; };
-		3D517E671CEEED520084E6AD /* Button_转账_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_转账_line@2x.png"; sourceTree = "<group>"; };
-		3D517E681CEEED520084E6AD /* Button_转账_line_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_转账_line_white@2x.png"; sourceTree = "<group>"; };
-		3D517E691CEEED520084E6AD /* Button_转账_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_转账_solid@2x.png"; sourceTree = "<group>"; };
-		3D517E6A1CEEED520084E6AD /* Button_输入支付密码_取消@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入支付密码_取消@2x.png"; sourceTree = "<group>"; };
-		3D517E6B1CEEED520084E6AD /* Button_输入支付密码_确认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入支付密码_确认@2x.png"; sourceTree = "<group>"; };
-		3D517E6C1CEEED520084E6AD /* Button_输入框330px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入框330px.png"; sourceTree = "<group>"; };
-		3D517E6D1CEEED520084E6AD /* Button_输入框580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入框580px.png"; sourceTree = "<group>"; };
-		3D517E6E1CEEED520084E6AD /* Button_输入框三栏580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入框三栏580px.png"; sourceTree = "<group>"; };
-		3D517E6F1CEEED520084E6AD /* Button_输入框两栏580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入框两栏580px.png"; sourceTree = "<group>"; };
-		3D517E701CEEED520084E6AD /* Button_输入框四栏580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入框四栏580px.png"; sourceTree = "<group>"; };
-		3D517E711CEEED520084E6AD /* Button_返回@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_返回@2x.png"; sourceTree = "<group>"; };
-		3D517E721CEEED520084E6AD /* Button_通讯录_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_通讯录_line@2x.png"; sourceTree = "<group>"; };
-		3D517E731CEEED520084E6AD /* Button_重发按钮_220px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_重发按钮_220px.png"; sourceTree = "<group>"; };
-		3D517E741CEEED520084E6AD /* Button_重发按钮_等待220px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_重发按钮_等待220px.png"; sourceTree = "<group>"; };
-		3D517E751CEEED520084E6AD /* Button_银行卡_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_银行卡_line@2x.png"; sourceTree = "<group>"; };
-		3D517E761CEEED520084E6AD /* Button_银行卡_Solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_银行卡_Solid@2x.png"; sourceTree = "<group>"; };
-		3D517E771CEEED520084E6AD /* choice2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choice2@2x.png"; sourceTree = "<group>"; };
-		3D517E781CEEED520084E6AD /* choice2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choice2@3x.png"; sourceTree = "<group>"; };
-		3D517E791CEEED520084E6AD /* choice_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choice_icon@2x.png"; sourceTree = "<group>"; };
-		3D517E7A1CEEED520084E6AD /* choice_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choice_icon@3x.png"; sourceTree = "<group>"; };
-		3D517E7B1CEEED520084E6AD /* Cover_iPhone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cover_iPhone5.png; sourceTree = "<group>"; };
-		3D517E7C1CEEED520084E6AD /* Image_Cover字.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_Cover字.png"; sourceTree = "<group>"; };
-		3D517E7D1CEEED520084E6AD /* Image_帮付宝首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_帮付宝首页.png"; sourceTree = "<group>"; };
-		3D517E7E1CEEED520084E6AD /* Image_空页面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_空页面.png"; sourceTree = "<group>"; };
-		3D517E7F1CEEED520084E6AD /* Image_管家首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_管家首页.png"; sourceTree = "<group>"; };
-		3D517E801CEEED520084E6AD /* Image_账单详情半圆_右.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_账单详情半圆_右.png"; sourceTree = "<group>"; };
-		3D517E811CEEED520084E6AD /* Image_账单详情半圆_左.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_账单详情半圆_左.png"; sourceTree = "<group>"; };
-		3D517E821CEEED520084E6AD /* jt_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jt_btn@2x.png"; sourceTree = "<group>"; };
-		3D517E831CEEED520084E6AD /* jt_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jt_btn@3x.png"; sourceTree = "<group>"; };
-		3D517E841CEEED520084E6AD /* Layer_修改密码成功580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer_修改密码成功580px.png"; sourceTree = "<group>"; };
-		3D517E851CEEED520084E6AD /* Layer_输入支付密码580px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer_输入支付密码580px@2x.png"; sourceTree = "<group>"; };
-		3D517E861CEEED520084E6AD /* Layer_银行卡类型580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer_银行卡类型580px.png"; sourceTree = "<group>"; };
-		3D517E871CEEED520084E6AD /* mrlogo_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mrlogo_btn@2x.png"; sourceTree = "<group>"; };
-		3D517E881CEEED520084E6AD /* mrlogo_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mrlogo_btn@3x.png"; sourceTree = "<group>"; };
-		3D517E891CEEED520084E6AD /* nochoice_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nochoice_icon@2x.png"; sourceTree = "<group>"; };
-		3D517E8A1CEEED520084E6AD /* nochoice_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nochoice_icon@3x.png"; sourceTree = "<group>"; };
-		3D517E8B1CEEED520084E6AD /* qbye_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qbye_btn@2x.png"; sourceTree = "<group>"; };
-		3D517E8C1CEEED520084E6AD /* qbye_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qbye_btn@3x.png"; sourceTree = "<group>"; };
-		3D517E8D1CEEED520084E6AD /* tc_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tc_btn@2x.png"; sourceTree = "<group>"; };
-		3D517E8E1CEEED520084E6AD /* tc_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tc_btn@3x.png"; sourceTree = "<group>"; };
-		3D517E8F1CEEED520084E6AD /* tck_qx_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tck_qx_icon@2x.png"; sourceTree = "<group>"; };
-		3D517E901CEEED520084E6AD /* tck_qx_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tck_qx_icon@3x.png"; sourceTree = "<group>"; };
-		3D517E911CEEED520084E6AD /* tck_yeqb_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tck_yeqb_icon@2x.png"; sourceTree = "<group>"; };
-		3D517E921CEEED520084E6AD /* tck_yeqb_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tck_yeqb_icon@3x.png"; sourceTree = "<group>"; };
-		3D517E931CEEED520084E6AD /* tjyhk_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tjyhk_icon@2x.png"; sourceTree = "<group>"; };
-		3D517E941CEEED520084E6AD /* tjyhk_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tjyhk_icon@3x.png"; sourceTree = "<group>"; };
-		3D517E951CEEED520084E6AD /* unchoice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchoice@2x.png"; sourceTree = "<group>"; };
-		3D517E961CEEED520084E6AD /* unchoice@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchoice@3x.png"; sourceTree = "<group>"; };
-		3D517E971CEEED520084E6AD /* 叹号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "叹号@2x.png"; sourceTree = "<group>"; };
-		3D517E981CEEED520084E6AD /* 叹号@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "叹号@3x.png"; sourceTree = "<group>"; };
-		3D517E991CEEED520084E6AD /* 对勾@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对勾@2x.png"; sourceTree = "<group>"; };
-		3D517E9A1CEEED520084E6AD /* 对勾@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对勾@3x.png"; sourceTree = "<group>"; };
-		3D517E9B1CEEED520084E6AD /* 支付失败@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付失败@2x.png"; sourceTree = "<group>"; };
-		3D517E9C1CEEED520084E6AD /* 支付失败@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付失败@3x.png"; sourceTree = "<group>"; };
-		3D517E9D1CEEED520084E6AD /* 支付成功@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付成功@2x.png"; sourceTree = "<group>"; };
-		3D517E9E1CEEED520084E6AD /* 支付成功@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付成功@3x.png"; sourceTree = "<group>"; };
-		3D517E9F1CEEED520084E6AD /* 未点击@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未点击@2x.png"; sourceTree = "<group>"; };
-		3D517EA01CEEED520084E6AD /* 未点击@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未点击@3x.png"; sourceTree = "<group>"; };
-		3D517EA11CEEED520084E6AD /* 未选@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选@2x.png"; sourceTree = "<group>"; };
-		3D517EA21CEEED520084E6AD /* 未选@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选@3x.png"; sourceTree = "<group>"; };
-		3D517EA31CEEED520084E6AD /* 点击@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点击@2x.png"; sourceTree = "<group>"; };
-		3D517EA41CEEED520084E6AD /* 点击@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点击@3x.png"; sourceTree = "<group>"; };
-		3D517EA51CEEED520084E6AD /* 箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "箭头@2x.png"; sourceTree = "<group>"; };
-		3D517EA61CEEED520084E6AD /* 箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "箭头@3x.png"; sourceTree = "<group>"; };
-		3D517EA71CEEED520084E6AD /* 返回剪头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回剪头@2x.png"; sourceTree = "<group>"; };
-		3D517EA81CEEED520084E6AD /* 返回剪头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回剪头@3x.png"; sourceTree = "<group>"; };
+		3D6D47DF1CF596A900C3AF93 /* libPaymax+lkl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPaymax+lkl.a"; sourceTree = "<group>"; };
+		3D6D47E21CF596B600C3AF93 /* Bar_导航条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条.png"; sourceTree = "<group>"; };
+		3D6D47E31CF596B600C3AF93 /* Bar_导航条@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条@2x.png"; sourceTree = "<group>"; };
+		3D6D47E41CF596B600C3AF93 /* Bar_导航条@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条@3x.png"; sourceTree = "<group>"; };
+		3D6D47E51CF596B600C3AF93 /* Bar_首页底部导航条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_首页底部导航条.png"; sourceTree = "<group>"; };
+		3D6D47E61CF596B600C3AF93 /* Bar_首页顶部导航条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_首页顶部导航条.png"; sourceTree = "<group>"; };
+		3D6D47E71CF596B600C3AF93 /* Bar_首页顶部导航条_选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_首页顶部导航条_选中.png"; sourceTree = "<group>"; };
+		3D6D47E81CF596B600C3AF93 /* Button_80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_80px.png; sourceTree = "<group>"; };
+		3D6D47E91CF596B600C3AF93 /* button_jb_line_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_jb_line_s@2x.png"; sourceTree = "<group>"; };
+		3D6D47EA1CF596B600C3AF93 /* button_jb_line_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_jb_line_s@3x.png"; sourceTree = "<group>"; };
+		3D6D47EB1CF596B600C3AF93 /* Button_交易状态.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_交易状态.png"; sourceTree = "<group>"; };
+		3D6D47EC1CF596B600C3AF93 /* Button_信用卡还款_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_信用卡还款_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D47ED1CF596B600C3AF93 /* Button_信用卡还款_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_信用卡还款_Circle@3x.png"; sourceTree = "<group>"; };
+		3D6D47EE1CF596B600C3AF93 /* Button_充值_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_充值_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D47EF1CF596B600C3AF93 /* Button_充值_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_充值_line@2x.png"; sourceTree = "<group>"; };
+		3D6D47F01CF596B600C3AF93 /* Button_充值_line_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_充值_line_white@2x.png"; sourceTree = "<group>"; };
+		3D6D47F11CF596B600C3AF93 /* Button_充值_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_充值_solid@2x.png"; sourceTree = "<group>"; };
+		3D6D47F21CF596B600C3AF93 /* Button_关于_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_关于_line_32px@2x.png"; sourceTree = "<group>"; };
+		3D6D47F31CF596B600C3AF93 /* Button_删除_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_删除_line_32px@2x.png"; sourceTree = "<group>"; };
+		3D6D47F41CF596B600C3AF93 /* Button_卡_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_卡_line_32px@2x.png"; sourceTree = "<group>"; };
+		3D6D47F51CF596B600C3AF93 /* Button_头像_110px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_头像_110px@2x.png"; sourceTree = "<group>"; };
+		3D6D47F61CF596B600C3AF93 /* Button_头像_80px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_头像_80px@2x.png"; sourceTree = "<group>"; };
+		3D6D47F71CF596B600C3AF93 /* Button_实名_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_实名_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D47F81CF596B600C3AF93 /* Button_密码_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_密码_line_32px@2x.png"; sourceTree = "<group>"; };
+		3D6D47F91CF596B600C3AF93 /* Button_帮付宝_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_帮付宝_line@2x.png"; sourceTree = "<group>"; };
+		3D6D47FA1CF596B600C3AF93 /* Button_帮付宝_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_帮付宝_solid@2x.png"; sourceTree = "<group>"; };
+		3D6D47FB1CF596B600C3AF93 /* Button_待办_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_待办_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D47FC1CF596B600C3AF93 /* Button_待办_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_待办_line@2x.png"; sourceTree = "<group>"; };
+		3D6D47FD1CF596B600C3AF93 /* Button_待办_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_待办_solid@2x.png"; sourceTree = "<group>"; };
+		3D6D47FE1CF596B600C3AF93 /* Button_手机_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_手机_line_32px@2x.png"; sourceTree = "<group>"; };
+		3D6D47FF1CF596B600C3AF93 /* Button_手机充值_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_手机充值_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D48001CF596B600C3AF93 /* Button_手机充值_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_手机充值_Circle@3x.png"; sourceTree = "<group>"; };
+		3D6D48011CF596B600C3AF93 /* Button_扫码支付_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_扫码支付_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D48021CF596B600C3AF93 /* Button_扫码支付_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_扫码支付_Circle@3x.png"; sourceTree = "<group>"; };
+		3D6D48031CF596B600C3AF93 /* Button_扫码登陆_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_扫码登陆_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D48041CF596B600C3AF93 /* Button_扫码登陆_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_扫码登陆_Circle@3x.png"; sourceTree = "<group>"; };
+		3D6D48051CF596B600C3AF93 /* Button_提现_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_提现_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D48061CF596B600C3AF93 /* Button_提现_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_提现_line@2x.png"; sourceTree = "<group>"; };
+		3D6D48071CF596B600C3AF93 /* Button_提现_line_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_提现_line_white@2x.png"; sourceTree = "<group>"; };
+		3D6D48081CF596B600C3AF93 /* Button_提现_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_提现_solid@2x.png"; sourceTree = "<group>"; };
+		3D6D48091CF596B600C3AF93 /* Button_收付款扫码_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_收付款扫码_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D480A1CF596B600C3AF93 /* Button_收付款扫码_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_收付款扫码_Circle@3x.png"; sourceTree = "<group>"; };
+		3D6D480B1CF596B600C3AF93 /* Button_流量充值_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_流量充值_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D480C1CF596B600C3AF93 /* Button_流量充值_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_流量充值_Circle@3x.png"; sourceTree = "<group>"; };
+		3D6D480D1CF596B600C3AF93 /* Button_消费_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_消费_line@2x.png"; sourceTree = "<group>"; };
+		3D6D480E1CF596B600C3AF93 /* Button_消费_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_消费_solid@2x.png"; sourceTree = "<group>"; };
+		3D6D480F1CF596B600C3AF93 /* Button_添加银行卡+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_添加银行卡+.png"; sourceTree = "<group>"; };
+		3D6D48101CF596B600C3AF93 /* Button_添加银行卡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_添加银行卡.png"; sourceTree = "<group>"; };
+		3D6D48111CF596B600C3AF93 /* Button_理财推荐_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_理财推荐_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D48121CF596B600C3AF93 /* Button_理财推荐_Circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_理财推荐_Circle@3x.png"; sourceTree = "<group>"; };
+		3D6D48131CF596B600C3AF93 /* Button_确认_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_确认_line@2x.png"; sourceTree = "<group>"; };
+		3D6D48141CF596B600C3AF93 /* Button_确认框580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_确认框580px.png"; sourceTree = "<group>"; };
+		3D6D48151CF596B600C3AF93 /* Button_管家_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_管家_line@2x.png"; sourceTree = "<group>"; };
+		3D6D48161CF596B600C3AF93 /* Button_管家_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_管家_solid@2x.png"; sourceTree = "<group>"; };
+		3D6D48171CF596B600C3AF93 /* Button_箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_箭头@2x.png"; sourceTree = "<group>"; };
+		3D6D48181CF596B600C3AF93 /* Button_设置_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_设置_line@2x.png"; sourceTree = "<group>"; };
+		3D6D48191CF596B600C3AF93 /* Button_设置_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_设置_solid@2x.png"; sourceTree = "<group>"; };
+		3D6D481A1CF596B600C3AF93 /* Button_账单_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_账单_line@2x.png"; sourceTree = "<group>"; };
+		3D6D481B1CF596B600C3AF93 /* Button_账单_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_账单_solid@2x.png"; sourceTree = "<group>"; };
+		3D6D481C1CF596B600C3AF93 /* Button_账户_line_32px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_账户_line_32px@2x.png"; sourceTree = "<group>"; };
+		3D6D481D1CF596B600C3AF93 /* Button_转账_Circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_转账_Circle@2x.png"; sourceTree = "<group>"; };
+		3D6D481E1CF596B600C3AF93 /* Button_转账_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_转账_line@2x.png"; sourceTree = "<group>"; };
+		3D6D481F1CF596B600C3AF93 /* Button_转账_line_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_转账_line_white@2x.png"; sourceTree = "<group>"; };
+		3D6D48201CF596B600C3AF93 /* Button_转账_solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_转账_solid@2x.png"; sourceTree = "<group>"; };
+		3D6D48211CF596B600C3AF93 /* Button_输入支付密码_取消@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入支付密码_取消@2x.png"; sourceTree = "<group>"; };
+		3D6D48221CF596B600C3AF93 /* Button_输入支付密码_确认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入支付密码_确认@2x.png"; sourceTree = "<group>"; };
+		3D6D48231CF596B600C3AF93 /* Button_输入框330px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入框330px.png"; sourceTree = "<group>"; };
+		3D6D48241CF596B600C3AF93 /* Button_输入框580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入框580px.png"; sourceTree = "<group>"; };
+		3D6D48251CF596B600C3AF93 /* Button_输入框三栏580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入框三栏580px.png"; sourceTree = "<group>"; };
+		3D6D48261CF596B600C3AF93 /* Button_输入框两栏580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入框两栏580px.png"; sourceTree = "<group>"; };
+		3D6D48271CF596B600C3AF93 /* Button_输入框四栏580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_输入框四栏580px.png"; sourceTree = "<group>"; };
+		3D6D48281CF596B600C3AF93 /* Button_返回@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_返回@2x.png"; sourceTree = "<group>"; };
+		3D6D48291CF596B600C3AF93 /* Button_通讯录_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_通讯录_line@2x.png"; sourceTree = "<group>"; };
+		3D6D482A1CF596B600C3AF93 /* Button_重发按钮_220px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_重发按钮_220px.png"; sourceTree = "<group>"; };
+		3D6D482B1CF596B600C3AF93 /* Button_重发按钮_等待220px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_重发按钮_等待220px.png"; sourceTree = "<group>"; };
+		3D6D482C1CF596B600C3AF93 /* Button_银行卡_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_银行卡_line@2x.png"; sourceTree = "<group>"; };
+		3D6D482D1CF596B600C3AF93 /* Button_银行卡_Solid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_银行卡_Solid@2x.png"; sourceTree = "<group>"; };
+		3D6D482E1CF596B600C3AF93 /* choice2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choice2@2x.png"; sourceTree = "<group>"; };
+		3D6D482F1CF596B600C3AF93 /* choice2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choice2@3x.png"; sourceTree = "<group>"; };
+		3D6D48301CF596B600C3AF93 /* choice_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choice_icon@2x.png"; sourceTree = "<group>"; };
+		3D6D48311CF596B600C3AF93 /* choice_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choice_icon@3x.png"; sourceTree = "<group>"; };
+		3D6D48321CF596B600C3AF93 /* Cover_iPhone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cover_iPhone5.png; sourceTree = "<group>"; };
+		3D6D48331CF596B600C3AF93 /* Image_Cover字.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_Cover字.png"; sourceTree = "<group>"; };
+		3D6D48341CF596B600C3AF93 /* Image_帮付宝首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_帮付宝首页.png"; sourceTree = "<group>"; };
+		3D6D48351CF596B600C3AF93 /* Image_空页面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_空页面.png"; sourceTree = "<group>"; };
+		3D6D48361CF596B600C3AF93 /* Image_管家首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_管家首页.png"; sourceTree = "<group>"; };
+		3D6D48371CF596B600C3AF93 /* Image_账单详情半圆_右.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_账单详情半圆_右.png"; sourceTree = "<group>"; };
+		3D6D48381CF596B600C3AF93 /* Image_账单详情半圆_左.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image_账单详情半圆_左.png"; sourceTree = "<group>"; };
+		3D6D48391CF596B600C3AF93 /* jt_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jt_btn@2x.png"; sourceTree = "<group>"; };
+		3D6D483A1CF596B600C3AF93 /* jt_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jt_btn@3x.png"; sourceTree = "<group>"; };
+		3D6D483B1CF596B600C3AF93 /* Layer_修改密码成功580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer_修改密码成功580px.png"; sourceTree = "<group>"; };
+		3D6D483C1CF596B600C3AF93 /* Layer_输入支付密码580px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer_输入支付密码580px@2x.png"; sourceTree = "<group>"; };
+		3D6D483D1CF596B600C3AF93 /* Layer_银行卡类型580px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer_银行卡类型580px.png"; sourceTree = "<group>"; };
+		3D6D483E1CF596B600C3AF93 /* mrlogo_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mrlogo_btn@2x.png"; sourceTree = "<group>"; };
+		3D6D483F1CF596B600C3AF93 /* mrlogo_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mrlogo_btn@3x.png"; sourceTree = "<group>"; };
+		3D6D48401CF596B600C3AF93 /* nochoice_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nochoice_icon@2x.png"; sourceTree = "<group>"; };
+		3D6D48411CF596B600C3AF93 /* nochoice_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nochoice_icon@3x.png"; sourceTree = "<group>"; };
+		3D6D48421CF596B600C3AF93 /* qbye_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qbye_btn@2x.png"; sourceTree = "<group>"; };
+		3D6D48431CF596B600C3AF93 /* qbye_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qbye_btn@3x.png"; sourceTree = "<group>"; };
+		3D6D48441CF596B600C3AF93 /* tc_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tc_btn@2x.png"; sourceTree = "<group>"; };
+		3D6D48451CF596B600C3AF93 /* tc_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tc_btn@3x.png"; sourceTree = "<group>"; };
+		3D6D48461CF596B600C3AF93 /* tck_qx_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tck_qx_icon@2x.png"; sourceTree = "<group>"; };
+		3D6D48471CF596B600C3AF93 /* tck_qx_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tck_qx_icon@3x.png"; sourceTree = "<group>"; };
+		3D6D48481CF596B600C3AF93 /* tck_yeqb_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tck_yeqb_icon@2x.png"; sourceTree = "<group>"; };
+		3D6D48491CF596B600C3AF93 /* tck_yeqb_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tck_yeqb_icon@3x.png"; sourceTree = "<group>"; };
+		3D6D484A1CF596B600C3AF93 /* tjyhk_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tjyhk_icon@2x.png"; sourceTree = "<group>"; };
+		3D6D484B1CF596B600C3AF93 /* tjyhk_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tjyhk_icon@3x.png"; sourceTree = "<group>"; };
+		3D6D484C1CF596B600C3AF93 /* unchoice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchoice@2x.png"; sourceTree = "<group>"; };
+		3D6D484D1CF596B600C3AF93 /* unchoice@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchoice@3x.png"; sourceTree = "<group>"; };
+		3D6D484E1CF596B600C3AF93 /* 叹号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "叹号@2x.png"; sourceTree = "<group>"; };
+		3D6D484F1CF596B600C3AF93 /* 叹号@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "叹号@3x.png"; sourceTree = "<group>"; };
+		3D6D48501CF596B600C3AF93 /* 对勾@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对勾@2x.png"; sourceTree = "<group>"; };
+		3D6D48511CF596B600C3AF93 /* 对勾@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对勾@3x.png"; sourceTree = "<group>"; };
+		3D6D48521CF596B600C3AF93 /* 支付失败@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付失败@2x.png"; sourceTree = "<group>"; };
+		3D6D48531CF596B600C3AF93 /* 支付失败@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付失败@3x.png"; sourceTree = "<group>"; };
+		3D6D48541CF596B600C3AF93 /* 支付成功@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付成功@2x.png"; sourceTree = "<group>"; };
+		3D6D48551CF596B600C3AF93 /* 支付成功@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付成功@3x.png"; sourceTree = "<group>"; };
+		3D6D48561CF596B600C3AF93 /* 未点击@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未点击@2x.png"; sourceTree = "<group>"; };
+		3D6D48571CF596B600C3AF93 /* 未点击@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未点击@3x.png"; sourceTree = "<group>"; };
+		3D6D48581CF596B600C3AF93 /* 未选@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选@2x.png"; sourceTree = "<group>"; };
+		3D6D48591CF596B600C3AF93 /* 未选@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选@3x.png"; sourceTree = "<group>"; };
+		3D6D485A1CF596B600C3AF93 /* 点击@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点击@2x.png"; sourceTree = "<group>"; };
+		3D6D485B1CF596B600C3AF93 /* 点击@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点击@3x.png"; sourceTree = "<group>"; };
+		3D6D485C1CF596B600C3AF93 /* 箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "箭头@2x.png"; sourceTree = "<group>"; };
+		3D6D485D1CF596B600C3AF93 /* 箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "箭头@3x.png"; sourceTree = "<group>"; };
+		3D6D485E1CF596B600C3AF93 /* 返回剪头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回剪头@2x.png"; sourceTree = "<group>"; };
+		3D6D485F1CF596B600C3AF93 /* 返回剪头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回剪头@3x.png"; sourceTree = "<group>"; };
+		3D6D48601CF596B600C3AF93 /* libLKLPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLKLPaySDK.a; sourceTree = "<group>"; };
+		3D6D48611CF596B600C3AF93 /* LKLPaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLPaySDK.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,6 +322,7 @@
 			files = (
 				3D517E281CEEE7890084E6AD /* CoreTelephony.framework in Frameworks */,
 				3D517E261CEEE7750084E6AD /* libsqlite3.tbd in Frameworks */,
+				3D6D47E01CF596A900C3AF93 /* libPaymax+lkl.a in Frameworks */,
 				3D517E241CEEE7690084E6AD /* libz.tbd in Frameworks */,
 				3D517E221CEEE75B0084E6AD /* libc++.tbd in Frameworks */,
 				3D517E201CEEE7500084E6AD /* Security.framework in Frameworks */,
@@ -330,10 +331,9 @@
 				3D517E1A1CEEE7120084E6AD /* libWeChatSDK.a in Frameworks */,
 				3D517D971CEEE7110084E6AD /* libPaymaxSDK.a in Frameworks */,
 				3D517D9A1CEEE7110084E6AD /* libPaymax+alipay.a in Frameworks */,
+				3D6D48E01CF596B600C3AF93 /* libLKLPaySDK.a in Frameworks */,
 				3D517D991CEEE7110084E6AD /* AlipaySDK.framework in Frameworks */,
-				3D517D9B1CEEE7110084E6AD /* libPaymax+lkl.a in Frameworks */,
 				3D517E191CEEE7110084E6AD /* libPaymax+wx.a in Frameworks */,
-				3D517E181CEEE7110084E6AD /* libMRPaySDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +415,7 @@
 		3D517D0E1CEEE7110084E6AD /* Paymax+lkl */ = {
 			isa = PBXGroup;
 			children = (
-				3D517D0F1CEEE7110084E6AD /* libPaymax+lkl.a */,
+				3D6D47DF1CF596A900C3AF93 /* libPaymax+lkl.a */,
 				3D517D101CEEE7110084E6AD /* lkl */,
 			);
 			path = "Paymax+lkl";
@@ -424,9 +424,9 @@
 		3D517D101CEEE7110084E6AD /* lkl */ = {
 			isa = PBXGroup;
 			children = (
-				3D517E2A1CEEED520084E6AD /* AnBangImgs */,
-				3D517D8E1CEEE7110084E6AD /* libMRPaySDK.a */,
-				3D517D8F1CEEE7110084E6AD /* MRPaySDK.h */,
+				3D6D47E11CF596B600C3AF93 /* AnBangImgs */,
+				3D6D48601CF596B600C3AF93 /* libLKLPaySDK.a */,
+				3D6D48611CF596B600C3AF93 /* LKLPaySDK.h */,
 			);
 			path = lkl;
 			sourceTree = "<group>";
@@ -464,135 +464,135 @@
 			name = framework;
 			sourceTree = "<group>";
 		};
-		3D517E2A1CEEED520084E6AD /* AnBangImgs */ = {
+		3D6D47E11CF596B600C3AF93 /* AnBangImgs */ = {
 			isa = PBXGroup;
 			children = (
-				3D517E2B1CEEED520084E6AD /* Bar_导航条.png */,
-				3D517E2C1CEEED520084E6AD /* Bar_导航条@2x.png */,
-				3D517E2D1CEEED520084E6AD /* Bar_导航条@3x.png */,
-				3D517E2E1CEEED520084E6AD /* Bar_首页底部导航条.png */,
-				3D517E2F1CEEED520084E6AD /* Bar_首页顶部导航条.png */,
-				3D517E301CEEED520084E6AD /* Bar_首页顶部导航条_选中.png */,
-				3D517E311CEEED520084E6AD /* Button_80px.png */,
-				3D517E321CEEED520084E6AD /* button_jb_line_s@2x.png */,
-				3D517E331CEEED520084E6AD /* button_jb_line_s@3x.png */,
-				3D517E341CEEED520084E6AD /* Button_交易状态.png */,
-				3D517E351CEEED520084E6AD /* Button_信用卡还款_Circle@2x.png */,
-				3D517E361CEEED520084E6AD /* Button_信用卡还款_Circle@3x.png */,
-				3D517E371CEEED520084E6AD /* Button_充值_Circle@2x.png */,
-				3D517E381CEEED520084E6AD /* Button_充值_line@2x.png */,
-				3D517E391CEEED520084E6AD /* Button_充值_line_white@2x.png */,
-				3D517E3A1CEEED520084E6AD /* Button_充值_solid@2x.png */,
-				3D517E3B1CEEED520084E6AD /* Button_关于_line_32px@2x.png */,
-				3D517E3C1CEEED520084E6AD /* Button_删除_line_32px@2x.png */,
-				3D517E3D1CEEED520084E6AD /* Button_卡_line_32px@2x.png */,
-				3D517E3E1CEEED520084E6AD /* Button_头像_110px@2x.png */,
-				3D517E3F1CEEED520084E6AD /* Button_头像_80px@2x.png */,
-				3D517E401CEEED520084E6AD /* Button_实名_Circle@2x.png */,
-				3D517E411CEEED520084E6AD /* Button_密码_line_32px@2x.png */,
-				3D517E421CEEED520084E6AD /* Button_帮付宝_line@2x.png */,
-				3D517E431CEEED520084E6AD /* Button_帮付宝_solid@2x.png */,
-				3D517E441CEEED520084E6AD /* Button_待办_Circle@2x.png */,
-				3D517E451CEEED520084E6AD /* Button_待办_line@2x.png */,
-				3D517E461CEEED520084E6AD /* Button_待办_solid@2x.png */,
-				3D517E471CEEED520084E6AD /* Button_手机_line_32px@2x.png */,
-				3D517E481CEEED520084E6AD /* Button_手机充值_Circle@2x.png */,
-				3D517E491CEEED520084E6AD /* Button_手机充值_Circle@3x.png */,
-				3D517E4A1CEEED520084E6AD /* Button_扫码支付_Circle@2x.png */,
-				3D517E4B1CEEED520084E6AD /* Button_扫码支付_Circle@3x.png */,
-				3D517E4C1CEEED520084E6AD /* Button_扫码登陆_Circle@2x.png */,
-				3D517E4D1CEEED520084E6AD /* Button_扫码登陆_Circle@3x.png */,
-				3D517E4E1CEEED520084E6AD /* Button_提现_Circle@2x.png */,
-				3D517E4F1CEEED520084E6AD /* Button_提现_line@2x.png */,
-				3D517E501CEEED520084E6AD /* Button_提现_line_white@2x.png */,
-				3D517E511CEEED520084E6AD /* Button_提现_solid@2x.png */,
-				3D517E521CEEED520084E6AD /* Button_收付款扫码_Circle@2x.png */,
-				3D517E531CEEED520084E6AD /* Button_收付款扫码_Circle@3x.png */,
-				3D517E541CEEED520084E6AD /* Button_流量充值_Circle@2x.png */,
-				3D517E551CEEED520084E6AD /* Button_流量充值_Circle@3x.png */,
-				3D517E561CEEED520084E6AD /* Button_消费_line@2x.png */,
-				3D517E571CEEED520084E6AD /* Button_消费_solid@2x.png */,
-				3D517E581CEEED520084E6AD /* Button_添加银行卡+.png */,
-				3D517E591CEEED520084E6AD /* Button_添加银行卡.png */,
-				3D517E5A1CEEED520084E6AD /* Button_理财推荐_Circle@2x.png */,
-				3D517E5B1CEEED520084E6AD /* Button_理财推荐_Circle@3x.png */,
-				3D517E5C1CEEED520084E6AD /* Button_确认_line@2x.png */,
-				3D517E5D1CEEED520084E6AD /* Button_确认框580px.png */,
-				3D517E5E1CEEED520084E6AD /* Button_管家_line@2x.png */,
-				3D517E5F1CEEED520084E6AD /* Button_管家_solid@2x.png */,
-				3D517E601CEEED520084E6AD /* Button_箭头@2x.png */,
-				3D517E611CEEED520084E6AD /* Button_设置_line@2x.png */,
-				3D517E621CEEED520084E6AD /* Button_设置_solid@2x.png */,
-				3D517E631CEEED520084E6AD /* Button_账单_line@2x.png */,
-				3D517E641CEEED520084E6AD /* Button_账单_solid@2x.png */,
-				3D517E651CEEED520084E6AD /* Button_账户_line_32px@2x.png */,
-				3D517E661CEEED520084E6AD /* Button_转账_Circle@2x.png */,
-				3D517E671CEEED520084E6AD /* Button_转账_line@2x.png */,
-				3D517E681CEEED520084E6AD /* Button_转账_line_white@2x.png */,
-				3D517E691CEEED520084E6AD /* Button_转账_solid@2x.png */,
-				3D517E6A1CEEED520084E6AD /* Button_输入支付密码_取消@2x.png */,
-				3D517E6B1CEEED520084E6AD /* Button_输入支付密码_确认@2x.png */,
-				3D517E6C1CEEED520084E6AD /* Button_输入框330px.png */,
-				3D517E6D1CEEED520084E6AD /* Button_输入框580px.png */,
-				3D517E6E1CEEED520084E6AD /* Button_输入框三栏580px.png */,
-				3D517E6F1CEEED520084E6AD /* Button_输入框两栏580px.png */,
-				3D517E701CEEED520084E6AD /* Button_输入框四栏580px.png */,
-				3D517E711CEEED520084E6AD /* Button_返回@2x.png */,
-				3D517E721CEEED520084E6AD /* Button_通讯录_line@2x.png */,
-				3D517E731CEEED520084E6AD /* Button_重发按钮_220px.png */,
-				3D517E741CEEED520084E6AD /* Button_重发按钮_等待220px.png */,
-				3D517E751CEEED520084E6AD /* Button_银行卡_line@2x.png */,
-				3D517E761CEEED520084E6AD /* Button_银行卡_Solid@2x.png */,
-				3D517E771CEEED520084E6AD /* choice2@2x.png */,
-				3D517E781CEEED520084E6AD /* choice2@3x.png */,
-				3D517E791CEEED520084E6AD /* choice_icon@2x.png */,
-				3D517E7A1CEEED520084E6AD /* choice_icon@3x.png */,
-				3D517E7B1CEEED520084E6AD /* Cover_iPhone5.png */,
-				3D517E7C1CEEED520084E6AD /* Image_Cover字.png */,
-				3D517E7D1CEEED520084E6AD /* Image_帮付宝首页.png */,
-				3D517E7E1CEEED520084E6AD /* Image_空页面.png */,
-				3D517E7F1CEEED520084E6AD /* Image_管家首页.png */,
-				3D517E801CEEED520084E6AD /* Image_账单详情半圆_右.png */,
-				3D517E811CEEED520084E6AD /* Image_账单详情半圆_左.png */,
-				3D517E821CEEED520084E6AD /* jt_btn@2x.png */,
-				3D517E831CEEED520084E6AD /* jt_btn@3x.png */,
-				3D517E841CEEED520084E6AD /* Layer_修改密码成功580px.png */,
-				3D517E851CEEED520084E6AD /* Layer_输入支付密码580px@2x.png */,
-				3D517E861CEEED520084E6AD /* Layer_银行卡类型580px.png */,
-				3D517E871CEEED520084E6AD /* mrlogo_btn@2x.png */,
-				3D517E881CEEED520084E6AD /* mrlogo_btn@3x.png */,
-				3D517E891CEEED520084E6AD /* nochoice_icon@2x.png */,
-				3D517E8A1CEEED520084E6AD /* nochoice_icon@3x.png */,
-				3D517E8B1CEEED520084E6AD /* qbye_btn@2x.png */,
-				3D517E8C1CEEED520084E6AD /* qbye_btn@3x.png */,
-				3D517E8D1CEEED520084E6AD /* tc_btn@2x.png */,
-				3D517E8E1CEEED520084E6AD /* tc_btn@3x.png */,
-				3D517E8F1CEEED520084E6AD /* tck_qx_icon@2x.png */,
-				3D517E901CEEED520084E6AD /* tck_qx_icon@3x.png */,
-				3D517E911CEEED520084E6AD /* tck_yeqb_icon@2x.png */,
-				3D517E921CEEED520084E6AD /* tck_yeqb_icon@3x.png */,
-				3D517E931CEEED520084E6AD /* tjyhk_icon@2x.png */,
-				3D517E941CEEED520084E6AD /* tjyhk_icon@3x.png */,
-				3D517E951CEEED520084E6AD /* unchoice@2x.png */,
-				3D517E961CEEED520084E6AD /* unchoice@3x.png */,
-				3D517E971CEEED520084E6AD /* 叹号@2x.png */,
-				3D517E981CEEED520084E6AD /* 叹号@3x.png */,
-				3D517E991CEEED520084E6AD /* 对勾@2x.png */,
-				3D517E9A1CEEED520084E6AD /* 对勾@3x.png */,
-				3D517E9B1CEEED520084E6AD /* 支付失败@2x.png */,
-				3D517E9C1CEEED520084E6AD /* 支付失败@3x.png */,
-				3D517E9D1CEEED520084E6AD /* 支付成功@2x.png */,
-				3D517E9E1CEEED520084E6AD /* 支付成功@3x.png */,
-				3D517E9F1CEEED520084E6AD /* 未点击@2x.png */,
-				3D517EA01CEEED520084E6AD /* 未点击@3x.png */,
-				3D517EA11CEEED520084E6AD /* 未选@2x.png */,
-				3D517EA21CEEED520084E6AD /* 未选@3x.png */,
-				3D517EA31CEEED520084E6AD /* 点击@2x.png */,
-				3D517EA41CEEED520084E6AD /* 点击@3x.png */,
-				3D517EA51CEEED520084E6AD /* 箭头@2x.png */,
-				3D517EA61CEEED520084E6AD /* 箭头@3x.png */,
-				3D517EA71CEEED520084E6AD /* 返回剪头@2x.png */,
-				3D517EA81CEEED520084E6AD /* 返回剪头@3x.png */,
+				3D6D47E21CF596B600C3AF93 /* Bar_导航条.png */,
+				3D6D47E31CF596B600C3AF93 /* Bar_导航条@2x.png */,
+				3D6D47E41CF596B600C3AF93 /* Bar_导航条@3x.png */,
+				3D6D47E51CF596B600C3AF93 /* Bar_首页底部导航条.png */,
+				3D6D47E61CF596B600C3AF93 /* Bar_首页顶部导航条.png */,
+				3D6D47E71CF596B600C3AF93 /* Bar_首页顶部导航条_选中.png */,
+				3D6D47E81CF596B600C3AF93 /* Button_80px.png */,
+				3D6D47E91CF596B600C3AF93 /* button_jb_line_s@2x.png */,
+				3D6D47EA1CF596B600C3AF93 /* button_jb_line_s@3x.png */,
+				3D6D47EB1CF596B600C3AF93 /* Button_交易状态.png */,
+				3D6D47EC1CF596B600C3AF93 /* Button_信用卡还款_Circle@2x.png */,
+				3D6D47ED1CF596B600C3AF93 /* Button_信用卡还款_Circle@3x.png */,
+				3D6D47EE1CF596B600C3AF93 /* Button_充值_Circle@2x.png */,
+				3D6D47EF1CF596B600C3AF93 /* Button_充值_line@2x.png */,
+				3D6D47F01CF596B600C3AF93 /* Button_充值_line_white@2x.png */,
+				3D6D47F11CF596B600C3AF93 /* Button_充值_solid@2x.png */,
+				3D6D47F21CF596B600C3AF93 /* Button_关于_line_32px@2x.png */,
+				3D6D47F31CF596B600C3AF93 /* Button_删除_line_32px@2x.png */,
+				3D6D47F41CF596B600C3AF93 /* Button_卡_line_32px@2x.png */,
+				3D6D47F51CF596B600C3AF93 /* Button_头像_110px@2x.png */,
+				3D6D47F61CF596B600C3AF93 /* Button_头像_80px@2x.png */,
+				3D6D47F71CF596B600C3AF93 /* Button_实名_Circle@2x.png */,
+				3D6D47F81CF596B600C3AF93 /* Button_密码_line_32px@2x.png */,
+				3D6D47F91CF596B600C3AF93 /* Button_帮付宝_line@2x.png */,
+				3D6D47FA1CF596B600C3AF93 /* Button_帮付宝_solid@2x.png */,
+				3D6D47FB1CF596B600C3AF93 /* Button_待办_Circle@2x.png */,
+				3D6D47FC1CF596B600C3AF93 /* Button_待办_line@2x.png */,
+				3D6D47FD1CF596B600C3AF93 /* Button_待办_solid@2x.png */,
+				3D6D47FE1CF596B600C3AF93 /* Button_手机_line_32px@2x.png */,
+				3D6D47FF1CF596B600C3AF93 /* Button_手机充值_Circle@2x.png */,
+				3D6D48001CF596B600C3AF93 /* Button_手机充值_Circle@3x.png */,
+				3D6D48011CF596B600C3AF93 /* Button_扫码支付_Circle@2x.png */,
+				3D6D48021CF596B600C3AF93 /* Button_扫码支付_Circle@3x.png */,
+				3D6D48031CF596B600C3AF93 /* Button_扫码登陆_Circle@2x.png */,
+				3D6D48041CF596B600C3AF93 /* Button_扫码登陆_Circle@3x.png */,
+				3D6D48051CF596B600C3AF93 /* Button_提现_Circle@2x.png */,
+				3D6D48061CF596B600C3AF93 /* Button_提现_line@2x.png */,
+				3D6D48071CF596B600C3AF93 /* Button_提现_line_white@2x.png */,
+				3D6D48081CF596B600C3AF93 /* Button_提现_solid@2x.png */,
+				3D6D48091CF596B600C3AF93 /* Button_收付款扫码_Circle@2x.png */,
+				3D6D480A1CF596B600C3AF93 /* Button_收付款扫码_Circle@3x.png */,
+				3D6D480B1CF596B600C3AF93 /* Button_流量充值_Circle@2x.png */,
+				3D6D480C1CF596B600C3AF93 /* Button_流量充值_Circle@3x.png */,
+				3D6D480D1CF596B600C3AF93 /* Button_消费_line@2x.png */,
+				3D6D480E1CF596B600C3AF93 /* Button_消费_solid@2x.png */,
+				3D6D480F1CF596B600C3AF93 /* Button_添加银行卡+.png */,
+				3D6D48101CF596B600C3AF93 /* Button_添加银行卡.png */,
+				3D6D48111CF596B600C3AF93 /* Button_理财推荐_Circle@2x.png */,
+				3D6D48121CF596B600C3AF93 /* Button_理财推荐_Circle@3x.png */,
+				3D6D48131CF596B600C3AF93 /* Button_确认_line@2x.png */,
+				3D6D48141CF596B600C3AF93 /* Button_确认框580px.png */,
+				3D6D48151CF596B600C3AF93 /* Button_管家_line@2x.png */,
+				3D6D48161CF596B600C3AF93 /* Button_管家_solid@2x.png */,
+				3D6D48171CF596B600C3AF93 /* Button_箭头@2x.png */,
+				3D6D48181CF596B600C3AF93 /* Button_设置_line@2x.png */,
+				3D6D48191CF596B600C3AF93 /* Button_设置_solid@2x.png */,
+				3D6D481A1CF596B600C3AF93 /* Button_账单_line@2x.png */,
+				3D6D481B1CF596B600C3AF93 /* Button_账单_solid@2x.png */,
+				3D6D481C1CF596B600C3AF93 /* Button_账户_line_32px@2x.png */,
+				3D6D481D1CF596B600C3AF93 /* Button_转账_Circle@2x.png */,
+				3D6D481E1CF596B600C3AF93 /* Button_转账_line@2x.png */,
+				3D6D481F1CF596B600C3AF93 /* Button_转账_line_white@2x.png */,
+				3D6D48201CF596B600C3AF93 /* Button_转账_solid@2x.png */,
+				3D6D48211CF596B600C3AF93 /* Button_输入支付密码_取消@2x.png */,
+				3D6D48221CF596B600C3AF93 /* Button_输入支付密码_确认@2x.png */,
+				3D6D48231CF596B600C3AF93 /* Button_输入框330px.png */,
+				3D6D48241CF596B600C3AF93 /* Button_输入框580px.png */,
+				3D6D48251CF596B600C3AF93 /* Button_输入框三栏580px.png */,
+				3D6D48261CF596B600C3AF93 /* Button_输入框两栏580px.png */,
+				3D6D48271CF596B600C3AF93 /* Button_输入框四栏580px.png */,
+				3D6D48281CF596B600C3AF93 /* Button_返回@2x.png */,
+				3D6D48291CF596B600C3AF93 /* Button_通讯录_line@2x.png */,
+				3D6D482A1CF596B600C3AF93 /* Button_重发按钮_220px.png */,
+				3D6D482B1CF596B600C3AF93 /* Button_重发按钮_等待220px.png */,
+				3D6D482C1CF596B600C3AF93 /* Button_银行卡_line@2x.png */,
+				3D6D482D1CF596B600C3AF93 /* Button_银行卡_Solid@2x.png */,
+				3D6D482E1CF596B600C3AF93 /* choice2@2x.png */,
+				3D6D482F1CF596B600C3AF93 /* choice2@3x.png */,
+				3D6D48301CF596B600C3AF93 /* choice_icon@2x.png */,
+				3D6D48311CF596B600C3AF93 /* choice_icon@3x.png */,
+				3D6D48321CF596B600C3AF93 /* Cover_iPhone5.png */,
+				3D6D48331CF596B600C3AF93 /* Image_Cover字.png */,
+				3D6D48341CF596B600C3AF93 /* Image_帮付宝首页.png */,
+				3D6D48351CF596B600C3AF93 /* Image_空页面.png */,
+				3D6D48361CF596B600C3AF93 /* Image_管家首页.png */,
+				3D6D48371CF596B600C3AF93 /* Image_账单详情半圆_右.png */,
+				3D6D48381CF596B600C3AF93 /* Image_账单详情半圆_左.png */,
+				3D6D48391CF596B600C3AF93 /* jt_btn@2x.png */,
+				3D6D483A1CF596B600C3AF93 /* jt_btn@3x.png */,
+				3D6D483B1CF596B600C3AF93 /* Layer_修改密码成功580px.png */,
+				3D6D483C1CF596B600C3AF93 /* Layer_输入支付密码580px@2x.png */,
+				3D6D483D1CF596B600C3AF93 /* Layer_银行卡类型580px.png */,
+				3D6D483E1CF596B600C3AF93 /* mrlogo_btn@2x.png */,
+				3D6D483F1CF596B600C3AF93 /* mrlogo_btn@3x.png */,
+				3D6D48401CF596B600C3AF93 /* nochoice_icon@2x.png */,
+				3D6D48411CF596B600C3AF93 /* nochoice_icon@3x.png */,
+				3D6D48421CF596B600C3AF93 /* qbye_btn@2x.png */,
+				3D6D48431CF596B600C3AF93 /* qbye_btn@3x.png */,
+				3D6D48441CF596B600C3AF93 /* tc_btn@2x.png */,
+				3D6D48451CF596B600C3AF93 /* tc_btn@3x.png */,
+				3D6D48461CF596B600C3AF93 /* tck_qx_icon@2x.png */,
+				3D6D48471CF596B600C3AF93 /* tck_qx_icon@3x.png */,
+				3D6D48481CF596B600C3AF93 /* tck_yeqb_icon@2x.png */,
+				3D6D48491CF596B600C3AF93 /* tck_yeqb_icon@3x.png */,
+				3D6D484A1CF596B600C3AF93 /* tjyhk_icon@2x.png */,
+				3D6D484B1CF596B600C3AF93 /* tjyhk_icon@3x.png */,
+				3D6D484C1CF596B600C3AF93 /* unchoice@2x.png */,
+				3D6D484D1CF596B600C3AF93 /* unchoice@3x.png */,
+				3D6D484E1CF596B600C3AF93 /* 叹号@2x.png */,
+				3D6D484F1CF596B600C3AF93 /* 叹号@3x.png */,
+				3D6D48501CF596B600C3AF93 /* 对勾@2x.png */,
+				3D6D48511CF596B600C3AF93 /* 对勾@3x.png */,
+				3D6D48521CF596B600C3AF93 /* 支付失败@2x.png */,
+				3D6D48531CF596B600C3AF93 /* 支付失败@3x.png */,
+				3D6D48541CF596B600C3AF93 /* 支付成功@2x.png */,
+				3D6D48551CF596B600C3AF93 /* 支付成功@3x.png */,
+				3D6D48561CF596B600C3AF93 /* 未点击@2x.png */,
+				3D6D48571CF596B600C3AF93 /* 未点击@3x.png */,
+				3D6D48581CF596B600C3AF93 /* 未选@2x.png */,
+				3D6D48591CF596B600C3AF93 /* 未选@3x.png */,
+				3D6D485A1CF596B600C3AF93 /* 点击@2x.png */,
+				3D6D485B1CF596B600C3AF93 /* 点击@3x.png */,
+				3D6D485C1CF596B600C3AF93 /* 箭头@2x.png */,
+				3D6D485D1CF596B600C3AF93 /* 箭头@3x.png */,
+				3D6D485E1CF596B600C3AF93 /* 返回剪头@2x.png */,
+				3D6D485F1CF596B600C3AF93 /* 返回剪头@3x.png */,
 			);
 			path = AnBangImgs;
 			sourceTree = "<group>";
@@ -628,6 +628,7 @@
 				TargetAttributes = {
 					3D517CE31CEEE5E70084E6AD = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ARU35NS94J;
 					};
 				};
 			};
@@ -654,137 +655,137 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D517ED71CEEED520084E6AD /* Button_添加银行卡.png in Resources */,
-				3D517EED1CEEED520084E6AD /* Button_输入框两栏580px.png in Resources */,
-				3D517EFB1CEEED520084E6AD /* Image_帮付宝首页.png in Resources */,
-				3D517EE61CEEED520084E6AD /* Button_转账_line_white@2x.png in Resources */,
-				3D517ECF1CEEED520084E6AD /* Button_提现_solid@2x.png in Resources */,
-				3D517EEA1CEEED520084E6AD /* Button_输入框330px.png in Resources */,
-				3D517F081CEEED520084E6AD /* nochoice_icon@3x.png in Resources */,
-				3D517EBA1CEEED520084E6AD /* Button_删除_line_32px@2x.png in Resources */,
-				3D517F151CEEED520084E6AD /* 叹号@2x.png in Resources */,
-				3D517EDC1CEEED520084E6AD /* Button_管家_line@2x.png in Resources */,
-				3D517F251CEEED520084E6AD /* 返回剪头@2x.png in Resources */,
-				3D517EAD1CEEED520084E6AD /* Bar_首页顶部导航条.png in Resources */,
-				3D517F221CEEED520084E6AD /* 点击@3x.png in Resources */,
-				3D517EC51CEEED520084E6AD /* Button_手机_line_32px@2x.png in Resources */,
-				3D517EFF1CEEED520084E6AD /* Image_账单详情半圆_左.png in Resources */,
-				3D517EE21CEEED520084E6AD /* Button_账单_solid@2x.png in Resources */,
-				3D517EB11CEEED520084E6AD /* button_jb_line_s@3x.png in Resources */,
-				3D517F141CEEED520084E6AD /* unchoice@3x.png in Resources */,
-				3D517EF61CEEED520084E6AD /* choice2@3x.png in Resources */,
-				3D517EFC1CEEED520084E6AD /* Image_空页面.png in Resources */,
-				3D517ECC1CEEED520084E6AD /* Button_提现_Circle@2x.png in Resources */,
-				3D517EF41CEEED520084E6AD /* Button_银行卡_Solid@2x.png in Resources */,
-				3D517EEC1CEEED520084E6AD /* Button_输入框三栏580px.png in Resources */,
-				3D517EAC1CEEED520084E6AD /* Bar_首页底部导航条.png in Resources */,
-				3D517EBE1CEEED520084E6AD /* Button_实名_Circle@2x.png in Resources */,
-				3D517ECA1CEEED520084E6AD /* Button_扫码登陆_Circle@2x.png in Resources */,
-				3D517EDE1CEEED520084E6AD /* Button_箭头@2x.png in Resources */,
-				3D517EF11CEEED520084E6AD /* Button_重发按钮_220px.png in Resources */,
-				3D517EC41CEEED520084E6AD /* Button_待办_solid@2x.png in Resources */,
-				3D517ED11CEEED520084E6AD /* Button_收付款扫码_Circle@3x.png in Resources */,
-				3D517F0C1CEEED520084E6AD /* tc_btn@3x.png in Resources */,
-				3D517F261CEEED520084E6AD /* 返回剪头@3x.png in Resources */,
-				3D517ECB1CEEED520084E6AD /* Button_扫码登陆_Circle@3x.png in Resources */,
-				3D517ECD1CEEED520084E6AD /* Button_提现_line@2x.png in Resources */,
-				3D517EB31CEEED520084E6AD /* Button_信用卡还款_Circle@2x.png in Resources */,
-				3D517EC81CEEED520084E6AD /* Button_扫码支付_Circle@2x.png in Resources */,
-				3D517EF31CEEED520084E6AD /* Button_银行卡_line@2x.png in Resources */,
-				3D517EB91CEEED520084E6AD /* Button_关于_line_32px@2x.png in Resources */,
-				3D517F121CEEED520084E6AD /* tjyhk_icon@3x.png in Resources */,
-				3D517ED21CEEED520084E6AD /* Button_流量充值_Circle@2x.png in Resources */,
-				3D517EC91CEEED520084E6AD /* Button_扫码支付_Circle@3x.png in Resources */,
-				3D517F071CEEED520084E6AD /* nochoice_icon@2x.png in Resources */,
+				3D6D48901CF596B600C3AF93 /* Button_添加银行卡.png in Resources */,
+				3D6D48A61CF596B600C3AF93 /* Button_输入框两栏580px.png in Resources */,
+				3D6D48B41CF596B600C3AF93 /* Image_帮付宝首页.png in Resources */,
+				3D6D489F1CF596B600C3AF93 /* Button_转账_line_white@2x.png in Resources */,
+				3D6D48881CF596B600C3AF93 /* Button_提现_solid@2x.png in Resources */,
+				3D6D48A31CF596B600C3AF93 /* Button_输入框330px.png in Resources */,
+				3D6D48C11CF596B600C3AF93 /* nochoice_icon@3x.png in Resources */,
+				3D6D48731CF596B600C3AF93 /* Button_删除_line_32px@2x.png in Resources */,
+				3D6D48CE1CF596B600C3AF93 /* 叹号@2x.png in Resources */,
+				3D6D48951CF596B600C3AF93 /* Button_管家_line@2x.png in Resources */,
+				3D6D48DE1CF596B600C3AF93 /* 返回剪头@2x.png in Resources */,
+				3D6D48661CF596B600C3AF93 /* Bar_首页顶部导航条.png in Resources */,
+				3D6D48DB1CF596B600C3AF93 /* 点击@3x.png in Resources */,
+				3D6D487E1CF596B600C3AF93 /* Button_手机_line_32px@2x.png in Resources */,
+				3D6D48B81CF596B600C3AF93 /* Image_账单详情半圆_左.png in Resources */,
+				3D6D489B1CF596B600C3AF93 /* Button_账单_solid@2x.png in Resources */,
+				3D6D486A1CF596B600C3AF93 /* button_jb_line_s@3x.png in Resources */,
+				3D6D48CD1CF596B600C3AF93 /* unchoice@3x.png in Resources */,
+				3D6D48AF1CF596B600C3AF93 /* choice2@3x.png in Resources */,
+				3D6D48B51CF596B600C3AF93 /* Image_空页面.png in Resources */,
+				3D6D48851CF596B600C3AF93 /* Button_提现_Circle@2x.png in Resources */,
+				3D6D48AD1CF596B600C3AF93 /* Button_银行卡_Solid@2x.png in Resources */,
+				3D6D48A51CF596B600C3AF93 /* Button_输入框三栏580px.png in Resources */,
+				3D6D48651CF596B600C3AF93 /* Bar_首页底部导航条.png in Resources */,
+				3D6D48771CF596B600C3AF93 /* Button_实名_Circle@2x.png in Resources */,
+				3D6D48831CF596B600C3AF93 /* Button_扫码登陆_Circle@2x.png in Resources */,
+				3D6D48971CF596B600C3AF93 /* Button_箭头@2x.png in Resources */,
+				3D6D48AA1CF596B600C3AF93 /* Button_重发按钮_220px.png in Resources */,
+				3D6D487D1CF596B600C3AF93 /* Button_待办_solid@2x.png in Resources */,
+				3D6D488A1CF596B600C3AF93 /* Button_收付款扫码_Circle@3x.png in Resources */,
+				3D6D48C51CF596B600C3AF93 /* tc_btn@3x.png in Resources */,
+				3D6D48DF1CF596B600C3AF93 /* 返回剪头@3x.png in Resources */,
+				3D6D48841CF596B600C3AF93 /* Button_扫码登陆_Circle@3x.png in Resources */,
+				3D6D48861CF596B600C3AF93 /* Button_提现_line@2x.png in Resources */,
+				3D6D486C1CF596B600C3AF93 /* Button_信用卡还款_Circle@2x.png in Resources */,
+				3D6D48811CF596B600C3AF93 /* Button_扫码支付_Circle@2x.png in Resources */,
+				3D6D48AC1CF596B600C3AF93 /* Button_银行卡_line@2x.png in Resources */,
+				3D6D48721CF596B600C3AF93 /* Button_关于_line_32px@2x.png in Resources */,
+				3D6D48CB1CF596B600C3AF93 /* tjyhk_icon@3x.png in Resources */,
+				3D6D488B1CF596B600C3AF93 /* Button_流量充值_Circle@2x.png in Resources */,
+				3D6D48821CF596B600C3AF93 /* Button_扫码支付_Circle@3x.png in Resources */,
+				3D6D48C01CF596B600C3AF93 /* nochoice_icon@2x.png in Resources */,
 				3D517D981CEEE7110084E6AD /* AlipaySDK.bundle in Resources */,
-				3D517EFD1CEEED520084E6AD /* Image_管家首页.png in Resources */,
+				3D6D48B61CF596B600C3AF93 /* Image_管家首页.png in Resources */,
 				3D517D061CEEE6310084E6AD /* Info.plist in Resources */,
-				3D517EE51CEEED520084E6AD /* Button_转账_line@2x.png in Resources */,
-				3D517ED31CEEED520084E6AD /* Button_流量充值_Circle@3x.png in Resources */,
-				3D517EDF1CEEED520084E6AD /* Button_设置_line@2x.png in Resources */,
-				3D517EDB1CEEED520084E6AD /* Button_确认框580px.png in Resources */,
-				3D517F0F1CEEED520084E6AD /* tck_yeqb_icon@2x.png in Resources */,
-				3D517F061CEEED520084E6AD /* mrlogo_btn@3x.png in Resources */,
-				3D517EC01CEEED520084E6AD /* Button_帮付宝_line@2x.png in Resources */,
-				3D517EE11CEEED520084E6AD /* Button_账单_line@2x.png in Resources */,
-				3D517ED61CEEED520084E6AD /* Button_添加银行卡+.png in Resources */,
-				3D517F111CEEED520084E6AD /* tjyhk_icon@2x.png in Resources */,
-				3D517F201CEEED520084E6AD /* 未选@3x.png in Resources */,
+				3D6D489E1CF596B600C3AF93 /* Button_转账_line@2x.png in Resources */,
+				3D6D488C1CF596B600C3AF93 /* Button_流量充值_Circle@3x.png in Resources */,
+				3D6D48981CF596B600C3AF93 /* Button_设置_line@2x.png in Resources */,
+				3D6D48941CF596B600C3AF93 /* Button_确认框580px.png in Resources */,
+				3D6D48C81CF596B600C3AF93 /* tck_yeqb_icon@2x.png in Resources */,
+				3D6D48BF1CF596B600C3AF93 /* mrlogo_btn@3x.png in Resources */,
+				3D6D48791CF596B600C3AF93 /* Button_帮付宝_line@2x.png in Resources */,
+				3D6D489A1CF596B600C3AF93 /* Button_账单_line@2x.png in Resources */,
+				3D6D488F1CF596B600C3AF93 /* Button_添加银行卡+.png in Resources */,
+				3D6D48CA1CF596B600C3AF93 /* tjyhk_icon@2x.png in Resources */,
+				3D6D48D91CF596B600C3AF93 /* 未选@3x.png in Resources */,
 				3D517CF71CEEE5E70084E6AD /* LaunchScreen.storyboard in Resources */,
-				3D517EC61CEEED520084E6AD /* Button_手机充值_Circle@2x.png in Resources */,
-				3D517EB81CEEED520084E6AD /* Button_充值_solid@2x.png in Resources */,
-				3D517ED51CEEED520084E6AD /* Button_消费_solid@2x.png in Resources */,
-				3D517F001CEEED520084E6AD /* jt_btn@2x.png in Resources */,
-				3D517F1F1CEEED520084E6AD /* 未选@2x.png in Resources */,
-				3D517F1C1CEEED520084E6AD /* 支付成功@3x.png in Resources */,
-				3D517EE31CEEED520084E6AD /* Button_账户_line_32px@2x.png in Resources */,
-				3D517EB51CEEED520084E6AD /* Button_充值_Circle@2x.png in Resources */,
-				3D517EBD1CEEED520084E6AD /* Button_头像_80px@2x.png in Resources */,
-				3D517F131CEEED520084E6AD /* unchoice@2x.png in Resources */,
-				3D517EC21CEEED520084E6AD /* Button_待办_Circle@2x.png in Resources */,
-				3D517EB41CEEED520084E6AD /* Button_信用卡还款_Circle@3x.png in Resources */,
-				3D517F021CEEED520084E6AD /* Layer_修改密码成功580px.png in Resources */,
+				3D6D487F1CF596B600C3AF93 /* Button_手机充值_Circle@2x.png in Resources */,
+				3D6D48711CF596B600C3AF93 /* Button_充值_solid@2x.png in Resources */,
+				3D6D488E1CF596B600C3AF93 /* Button_消费_solid@2x.png in Resources */,
+				3D6D48B91CF596B600C3AF93 /* jt_btn@2x.png in Resources */,
+				3D6D48D81CF596B600C3AF93 /* 未选@2x.png in Resources */,
+				3D6D48D51CF596B600C3AF93 /* 支付成功@3x.png in Resources */,
+				3D6D489C1CF596B600C3AF93 /* Button_账户_line_32px@2x.png in Resources */,
+				3D6D486E1CF596B600C3AF93 /* Button_充值_Circle@2x.png in Resources */,
+				3D6D48761CF596B600C3AF93 /* Button_头像_80px@2x.png in Resources */,
+				3D6D48CC1CF596B600C3AF93 /* unchoice@2x.png in Resources */,
+				3D6D487B1CF596B600C3AF93 /* Button_待办_Circle@2x.png in Resources */,
+				3D6D486D1CF596B600C3AF93 /* Button_信用卡还款_Circle@3x.png in Resources */,
+				3D6D48BB1CF596B600C3AF93 /* Layer_修改密码成功580px.png in Resources */,
 				3D517D051CEEE6310084E6AD /* Assets.xcassets in Resources */,
-				3D517EBB1CEEED520084E6AD /* Button_卡_line_32px@2x.png in Resources */,
-				3D517EEF1CEEED520084E6AD /* Button_返回@2x.png in Resources */,
-				3D517F231CEEED520084E6AD /* 箭头@2x.png in Resources */,
-				3D517EC71CEEED520084E6AD /* Button_手机充值_Circle@3x.png in Resources */,
-				3D517ED91CEEED520084E6AD /* Button_理财推荐_Circle@3x.png in Resources */,
-				3D517F0D1CEEED520084E6AD /* tck_qx_icon@2x.png in Resources */,
-				3D517F1D1CEEED520084E6AD /* 未点击@2x.png in Resources */,
-				3D517ED81CEEED520084E6AD /* Button_理财推荐_Circle@2x.png in Resources */,
-				3D517ED01CEEED520084E6AD /* Button_收付款扫码_Circle@2x.png in Resources */,
-				3D517EDA1CEEED520084E6AD /* Button_确认_line@2x.png in Resources */,
-				3D517F041CEEED520084E6AD /* Layer_银行卡类型580px.png in Resources */,
-				3D517EE91CEEED520084E6AD /* Button_输入支付密码_确认@2x.png in Resources */,
-				3D517EBC1CEEED520084E6AD /* Button_头像_110px@2x.png in Resources */,
+				3D6D48741CF596B600C3AF93 /* Button_卡_line_32px@2x.png in Resources */,
+				3D6D48A81CF596B600C3AF93 /* Button_返回@2x.png in Resources */,
+				3D6D48DC1CF596B600C3AF93 /* 箭头@2x.png in Resources */,
+				3D6D48801CF596B600C3AF93 /* Button_手机充值_Circle@3x.png in Resources */,
+				3D6D48921CF596B600C3AF93 /* Button_理财推荐_Circle@3x.png in Resources */,
+				3D6D48C61CF596B600C3AF93 /* tck_qx_icon@2x.png in Resources */,
+				3D6D48D61CF596B600C3AF93 /* 未点击@2x.png in Resources */,
+				3D6D48911CF596B600C3AF93 /* Button_理财推荐_Circle@2x.png in Resources */,
+				3D6D48891CF596B600C3AF93 /* Button_收付款扫码_Circle@2x.png in Resources */,
+				3D6D48931CF596B600C3AF93 /* Button_确认_line@2x.png in Resources */,
+				3D6D48BD1CF596B600C3AF93 /* Layer_银行卡类型580px.png in Resources */,
+				3D6D48A21CF596B600C3AF93 /* Button_输入支付密码_确认@2x.png in Resources */,
+				3D6D48751CF596B600C3AF93 /* Button_头像_110px@2x.png in Resources */,
 				3D517D041CEEE6310084E6AD /* Main.storyboard in Resources */,
-				3D517F241CEEED520084E6AD /* 箭头@3x.png in Resources */,
-				3D517F011CEEED520084E6AD /* jt_btn@3x.png in Resources */,
-				3D517EB61CEEED520084E6AD /* Button_充值_line@2x.png in Resources */,
-				3D517EC11CEEED520084E6AD /* Button_帮付宝_solid@2x.png in Resources */,
-				3D517EEE1CEEED520084E6AD /* Button_输入框四栏580px.png in Resources */,
-				3D517F171CEEED520084E6AD /* 对勾@2x.png in Resources */,
-				3D517EDD1CEEED520084E6AD /* Button_管家_solid@2x.png in Resources */,
-				3D517EA91CEEED520084E6AD /* Bar_导航条.png in Resources */,
-				3D517EE81CEEED520084E6AD /* Button_输入支付密码_取消@2x.png in Resources */,
-				3D517F0A1CEEED520084E6AD /* qbye_btn@3x.png in Resources */,
-				3D517F211CEEED520084E6AD /* 点击@2x.png in Resources */,
-				3D517EC31CEEED520084E6AD /* Button_待办_line@2x.png in Resources */,
-				3D517EF81CEEED520084E6AD /* choice_icon@3x.png in Resources */,
-				3D517F091CEEED520084E6AD /* qbye_btn@2x.png in Resources */,
-				3D517EAA1CEEED520084E6AD /* Bar_导航条@2x.png in Resources */,
-				3D517EE41CEEED520084E6AD /* Button_转账_Circle@2x.png in Resources */,
-				3D517EEB1CEEED520084E6AD /* Button_输入框580px.png in Resources */,
-				3D517EF91CEEED520084E6AD /* Cover_iPhone5.png in Resources */,
-				3D517F0B1CEEED520084E6AD /* tc_btn@2x.png in Resources */,
-				3D517F1B1CEEED520084E6AD /* 支付成功@2x.png in Resources */,
-				3D517EB21CEEED520084E6AD /* Button_交易状态.png in Resources */,
-				3D517F191CEEED520084E6AD /* 支付失败@2x.png in Resources */,
-				3D517EF71CEEED520084E6AD /* choice_icon@2x.png in Resources */,
-				3D517F181CEEED520084E6AD /* 对勾@3x.png in Resources */,
-				3D517EE71CEEED520084E6AD /* Button_转账_solid@2x.png in Resources */,
-				3D517EAF1CEEED520084E6AD /* Button_80px.png in Resources */,
-				3D517F051CEEED520084E6AD /* mrlogo_btn@2x.png in Resources */,
-				3D517EAB1CEEED520084E6AD /* Bar_导航条@3x.png in Resources */,
-				3D517F0E1CEEED520084E6AD /* tck_qx_icon@3x.png in Resources */,
-				3D517EBF1CEEED520084E6AD /* Button_密码_line_32px@2x.png in Resources */,
-				3D517EFE1CEEED520084E6AD /* Image_账单详情半圆_右.png in Resources */,
-				3D517EB01CEEED520084E6AD /* button_jb_line_s@2x.png in Resources */,
-				3D517EF21CEEED520084E6AD /* Button_重发按钮_等待220px.png in Resources */,
-				3D517EF01CEEED520084E6AD /* Button_通讯录_line@2x.png in Resources */,
-				3D517F1A1CEEED520084E6AD /* 支付失败@3x.png in Resources */,
-				3D517F101CEEED520084E6AD /* tck_yeqb_icon@3x.png in Resources */,
-				3D517EFA1CEEED520084E6AD /* Image_Cover字.png in Resources */,
-				3D517EF51CEEED520084E6AD /* choice2@2x.png in Resources */,
-				3D517ED41CEEED520084E6AD /* Button_消费_line@2x.png in Resources */,
-				3D517F161CEEED520084E6AD /* 叹号@3x.png in Resources */,
-				3D517EAE1CEEED520084E6AD /* Bar_首页顶部导航条_选中.png in Resources */,
-				3D517F031CEEED520084E6AD /* Layer_输入支付密码580px@2x.png in Resources */,
-				3D517EE01CEEED520084E6AD /* Button_设置_solid@2x.png in Resources */,
-				3D517F1E1CEEED520084E6AD /* 未点击@3x.png in Resources */,
-				3D517ECE1CEEED520084E6AD /* Button_提现_line_white@2x.png in Resources */,
-				3D517EB71CEEED520084E6AD /* Button_充值_line_white@2x.png in Resources */,
+				3D6D48DD1CF596B600C3AF93 /* 箭头@3x.png in Resources */,
+				3D6D48BA1CF596B600C3AF93 /* jt_btn@3x.png in Resources */,
+				3D6D486F1CF596B600C3AF93 /* Button_充值_line@2x.png in Resources */,
+				3D6D487A1CF596B600C3AF93 /* Button_帮付宝_solid@2x.png in Resources */,
+				3D6D48A71CF596B600C3AF93 /* Button_输入框四栏580px.png in Resources */,
+				3D6D48D01CF596B600C3AF93 /* 对勾@2x.png in Resources */,
+				3D6D48961CF596B600C3AF93 /* Button_管家_solid@2x.png in Resources */,
+				3D6D48621CF596B600C3AF93 /* Bar_导航条.png in Resources */,
+				3D6D48A11CF596B600C3AF93 /* Button_输入支付密码_取消@2x.png in Resources */,
+				3D6D48C31CF596B600C3AF93 /* qbye_btn@3x.png in Resources */,
+				3D6D48DA1CF596B600C3AF93 /* 点击@2x.png in Resources */,
+				3D6D487C1CF596B600C3AF93 /* Button_待办_line@2x.png in Resources */,
+				3D6D48B11CF596B600C3AF93 /* choice_icon@3x.png in Resources */,
+				3D6D48C21CF596B600C3AF93 /* qbye_btn@2x.png in Resources */,
+				3D6D48631CF596B600C3AF93 /* Bar_导航条@2x.png in Resources */,
+				3D6D489D1CF596B600C3AF93 /* Button_转账_Circle@2x.png in Resources */,
+				3D6D48A41CF596B600C3AF93 /* Button_输入框580px.png in Resources */,
+				3D6D48B21CF596B600C3AF93 /* Cover_iPhone5.png in Resources */,
+				3D6D48C41CF596B600C3AF93 /* tc_btn@2x.png in Resources */,
+				3D6D48D41CF596B600C3AF93 /* 支付成功@2x.png in Resources */,
+				3D6D486B1CF596B600C3AF93 /* Button_交易状态.png in Resources */,
+				3D6D48D21CF596B600C3AF93 /* 支付失败@2x.png in Resources */,
+				3D6D48B01CF596B600C3AF93 /* choice_icon@2x.png in Resources */,
+				3D6D48D11CF596B600C3AF93 /* 对勾@3x.png in Resources */,
+				3D6D48A01CF596B600C3AF93 /* Button_转账_solid@2x.png in Resources */,
+				3D6D48681CF596B600C3AF93 /* Button_80px.png in Resources */,
+				3D6D48BE1CF596B600C3AF93 /* mrlogo_btn@2x.png in Resources */,
+				3D6D48641CF596B600C3AF93 /* Bar_导航条@3x.png in Resources */,
+				3D6D48C71CF596B600C3AF93 /* tck_qx_icon@3x.png in Resources */,
+				3D6D48781CF596B600C3AF93 /* Button_密码_line_32px@2x.png in Resources */,
+				3D6D48B71CF596B600C3AF93 /* Image_账单详情半圆_右.png in Resources */,
+				3D6D48691CF596B600C3AF93 /* button_jb_line_s@2x.png in Resources */,
+				3D6D48AB1CF596B600C3AF93 /* Button_重发按钮_等待220px.png in Resources */,
+				3D6D48A91CF596B600C3AF93 /* Button_通讯录_line@2x.png in Resources */,
+				3D6D48D31CF596B600C3AF93 /* 支付失败@3x.png in Resources */,
+				3D6D48C91CF596B600C3AF93 /* tck_yeqb_icon@3x.png in Resources */,
+				3D6D48B31CF596B600C3AF93 /* Image_Cover字.png in Resources */,
+				3D6D48AE1CF596B600C3AF93 /* choice2@2x.png in Resources */,
+				3D6D488D1CF596B600C3AF93 /* Button_消费_line@2x.png in Resources */,
+				3D6D48CF1CF596B600C3AF93 /* 叹号@3x.png in Resources */,
+				3D6D48671CF596B600C3AF93 /* Bar_首页顶部导航条_选中.png in Resources */,
+				3D6D48BC1CF596B600C3AF93 /* Layer_输入支付密码580px@2x.png in Resources */,
+				3D6D48991CF596B600C3AF93 /* Button_设置_solid@2x.png in Resources */,
+				3D6D48D71CF596B600C3AF93 /* 未点击@3x.png in Resources */,
+				3D6D48871CF596B600C3AF93 /* Button_提现_line_white@2x.png in Resources */,
+				3D6D48701CF596B600C3AF93 /* Button_充值_line_white@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -901,6 +902,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -921,6 +924,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "-05817633.PaymaxDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -928,6 +932,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -948,6 +954,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "-05817633.PaymaxDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -970,6 +977,7 @@
 				3D517CFD1CEEE5E70084E6AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
