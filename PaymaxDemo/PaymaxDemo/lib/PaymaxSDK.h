@@ -26,11 +26,11 @@ typedef NS_ENUM(NSUInteger, PaymaxBackExplain) {
 };
 
 @interface PaymaxBack :NSObject
-
 typedef void(^PMCompletionBlock)(PaymaxBack *paymaxBack);
 /**
  *  枚举详解
  */
+
 @property (assign, nonatomic) PaymaxBackExplain explain;
 /**
  *  支付渠道返回的错误码

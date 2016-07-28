@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "PaymaxSDK.h"
+#import <PassKit/PassKit.h>
 
 #define K_APPP_SCHEME @"wx5269eef08886e3d5"
 
@@ -38,8 +39,7 @@
     self.backgroundView.backgroundColor = [[UIColor lightGrayColor] colorWithAlphaComponent:.2];
     self.rootTableView.tableFooterView = self.tableFooterView;
     self.channel = @"alipay_app";
-    self.urlString = @"http://118.186.238.194:8899/v1/chargeOrders";
-    self.urlStatusLabel.text = @"当前是开发环境";
+    self.urlString = @"";
     self.userIDTextField.delegate= self;
 }
 
@@ -80,17 +80,15 @@
             switch (indexPath.row) {
                 case 0:
                     _imageView.image = [UIImage imageNamed:@"zhifubao"];
-                    _label.text = @"支付宝支付";
+                    _label.text = @"支付宝";
                     break;
                 case 1:
                     _imageView.image = [UIImage imageNamed:@"weixin"];
                     _label.text = @"微信支付";
                     break;
                 default:
-                    _imageView.image = [UIImage imageNamed:@""];
+                    _imageView.image = [UIImage imageNamed:@"lkl"];
                     _label.text = @"拉卡拉";
-                    CGRect frame = _imageView.frame;
-                    frame.size.width = 1;
                     break;
             }
             if (indexPath.row == self.selectrow) {
@@ -130,7 +128,7 @@
     
     [self.backgroundView setHidden:NO];
     [self.backgroundActivityIndicatorView startAnimating];
-    NSString *userId = self.userIDTextField.text !=nil ? self.userIDTextField.text : @"";
+    NSString *userId = self.userIDTextField.text !=nil ? self.userIDTextField.text : @"99999999";
     NSDictionary* dict = @{
                            @"channel"     : self.channel,
                            @"totalPrice"  : self.amountTextfield.text,
@@ -183,8 +181,7 @@
                 }
                 [self.backgroundView setHidden:YES];
                 [self.backgroundActivityIndicatorView stopAnimating];
-                [self showAlertMessage:[NSString stringWithFormat:@"merchantId = %@",responseObject[@"credential"][@"lakala_app"][@"merchantId"]]];
-                [PaymaxSDK pay:responseObject
+                [PaymaxSDK   pay:responseObject
                        appScheme:K_APPP_SCHEME
                   viewController:self
                       completion:^(PaymaxBack *paymaxBack) {
@@ -229,17 +226,6 @@
     
     [_dataTask resume];
     
-}
-
-- (IBAction)testURLClick:(UIButton *)sender {
-    
-    self.urlString = @"http://118.186.238.194:12317/v1/chargeOrders";
-    self.urlStatusLabel.text = @"当前是测试环境";
-}
-- (IBAction)developerURLClick:(UIButton *)sender {
-    
-    self.urlString = @"http://118.186.238.194:8899/v1/chargeOrders";
-    self.urlStatusLabel.text = @"当前是开发环境";
 }
 
 - (void)showAlertMessage:(NSString *)message {

@@ -43,11 +43,6 @@
                                     <rect key="frame" x="0.0" y="224.5" width="320" height="200"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入用户ID" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TW3-lf-19l">
-                                            <rect key="frame" x="40" y="0.0" width="240" height="30"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" returnKeyType="done"/>
-                                        </textField>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iad-ba-k6L">
                                             <rect key="frame" x="10" y="66" width="300" height="44"/>
                                             <color key="backgroundColor" red="1" green="0.41568627450980394" blue="0.050980392156862744" alpha="1" colorSpace="calibratedRGB"/>
@@ -67,43 +62,12 @@
                                                 <action selector="payClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o6q-Cw-uMX"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdU-P8-AQn">
-                                            <rect key="frame" x="66" y="130" width="36" height="38"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                            <state key="normal" title="test"/>
-                                            <connections>
-                                                <action selector="testURLClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ylb-gm-R1P"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOn-xJ-S8Q">
-                                            <rect key="frame" x="179" y="130" width="75" height="38"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                            <state key="normal" title="develop"/>
-                                            <connections>
-                                                <action selector="developerURLClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vz4-f1-R72"/>
-                                            </connections>
-                                        </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mew-5Z-6eA">
-                                            <rect key="frame" x="139" y="170" width="42" height="20.5"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstItem="mew-5Z-6eA" firstAttribute="top" secondItem="Iad-ba-k6L" secondAttribute="bottom" constant="60" id="3Xn-QR-g8b"/>
-                                        <constraint firstAttribute="trailing" secondItem="TW3-lf-19l" secondAttribute="trailing" constant="40" id="7yf-bY-nch"/>
                                         <constraint firstAttribute="trailing" secondItem="Iad-ba-k6L" secondAttribute="trailing" constant="10" id="8QZ-mC-98l"/>
-                                        <constraint firstItem="TW3-lf-19l" firstAttribute="top" secondItem="z5b-No-QU4" secondAttribute="top" id="ExS-tx-qEg"/>
-                                        <constraint firstAttribute="trailing" secondItem="QOn-xJ-S8Q" secondAttribute="trailing" constant="66" id="ITC-AD-jIh"/>
-                                        <constraint firstItem="RdU-P8-AQn" firstAttribute="leading" secondItem="z5b-No-QU4" secondAttribute="leading" constant="66" id="NSH-pa-vYF"/>
-                                        <constraint firstItem="mew-5Z-6eA" firstAttribute="centerX" secondItem="z5b-No-QU4" secondAttribute="centerX" id="PpL-VP-Wgn"/>
-                                        <constraint firstItem="RdU-P8-AQn" firstAttribute="top" secondItem="Iad-ba-k6L" secondAttribute="bottom" constant="20" id="TVg-b4-0iy"/>
-                                        <constraint firstItem="TW3-lf-19l" firstAttribute="leading" secondItem="z5b-No-QU4" secondAttribute="leading" constant="40" id="WDv-9Q-Cgw"/>
                                         <constraint firstItem="Iad-ba-k6L" firstAttribute="top" secondItem="z5b-No-QU4" secondAttribute="top" constant="66" id="XLb-BP-5jf"/>
                                         <constraint firstItem="Iad-ba-k6L" firstAttribute="leading" secondItem="z5b-No-QU4" secondAttribute="leading" constant="10" id="te4-sQ-r8k"/>
-                                        <constraint firstItem="QOn-xJ-S8Q" firstAttribute="centerY" secondItem="RdU-P8-AQn" secondAttribute="centerY" id="xym-K0-AEA"/>
                                     </constraints>
                                 </view>
                                 <prototypes>
@@ -145,6 +109,7 @@
                                                 <imageView userInteractionEnabled="NO" tag="405" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhifubao" translatesAutoresizingMaskIntoConstraints="NO" id="W5q-PZ-YZH">
                                                     <rect key="frame" x="20" y="15" width="25" height="25"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="width" constant="25" id="2A3-EM-kvZ"/>
                                                         <constraint firstAttribute="height" constant="25" id="7Vn-wJ-dyf"/>
                                                     </constraints>
                                                 </imageView>
@@ -219,8 +184,6 @@
                         <outlet property="backgroundView" destination="k7y-r6-TN7" id="sFq-Af-b9R"/>
                         <outlet property="rootTableView" destination="Zl3-aW-cWs" id="Vm5-1X-9Kh"/>
                         <outlet property="tableFooterView" destination="z5b-No-QU4" id="XIq-F7-Uo6"/>
-                        <outlet property="urlStatusLabel" destination="mew-5Z-6eA" id="A20-Oq-DCp"/>
-                        <outlet property="userIDTextField" destination="TW3-lf-19l" id="lnM-Ep-BfO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

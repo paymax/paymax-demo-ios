@@ -629,6 +629,11 @@
 					3D517CE31CEEE5E70084E6AD = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = ARU35NS94J;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -920,6 +925,7 @@
 					"$(PROJECT_DIR)/PaymaxDemo/lib/Paymax+lkl/lkl",
 					"$(PROJECT_DIR)/PaymaxDemo/lib/Paymax+wx",
 					"$(PROJECT_DIR)/PaymaxDemo/lib/Paymax+wx/WX",
+					"$(PROJECT_DIR)/PaymaxDemo",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "-05817633.PaymaxDemo";
@@ -950,6 +956,7 @@
 					"$(PROJECT_DIR)/PaymaxDemo/lib/Paymax+lkl/lkl",
 					"$(PROJECT_DIR)/PaymaxDemo/lib/Paymax+wx",
 					"$(PROJECT_DIR)/PaymaxDemo/lib/Paymax+wx/WX",
+					"$(PROJECT_DIR)/PaymaxDemo",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "-05817633.PaymaxDemo";
