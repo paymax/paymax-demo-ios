@@ -45,7 +45,7 @@
 // iOS 8及以下 请用这个
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
     
-    return [PaymaxSDK handleOpenURL:url withCompletion:^(PaymaxBack *paymaxBack) {
+    return [PaymaxSDK handleOpenURL:url withCompletion:^(PaymaxCallback *paymaxBack) {
         NSLog(@"AppDelegate-openURL-PaymaxBack.channelBackCode=%@\nPaymaxBack.channel=%@\nPaymaxBack.backDescription=%@\nPaymaxBack.prCode=%ld",paymaxBack.channelBackCode,paymaxBack.channel,paymaxBack.backDescription,(long)paymaxBack.prCode);
     }];
 }
@@ -53,7 +53,7 @@
 // iOS 9 以上请用这个
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary *)options {
     
-    return [PaymaxSDK handleOpenURL:url withCompletion:^(PaymaxBack *paymaxBack) {
+    return [PaymaxSDK handleOpenURL:url withCompletion:^(PaymaxCallback *paymaxBack) {
         NSLog(@"AppDelegate-openURL-PaymaxBack.channelBackCode=%@\nPaymaxBack.channel=%@\nPaymaxBack.backDescription=%@\nPaymaxBack.prCode=%ld",paymaxBack.channelBackCode,paymaxBack.channel,paymaxBack.backDescription,(long)paymaxBack.prCode);
     }];
 }

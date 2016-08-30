@@ -6,13 +6,15 @@
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "f0e511db-82a5-4ee2-ad07-974165b8a4a5++2514" : 0,
     "4277076E72732653B578289069272C46CB9CFE15" : 0,
-    "f0e511db-82a5-4ee2-ad07-974165b8a4a5++2514" : 0
+    "E62B345F1BFB0947337CDD444298B2FF699A1A77" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8C6D207F-2678-4D6A-BCA8-618D1FB447EB",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "f0e511db-82a5-4ee2-ad07-974165b8a4a5++2514" : "PayRightSDK\/PaymaxDemo\/PaymaxDemo\/lib\/Paymax+lkl\/lkl\/AnBangImgs\/",
     "4277076E72732653B578289069272C46CB9CFE15" : "PayRightSDK\/",
-    "f0e511db-82a5-4ee2-ad07-974165b8a4a5++2514" : "PayRightSDK\/PaymaxDemo\/PaymaxDemo\/lib\/Paymax+lkl\/lkl\/AnBangImgs\/"
+    "E62B345F1BFB0947337CDD444298B2FF699A1A77" : "FaceReco-iOS\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "PaymaxDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -22,6 +24,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.zhulebei.com:git\/PayRightSDK.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4277076E72732653B578289069272C46CB9CFE15"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.zhulebei.com:git\/FaceReco-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E62B345F1BFB0947337CDD444298B2FF699A1A77"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn1.yuangoutech.com\/mobileClient",

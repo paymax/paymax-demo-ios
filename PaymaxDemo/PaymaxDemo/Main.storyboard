@@ -23,6 +23,76 @@
             </objects>
             <point key="canvasLocation" x="-1400" y="350"/>
         </scene>
+        <!--Face Detect View Controller-->
+        <scene sceneID="gv6-Bt-biL">
+            <objects>
+                <viewController storyboardIdentifier="facereco" id="QRl-fm-OY0" customClass="FaceDetectViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XR6-Fb-jCk"/>
+                        <viewControllerLayoutGuide type="bottom" id="faz-GK-eE3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1lU-Bl-44d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="姓名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eEf-8N-paR">
+                                <rect key="frame" x="20" y="40" width="280" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4mO-Tk-RVY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="身份证号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="buK-Hh-c2L">
+                                <rect key="frame" x="20" y="104" width="280" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ar8-Xf-KpK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2d-tf-mmO">
+                                <rect key="frame" x="30" y="178" width="260" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.41568627450000001" blue="0.050980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Y11-ft-hdV"/>
+                                </constraints>
+                                <state key="normal" title="进行活体检测">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="faceDetectAction:" destination="QRl-fm-OY0" eventType="touchUpInside" id="9rn-Qx-Y4J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="o2d-tf-mmO" firstAttribute="top" secondItem="buK-Hh-c2L" secondAttribute="bottom" constant="30" id="2MB-JG-Ztt"/>
+                            <constraint firstAttribute="trailing" secondItem="eEf-8N-paR" secondAttribute="trailing" constant="20" id="335-0o-nLS"/>
+                            <constraint firstItem="buK-Hh-c2L" firstAttribute="top" secondItem="eEf-8N-paR" secondAttribute="bottom" constant="20" id="6GT-Nf-PgR"/>
+                            <constraint firstItem="eEf-8N-paR" firstAttribute="top" secondItem="XR6-Fb-jCk" secondAttribute="bottom" constant="20" id="NTz-pm-cZj"/>
+                            <constraint firstAttribute="trailing" secondItem="o2d-tf-mmO" secondAttribute="trailing" constant="30" id="W9p-73-5TS"/>
+                            <constraint firstAttribute="trailing" secondItem="buK-Hh-c2L" secondAttribute="trailing" constant="20" id="cFI-uX-eu6"/>
+                            <constraint firstItem="eEf-8N-paR" firstAttribute="leading" secondItem="1lU-Bl-44d" secondAttribute="leading" constant="20" id="gPQ-s5-LIw"/>
+                            <constraint firstItem="o2d-tf-mmO" firstAttribute="leading" secondItem="1lU-Bl-44d" secondAttribute="leading" constant="30" id="vZh-Xc-9Ip"/>
+                            <constraint firstItem="buK-Hh-c2L" firstAttribute="leading" secondItem="1lU-Bl-44d" secondAttribute="leading" constant="20" id="z9Y-e5-VwM"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="idCardTextField" destination="buK-Hh-c2L" id="uXX-Mj-Wm6"/>
+                        <outlet property="nameTextField" destination="eEf-8N-paR" id="hYk-5E-RTd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q6w-Wz-n9i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1409" y="1015"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
