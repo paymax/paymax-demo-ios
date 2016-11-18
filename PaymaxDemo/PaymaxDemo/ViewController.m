@@ -32,6 +32,7 @@
 @property (assign, nonatomic) NSInteger selectrow;
 @property (strong, nonatomic) UITextField *amountTextfield;
 @property (copy, nonatomic) NSString *userIdStr;
+@property (assign, nonatomic) long long time_expire;
 @end
 
 @implementation ViewController
@@ -39,6 +40,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    PaymaxSDK *_paymax = [[PaymaxSDK alloc] init];
+    NSLog(@"%@",[_paymax currentSDKVersion]);
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(PlaceOrder) name:@"PlaceOrder" object:nil];
     [self setData];
 }
@@ -50,6 +53,7 @@
     self.rootTableView.tableFooterView = self.tableFooterView;
     self.channel = @"alipay_app";
     self.urlString = PLACE_ORDER_URL;
+    self.time_expire = 3600;
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"收起键盘" style:UIBarButtonItemStylePlain target:self action:@selector(rightBarButtonItemAction)];
 }
 
@@ -146,9 +150,21 @@
         [self.backgroundActivityIndicatorView startAnimating];
         
         UITextField *_idTextField = [alertView textFieldAtIndex:0];
-        
-        self.userIdStr = _idTextField.text;
-        
+        UITextField *_timeTextField = [alertView textFieldAtIndex:1];
+        if ([_idTextField.text isEqualToString:@""]) {
+            
+            self.userIdStr = @"123";
+        }else {
+            
+            self.userIdStr = _idTextField.text;
+        }
+        if ([_timeTextField.text isEqualToString:@""]) {
+            
+            self.time_expire = 3600;
+        }else {
+            
+            self.time_expire = [_timeTextField.text doubleValue];
+        }
         NSString *_urlStr = [NSString stringWithFormat:QUERY_FACE_URL,self.userIdStr];
         
         [self netWorkWithURL:_urlStr withHTTPMethod:@"GET" withParameter:nil completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
@@ -228,26 +244,36 @@
 
 - (void)faceDetect {
     
-    UIAlertView *_idcardAlertView = [[UIAlertView alloc] initWithTitle:@"请输入UserID" message:@"" delegate:self cancelButtonTitle:@"取消"   otherButtonTitles:@"确定", nil];
-    _idcardAlertView.alertViewStyle = UIAlertViewStylePlainTextInput;
+    UIAlertView *_idcardAlertView = [[UIAlertView alloc] initWithTitle:@"请输入UserID和过期时间" message:@"" delegate:self cancelButtonTitle:@"取消"   otherButtonTitles:@"确定", nil];
+    _idcardAlertView.alertViewStyle = UIAlertViewStyleLoginAndPasswordInput;
+    UITextField *_idTextField = [_idcardAlertView textFieldAtIndex:0];
+    UITextField *_timeTextField = [_idcardAlertView textFieldAtIndex:1];
+    _idTextField.placeholder = @"请输入UserID";
+    _timeTextField.placeholder = @"请输入过期时间(秒，默认3600秒)";
+    _timeTextField.secureTextEntry = NO;
     [_idcardAlertView show];
 }
 #pragma mark - 下单
 - (void)PlaceOrder {
-
+    
     [self.backgroundView setHidden:NO];
     [self.backgroundActivityIndicatorView startAnimating];
     if (self.userIdStr == nil) {
-        self.userIdStr = @"88888888";
+        self.userIdStr = @"123";
     }
+    
+    NSTimeInterval nowtime = [[NSDate date] timeIntervalSince1970] * 1000;
+    long long newTime = [[NSNumber numberWithDouble:nowtime] longLongValue] + self.time_expire * 1000;
+    NSNumber *theTime = [NSNumber numberWithLongLong:newTime];
+    
     NSDictionary* _parameter = @{
-                           @"channel"     : self.channel,
-                           @"totalPrice"  : self.amountTextfield.text,
-                           @"title"       : @"subject",
-                           @"body"        : @"test",
-                           @"extra"       : @{@"user_id":self.userIdStr},
-                           @"metadata"    : @{@"aaa121":@"adsfe234"}
-                           };
+                                 @"channel"     : self.channel,
+                                 @"totalPrice"  : self.amountTextfield.text,
+                                 @"title"       : @"subject",
+                                 @"body"        : @"test",
+                                 @"extra"       : @{@"user_id":self.userIdStr},
+                                 @"time_expire" : theTime
+                                 };
     
     [self netWorkWithURL:self.urlString withHTTPMethod:@"POST" withParameter:_parameter completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         
@@ -285,7 +311,7 @@
                 [PaymaxSDK   pay:responseObject
                        appScheme:K_APPP_SCHEME
                   viewController:self
-                      completion:^(PaymaxCallback *paymaxCallback) {
+                      completion:^(PaymaxResult *paymaxCallback) {
                           
                           switch (paymaxCallback.explain) {
                               case Paymax_CODE_SUCCESS:
@@ -299,7 +325,7 @@
                                   break;
                               case Paymax_CODE_Failure:
                                   [self showAlertMessage:@"支付失败"];
-                                   break;
+                                  break;
                               case Paymax_CODE_ERROR_CONNECT:
                                   [self showAlertMessage:@"网络错误"];
                                   break;
@@ -324,10 +350,7 @@
             });
         }
     }];
-    
-
 }
-
 
 - (void)netWorkWithURL:(NSString *)url withHTTPMethod:(NSString *)HTTPMethod withParameter:(NSDictionary *)parameter completionHandler:(void (^)(NSData * __nullable data, NSURLResponse * __nullable response, NSError * __nullable error))completionHandler {
     
@@ -337,7 +360,7 @@
     [_request setHTTPMethod:HTTPMethod];
     [_request setValue:@"application/json;charset=utf-8" forHTTPHeaderField:@"Content-Type"];
     if (parameter != nil) {
-       
+        
         NSData* _data = [NSJSONSerialization dataWithJSONObject:parameter options:NSJSONWritingPrettyPrinted error:nil];
         NSString *_bodyData = [[NSString alloc] initWithData:_data encoding:NSUTF8StringEncoding];
         [_request setHTTPBody:[NSData dataWithBytes:[_bodyData UTF8String] length:strlen([_bodyData UTF8String])]];
@@ -367,7 +390,7 @@
 - (void) rightBarButtonItemAction {
     
     [self.amountTextfield resignFirstResponder];
-
+    
 }
 
 #pragma mark -- textField Delegate

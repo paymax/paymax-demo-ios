@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "PaymaxCallback.h"
+#import "PaymaxResult.h"
 
-typedef void(^PMCompletionBlock)(PaymaxCallback *paymaxCallback);
+typedef void(^PMCompletionBlock)(PaymaxResult *paymaxResult);
 
 @interface PaymaxSDK : NSObject
 
-@property (strong, nonatomic) PaymaxCallback *paymaxCallback;
+@property (strong, nonatomic) PaymaxResult *paymaxResult;
 
 /**
  *  支付接口
@@ -44,5 +44,4 @@ typedef void(^PMCompletionBlock)(PaymaxCallback *paymaxCallback);
  *  @return SDK当前版本号
  */
 - (NSString *)currentSDKVersion;
-
 @end

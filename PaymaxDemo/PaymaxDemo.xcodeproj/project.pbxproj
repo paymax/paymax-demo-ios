@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D06CF8D1DDEAF6100323402 /* libPaymaxAli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D06CF8C1DDEAF6100323402 /* libPaymaxAli.a */; };
+		3D06CF8F1DDEAF7D00323402 /* libPaymaxSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D06CF8E1DDEAF7D00323402 /* libPaymaxSDK.a */; };
+		3D06CF911DDEAFA200323402 /* libPaymaxLkl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D06CF901DDEAFA200323402 /* libPaymaxLkl.a */; };
+		3D06CF931DDEAFC200323402 /* libPaymaxWx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D06CF921DDEAFC200323402 /* libPaymaxWx.a */; };
 		3D517CE91CEEE5E70084E6AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D517CE81CEEE5E70084E6AD /* main.m */; };
 		3D517CEC1CEEE5E70084E6AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D517CEB1CEEE5E70084E6AD /* AppDelegate.m */; };
 		3D517CF71CEEE5E70084E6AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D517CF51CEEE5E70084E6AD /* LaunchScreen.storyboard */; };
@@ -175,19 +179,20 @@
 		3D798BE21D75308A00AF4D9F /* oliveapp_step_hint_timeout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D798BC61D75308A00AF4D9F /* oliveapp_step_hint_timeout.mp3 */; };
 		3D798BE31D75308A00AF4D9F /* oliveapp_step_hint_verificationfail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D798BC71D75308A00AF4D9F /* oliveapp_step_hint_verificationfail.mp3 */; };
 		3D798BE41D75308A00AF4D9F /* oliveapp_step_hint_verificationpass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D798BC81D75308A00AF4D9F /* oliveapp_step_hint_verificationpass.mp3 */; };
-		3DEE5FE01D5DD6DF0034B75D /* libPaymaxSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE5F4E1D5DD6DF0034B75D /* libPaymaxSDK.a */; };
 		3DEE5FE11D5DD6DF0034B75D /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DEE5F511D5DD6DF0034B75D /* AlipaySDK.bundle */; };
 		3DEE5FE21D5DD6DF0034B75D /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE5F521D5DD6DF0034B75D /* AlipaySDK.framework */; };
-		3DEE5FE31D5DD6DF0034B75D /* libPaymaxAli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE5F531D5DD6DF0034B75D /* libPaymaxAli.a */; };
-		3DEE5FE41D5DD6E00034B75D /* libPaymaxLkl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE5F551D5DD6DF0034B75D /* libPaymaxLkl.a */; };
-		3DEE60631D5DD6E00034B75D /* libLKLPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE5FD61D5DD6DF0034B75D /* libLKLPaySDK.a */; };
-		3DEE60641D5DD6E00034B75D /* libPaymaxWx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE5FD91D5DD6DF0034B75D /* libPaymaxWx.a */; };
 		3DEE60651D5DD6E00034B75D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE5FDB1D5DD6DF0034B75D /* libWeChatSDK.a */; };
 		3DEE60DC1D5DD9860034B75D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE60DB1D5DD9860034B75D /* AssetsLibrary.framework */; };
+		AD03C31F1DDEFC1800BABFB0 /* libLKLPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD03C31E1DDEFC1800BABFB0 /* libLKLPaySDK.a */; };
 		F936AD201D616DB500CB9810 /* FaceDetectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F936AD1F1D616DB500CB9810 /* FaceDetectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D06CF8C1DDEAF6100323402 /* libPaymaxAli.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxAli.a; sourceTree = "<group>"; };
+		3D06CF8E1DDEAF7D00323402 /* libPaymaxSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxSDK.a; sourceTree = "<group>"; };
+		3D06CF901DDEAFA200323402 /* libPaymaxLkl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxLkl.a; sourceTree = "<group>"; };
+		3D06CF921DDEAFC200323402 /* libPaymaxWx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxWx.a; sourceTree = "<group>"; };
+		3D06CF941DDEB45400323402 /* PaymaxResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymaxResult.h; sourceTree = "<group>"; };
 		3D517CE41CEEE5E70084E6AD /* PaymaxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymaxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D517CE81CEEE5E70084E6AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D517CEA1CEEE5E70084E6AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -361,20 +366,15 @@
 		3D798BC71D75308A00AF4D9F /* oliveapp_step_hint_verificationfail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_verificationfail.mp3; sourceTree = "<group>"; };
 		3D798BC81D75308A00AF4D9F /* oliveapp_step_hint_verificationpass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_verificationpass.mp3; sourceTree = "<group>"; };
 		3DEE5ED51D5D75F50034B75D /* FaceDetectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetectViewController.h; sourceTree = "<group>"; };
-		3DEE5F4E1D5DD6DF0034B75D /* libPaymaxSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxSDK.a; sourceTree = "<group>"; };
 		3DEE5F511D5DD6DF0034B75D /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		3DEE5F521D5DD6DF0034B75D /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		3DEE5F531D5DD6DF0034B75D /* libPaymaxAli.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxAli.a; sourceTree = "<group>"; };
-		3DEE5F551D5DD6DF0034B75D /* libPaymaxLkl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxLkl.a; sourceTree = "<group>"; };
-		3DEE5FD61D5DD6DF0034B75D /* libLKLPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLKLPaySDK.a; sourceTree = "<group>"; };
 		3DEE5FD71D5DD6DF0034B75D /* LKLPaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLPaySDK.h; sourceTree = "<group>"; };
-		3DEE5FD91D5DD6DF0034B75D /* libPaymaxWx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxWx.a; sourceTree = "<group>"; };
 		3DEE5FDB1D5DD6DF0034B75D /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		3DEE5FDC1D5DD6DF0034B75D /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		3DEE5FDD1D5DD6DF0034B75D /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		3DEE5FDE1D5DD6DF0034B75D /* PaymaxCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymaxCallback.h; sourceTree = "<group>"; };
 		3DEE5FDF1D5DD6DF0034B75D /* PaymaxSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymaxSDK.h; sourceTree = "<group>"; };
 		3DEE60DB1D5DD9860034B75D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		AD03C31E1DDEFC1800BABFB0 /* libLKLPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLKLPaySDK.a; sourceTree = "<group>"; };
 		F936AD1F1D616DB500CB9810 /* FaceDetectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDetectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -384,19 +384,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DEE60DC1D5DD9860034B75D /* AssetsLibrary.framework in Frameworks */,
+				AD03C31F1DDEFC1800BABFB0 /* libLKLPaySDK.a in Frameworks */,
 				3DEE60651D5DD6E00034B75D /* libWeChatSDK.a in Frameworks */,
-				3DEE60631D5DD6E00034B75D /* libLKLPaySDK.a in Frameworks */,
-				3DEE60641D5DD6E00034B75D /* libPaymaxWx.a in Frameworks */,
-				3DEE5FE31D5DD6DF0034B75D /* libPaymaxAli.a in Frameworks */,
 				3D517E281CEEE7890084E6AD /* CoreTelephony.framework in Frameworks */,
+				3D06CF8D1DDEAF6100323402 /* libPaymaxAli.a in Frameworks */,
 				3D517E261CEEE7750084E6AD /* libsqlite3.tbd in Frameworks */,
+				3D06CF8F1DDEAF7D00323402 /* libPaymaxSDK.a in Frameworks */,
 				3D517E241CEEE7690084E6AD /* libz.tbd in Frameworks */,
+				3D06CF931DDEAFC200323402 /* libPaymaxWx.a in Frameworks */,
 				3DEE5FE21D5DD6DF0034B75D /* AlipaySDK.framework in Frameworks */,
-				3DEE5FE41D5DD6E00034B75D /* libPaymaxLkl.a in Frameworks */,
 				3D798BC91D75308A00AF4D9F /* Crashlytics.framework in Frameworks */,
 				3D517E221CEEE75B0084E6AD /* libc++.tbd in Frameworks */,
-				3DEE5FE01D5DD6DF0034B75D /* libPaymaxSDK.a in Frameworks */,
 				3D517E201CEEE7500084E6AD /* Security.framework in Frameworks */,
+				3D06CF911DDEAFA200323402 /* libPaymaxLkl.a in Frameworks */,
 				3D798BCF1D75308A00AF4D9F /* libFaceRecoSDK.a in Frameworks */,
 				3D517E1E1CEEE7460084E6AD /* SystemConfiguration.framework in Frameworks */,
 				3D798BCE1D75308A00AF4D9F /* Fabric.framework in Frameworks */,
@@ -719,12 +719,12 @@
 			isa = PBXGroup;
 			children = (
 				3D798BA21D75308A00AF4D9F /* FaceRecoSDK */,
-				3DEE5F4E1D5DD6DF0034B75D /* libPaymaxSDK.a */,
 				3DEE5F4F1D5DD6DF0034B75D /* Paymax+alipay */,
 				3DEE5F541D5DD6DF0034B75D /* Paymax+lkl */,
 				3DEE5FD81D5DD6DF0034B75D /* Paymax+wx */,
-				3DEE5FDE1D5DD6DF0034B75D /* PaymaxCallback.h */,
+				3D06CF941DDEB45400323402 /* PaymaxResult.h */,
 				3DEE5FDF1D5DD6DF0034B75D /* PaymaxSDK.h */,
+				3D06CF8E1DDEAF7D00323402 /* libPaymaxSDK.a */,
 			);
 			path = paymaxlib;
 			sourceTree = "<group>";
@@ -732,8 +732,8 @@
 		3DEE5F4F1D5DD6DF0034B75D /* Paymax+alipay */ = {
 			isa = PBXGroup;
 			children = (
+				3D06CF8C1DDEAF6100323402 /* libPaymaxAli.a */,
 				3DEE5F501D5DD6DF0034B75D /* Alipay */,
-				3DEE5F531D5DD6DF0034B75D /* libPaymaxAli.a */,
 			);
 			path = "Paymax+alipay";
 			sourceTree = "<group>";
@@ -750,7 +750,7 @@
 		3DEE5F541D5DD6DF0034B75D /* Paymax+lkl */ = {
 			isa = PBXGroup;
 			children = (
-				3DEE5F551D5DD6DF0034B75D /* libPaymaxLkl.a */,
+				3D06CF901DDEAFA200323402 /* libPaymaxLkl.a */,
 				3DEE5F561D5DD6DF0034B75D /* lkl */,
 			);
 			path = "Paymax+lkl";
@@ -759,8 +759,8 @@
 		3DEE5F561D5DD6DF0034B75D /* lkl */ = {
 			isa = PBXGroup;
 			children = (
+				AD03C31E1DDEFC1800BABFB0 /* libLKLPaySDK.a */,
 				3D6895E41D6313EB00D3B48B /* lklimages */,
-				3DEE5FD61D5DD6DF0034B75D /* libLKLPaySDK.a */,
 				3DEE5FD71D5DD6DF0034B75D /* LKLPaySDK.h */,
 			);
 			path = lkl;
@@ -769,7 +769,7 @@
 		3DEE5FD81D5DD6DF0034B75D /* Paymax+wx */ = {
 			isa = PBXGroup;
 			children = (
-				3DEE5FD91D5DD6DF0034B75D /* libPaymaxWx.a */,
+				3D06CF921DDEAFC200323402 /* libPaymaxWx.a */,
 				3DEE5FDA1D5DD6DF0034B75D /* WX */,
 			);
 			path = "Paymax+wx";
@@ -1149,6 +1149,7 @@
 					"$(PROJECT_DIR)/PaymaxDemo/FaceRecoSDK",
 					"$(PROJECT_DIR)/PaymaxDemo/FaceRecoSDK/FaceRecoSDK",
 					"$(PROJECT_DIR)/PaymaxDemo/paymaxlib/FaceRecoSDK/FaceRecoSDK",
+					"$(PROJECT_DIR)/PaymaxDemo/paymaxlib/Paymax+lkl/lkl/lklimages",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "-05817633.PaymaxDemo";
@@ -1185,6 +1186,7 @@
 					"$(PROJECT_DIR)/PaymaxDemo/FaceRecoSDK",
 					"$(PROJECT_DIR)/PaymaxDemo/FaceRecoSDK/FaceRecoSDK",
 					"$(PROJECT_DIR)/PaymaxDemo/paymaxlib/FaceRecoSDK/FaceRecoSDK",
+					"$(PROJECT_DIR)/PaymaxDemo/paymaxlib/Paymax+lkl/lkl/lklimages",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "-05817633.PaymaxDemo";
