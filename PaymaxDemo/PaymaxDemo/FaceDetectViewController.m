@@ -29,7 +29,7 @@
     }
 
     
-    [FaceRecoSDK startFaceRecoWithViewController:self Name:self.nameTextField.text IdCardNo:self.idCardTextField.text UserId:self.userid SecretKey:@"55970fdbbf10459f966a8e276afa86fa" resultBlock:^(DetectResult result) {
+    [FaceRecoSDK startFaceRecoWithViewController:self Name:self.nameTextField.text IdCardNo:self.idCardTextField.text UserId:self.userid SecretKey:@"e61489f3135f4bb09cbb54eeac70cc52" resultBlock:^(DetectResult result) {
         
         switch (result) {
             case DetectResult_LiveCancel:

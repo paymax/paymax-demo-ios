@@ -25,6 +25,7 @@
 		3D517E241CEEE7690084E6AD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E231CEEE7690084E6AD /* libz.tbd */; };
 		3D517E261CEEE7750084E6AD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E251CEEE7750084E6AD /* libsqlite3.tbd */; };
 		3D517E281CEEE7890084E6AD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E271CEEE7890084E6AD /* CoreTelephony.framework */; };
+		3D607BCC1DED248A0010239C /* libLKLPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D607BCB1DED248A0010239C /* libLKLPaySDK.a */; };
 		3D6896631D6313EB00D3B48B /* Bar_导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6895E51D6313EB00D3B48B /* Bar_导航条.png */; };
 		3D6896641D6313EB00D3B48B /* Bar_导航条@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6895E61D6313EB00D3B48B /* Bar_导航条@2x.png */; };
 		3D6896651D6313EB00D3B48B /* Bar_导航条@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6895E71D6313EB00D3B48B /* Bar_导航条@3x.png */; };
@@ -183,7 +184,6 @@
 		3DEE5FE21D5DD6DF0034B75D /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE5F521D5DD6DF0034B75D /* AlipaySDK.framework */; };
 		3DEE60651D5DD6E00034B75D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE5FDB1D5DD6DF0034B75D /* libWeChatSDK.a */; };
 		3DEE60DC1D5DD9860034B75D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE60DB1D5DD9860034B75D /* AssetsLibrary.framework */; };
-		AD03C31F1DDEFC1800BABFB0 /* libLKLPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD03C31E1DDEFC1800BABFB0 /* libLKLPaySDK.a */; };
 		F936AD201D616DB500CB9810 /* FaceDetectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F936AD1F1D616DB500CB9810 /* FaceDetectViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -210,6 +210,7 @@
 		3D517E231CEEE7690084E6AD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		3D517E251CEEE7750084E6AD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		3D517E271CEEE7890084E6AD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3D607BCB1DED248A0010239C /* libLKLPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLKLPaySDK.a; sourceTree = "<group>"; };
 		3D6895E51D6313EB00D3B48B /* Bar_导航条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条.png"; sourceTree = "<group>"; };
 		3D6895E61D6313EB00D3B48B /* Bar_导航条@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条@2x.png"; sourceTree = "<group>"; };
 		3D6895E71D6313EB00D3B48B /* Bar_导航条@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条@3x.png"; sourceTree = "<group>"; };
@@ -374,7 +375,6 @@
 		3DEE5FDD1D5DD6DF0034B75D /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		3DEE5FDF1D5DD6DF0034B75D /* PaymaxSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymaxSDK.h; sourceTree = "<group>"; };
 		3DEE60DB1D5DD9860034B75D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		AD03C31E1DDEFC1800BABFB0 /* libLKLPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLKLPaySDK.a; sourceTree = "<group>"; };
 		F936AD1F1D616DB500CB9810 /* FaceDetectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDetectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -384,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DEE60DC1D5DD9860034B75D /* AssetsLibrary.framework in Frameworks */,
-				AD03C31F1DDEFC1800BABFB0 /* libLKLPaySDK.a in Frameworks */,
+				3D607BCC1DED248A0010239C /* libLKLPaySDK.a in Frameworks */,
 				3DEE60651D5DD6E00034B75D /* libWeChatSDK.a in Frameworks */,
 				3D517E281CEEE7890084E6AD /* CoreTelephony.framework in Frameworks */,
 				3D06CF8D1DDEAF6100323402 /* libPaymaxAli.a in Frameworks */,
@@ -759,9 +759,9 @@
 		3DEE5F561D5DD6DF0034B75D /* lkl */ = {
 			isa = PBXGroup;
 			children = (
-				AD03C31E1DDEFC1800BABFB0 /* libLKLPaySDK.a */,
 				3D6895E41D6313EB00D3B48B /* lklimages */,
 				3DEE5FD71D5DD6DF0034B75D /* LKLPaySDK.h */,
+				3D607BCB1DED248A0010239C /* libLKLPaySDK.a */,
 			);
 			path = lkl;
 			sourceTree = "<group>";

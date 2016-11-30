@@ -174,7 +174,6 @@
                 [self.backgroundView setHidden:YES];
                 [self.backgroundActivityIndicatorView stopAnimating];
             });
-            
             if (data == nil) {
                 dispatch_sync(dispatch_get_main_queue(), ^(){
                     [self showAlertMessage:@"获取数据失败"];
@@ -217,16 +216,13 @@
                             [self showAlertMessage:@"人脸检测请求失败：reqSuccessFlag = 0"];
                         });
                     }
-                    
                 }else {
-                    
                     dispatch_sync(dispatch_get_main_queue(), ^{
                         
                         [self showAlertMessage:@"获取数据失败"];
                     });
                 }
             }
-            
         }];
     }
 }
