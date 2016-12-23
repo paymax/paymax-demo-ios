@@ -14,6 +14,7 @@
 
 
 #import "APayAuthInfo.h"
+#import <UIKit/UIKit.h>
 
 typedef void(^CompletionBlock)(NSDictionary *resultDic);
 
