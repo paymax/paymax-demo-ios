@@ -1,0 +1,157 @@
+{
+    "common_path": "../../../../../../models/face_model/",
+    "model_key_set" : 
+    [
+        "mouth_open_verifier",
+        "eye_close_verifier",
+        "face_preprocessor_4_action_verifier",
+        "face_preprocessor_left",
+        "face_preprocessor_right",
+        "yaw_nose_3d_classifier",
+        "pitch_nose_3d_classifier",
+        "app_based_seq_mouth_open_classifier",
+        "patch_consistence_based_hole_mask"
+    ],
+
+    "mouth_open_verifier" : {
+        "type": "mouth_open_verifier",
+        "config": {
+            "model_key_set": [ "mouth_close_expression", "mouth_open_expression" ],
+            "mouth_close_expression" : {
+                "type": "mouth_close_expression",
+                "config": {
+                    "config_path": "./f_attr/mouth_close2.json"
+                }
+            },
+            "mouth_open_expression": {
+                "type": "mouth_open_expression",
+                "config": {
+                    "config_path": "./f_attr/mouth_open2.json"
+                }
+            }
+        }
+    },
+    "eye_close_verifier": {
+        "type" : "eye_close_verifier",
+        "config" : {
+            "model_key_set" : [ "eye_close_expression", "eye_open_expression", "pen_vs_eye_close_classifier" ],
+            "eye_close_expression" : {
+                "type": "eye_close_expression",
+                "config" : {
+                    "config_path" : "./f_attr/b_e_c.json"
+                }
+            },
+            "eye_open_expression" : {
+                "type": "eye_open_expression",
+                "config" : {
+                    "config_path" : "./f_attr/b_e_o.json"
+                }
+            },
+            "pen_vs_eye_close_classifier" : {
+                "type" : "pen_vs_eye_close_classifier",
+                "config" : "./f_attr/pen_vs_eye_close.P8.json"
+            }
+        }
+    },    
+
+    "yaw_nose_3d_classifier" : {
+        "type" : "nose_3d_classifier",
+        "config" : {
+            "model_path" : "./f_attr/nose_3d_08_04_best_repeat_05_00_repeat.compress",
+            "rot_angle_threshold" : 5,
+            "bin_size" : 6,
+            "rect_height" : 42,
+            "rect_width" : 50,
+
+            "yaw_or_pitch" : "yaw"
+        }
+    },
+    "pitch_nose_3d_classifier" : {
+        "type" : "nose_3d_classifier",
+        "config" : {
+            "model_path" : "./f_attr/nose_3d_Pitch_31.compress",
+            "rot_angle_threshold" : 5,
+            "bin_size" : 4,
+            "rect_height" : 36,
+            "rect_width" : 56,
+
+            "yaw_or_pitch" : "pitch"
+        }
+    },
+
+    "head_rotation_verifier": {
+        "type" : "null_model"
+     },
+    "face_preprocessor_4_action_verifier" : {
+        "type" : "face_preprocessor_4_action_verifier",
+        "config": {
+            "model_key_set" : ["face_detector_with_alignment", "face_normalizer"],
+            "face_detector_with_alignment" : {
+                "type" : "face_detector_with_alignment",
+                "config" : {
+                    "config_path" : "./m/detalign_android_F.json"
+                }
+            },
+            "face_normalizer" : {
+                "type" : "face_normalizer",
+                "config" : {
+                    "config_path" : "./m/pose_estiomation_su_ave_16.json"
+                }
+            }
+        }
+    },
+    "face_preprocessor_left": {
+        "type": "face_preprocessor_4_action_verifier",
+        "config": {
+            "face_detector_with_alignment_left" : {
+                "type" : "face_detector_with_alignment",
+                "config" : {
+                    "config_path" : "./m/detalign_android_L.json"
+                }
+            },
+            "face_normalizer" : {
+                "type" : "face_normalizer",
+                "config" : {
+                    "config_path" : "./m/pose_estiomation_su_ave_16.json"
+                }
+            },
+            "model_key_set" : ["face_detector_with_alignment_left", "face_normalizer"]
+        }
+    },
+    "face_preprocessor_right": {
+        "type": "face_preprocessor_4_action_verifier",
+        "config": {
+            "face_detector_with_alignment_right" : {
+                "type" : "face_detector_with_alignment",
+                "config" : {
+                    "config_path" : "./m/detalign_android_R.json"
+                }
+            },
+            "face_normalizer" : {
+                "type" : "face_normalizer",
+                "config" : {
+                    "config_path" : "./m/pose_estiomation_su_ave_16.json"
+                }
+            },
+            "model_key_set" : ["face_detector_with_alignment_right", "face_normalizer"]
+        }
+    },
+    "patch_consistence_based_hole_mask" : {
+        "type" : "patch_consistence_based_hole_mask",
+        "config" : {
+            "model_path" : "./f_attr/patch_based_hole_mask_classifier_45.rf.compress"
+        }
+    },
+    "app_based_seq_mouth_open_classifier" : {
+        "type" : "app_based_seq_mouth_open_classifier",
+        "config" : {
+            "model_file": "./f_attr/app_based_seq_mouth_open_05.compress",
+            "threshold" : 0.36,
+            "rot_angle_threshold" : 10,
+
+            "bin_size": 5,
+            "rect_height": 40, 
+            "rect_width": 70 
+        }
+    }
+}
