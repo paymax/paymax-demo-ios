@@ -25,6 +25,7 @@
 		3D517E241CEEE7690084E6AD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E231CEEE7690084E6AD /* libz.tbd */; };
 		3D517E261CEEE7750084E6AD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E251CEEE7750084E6AD /* libsqlite3.tbd */; };
 		3D517E281CEEE7890084E6AD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E271CEEE7890084E6AD /* CoreTelephony.framework */; };
+		3D5D1B941E5D3900005863A5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5D1B931E5D3900005863A5 /* CoreMotion.framework */; };
 		3D607BCC1DED248A0010239C /* libLKLPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D607BCB1DED248A0010239C /* libLKLPaySDK.a */; };
 		3D6896631D6313EB00D3B48B /* Bar_导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6895E51D6313EB00D3B48B /* Bar_导航条.png */; };
 		3D6896641D6313EB00D3B48B /* Bar_导航条@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6895E61D6313EB00D3B48B /* Bar_导航条@2x.png */; };
@@ -210,6 +211,7 @@
 		3D517E231CEEE7690084E6AD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		3D517E251CEEE7750084E6AD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		3D517E271CEEE7890084E6AD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3D5D1B931E5D3900005863A5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		3D607BCB1DED248A0010239C /* libLKLPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLKLPaySDK.a; sourceTree = "<group>"; };
 		3D6895E51D6313EB00D3B48B /* Bar_导航条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条.png"; sourceTree = "<group>"; };
 		3D6895E61D6313EB00D3B48B /* Bar_导航条@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条@2x.png"; sourceTree = "<group>"; };
@@ -383,6 +385,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5D1B941E5D3900005863A5 /* CoreMotion.framework in Frameworks */,
 				3DEE60DC1D5DD9860034B75D /* AssetsLibrary.framework in Frameworks */,
 				3D607BCC1DED248A0010239C /* libLKLPaySDK.a in Frameworks */,
 				3DEE60651D5DD6E00034B75D /* libWeChatSDK.a in Frameworks */,
@@ -412,6 +415,7 @@
 			children = (
 				3D517CE61CEEE5E70084E6AD /* PaymaxDemo */,
 				3D517CE51CEEE5E70084E6AD /* Products */,
+				3D5D1B921E5D3900005863A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -464,6 +468,14 @@
 				3D517E1B1CEEE73A0084E6AD /* CFNetwork.framework */,
 			);
 			name = framework;
+			sourceTree = "<group>";
+		};
+		3D5D1B921E5D3900005863A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D1B931E5D3900005863A5 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3D6895E41D6313EB00D3B48B /* lklimages */ = {

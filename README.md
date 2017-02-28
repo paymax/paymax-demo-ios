@@ -155,7 +155,7 @@ XXXXXXX does not contain bitcode. You must rebuild it with bitcode enabled (Xcod
 如果使用拉卡拉支付需要导入lklimages文件夹
 
 #FaceRecoSDK 接入指南
-####说明：为了保证用户资金安全，使用`拉卡拉支付`必须支持人脸识别
+#### <font color=red>不使用人脸识别：</font>直接删除FaceRecoSDK文件夹即可
 
 1.发起支付前，请先通过后台接口判断是否需要调起人脸识别。商户后台通过调用`Paymax Server SDK` 向paymax服务器发起请求，获得结果码的方式进行判断（已经识别过的用户可不用再次识别验证），详细步骤请参考Demo
 
@@ -235,10 +235,6 @@ XXXXXXX does not contain bitcode. You must rebuild it with bitcode enabled (Xcod
         
     }];
 
-    
-```
-
-
 ####注意事项
 
 1.在Build Phases->Compile Sources 下给GifView加上-fno-objc-arc
@@ -246,4 +242,5 @@ XXXXXXX does not contain bitcode. You must rebuild it with bitcode enabled (Xcod
 2.工程中需要添加libc++.tbd依赖库
 
 3.人脸识别SDK中通过标准宏TARGET_IPHONE_SIMULATOR判断是模拟器的话就不编译我们的代码，所以当项目中使用人脸识别sdk时，该项目不可以在模拟器环境下编译运行。
+
 

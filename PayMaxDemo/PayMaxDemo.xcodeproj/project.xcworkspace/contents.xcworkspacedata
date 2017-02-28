@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PaymaxDemo.xcodeproj">
+      location = "self:/Users/xiaoqiang/Desktop/PayRightSDK/PayMaxDemo/PaymaxDemo.xcodeproj">
    </FileRef>
 </Workspace>
