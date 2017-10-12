@@ -7,11 +7,9 @@
 //
 
 
-#define QUERY_FACE_URL  @"https://www.paymax.cc/mock_merchant_server/v1/face/auth/%@/product"
-
 #import "PaymaxSDK.h"
 #import "ViewController.h"
-#import "FaceDetectViewController.h"
+#import "WXApi.h"
 
 @interface ViewController ()<UIAlertViewDelegate> {
     
@@ -44,21 +42,14 @@
     [self doPaymax];
 }
 
-- (IBAction)faceRecoAction:(id)sender {
-    FaceDetectViewController *_faceDetectVC = [[UIStoryboard storyboardWithName:@"Main"
-                                                                         bundle:nil]
-                                               instantiateViewControllerWithIdentifier:@"FaceDetectViewController"];
-    [self.navigationController pushViewController:_faceDetectVC animated:YES];
-}
-
 - (void)doPaymax {
-    static NSString *_urlString = @"https://www.paymax.cc/mock_merchant_server/v1/chargeOrders/product";
+    static NSString *_urlString = @"http://172.30.21.23:8899/v1/chargeOrders/test";
     //根据业务需求更换参数值
     NSDictionary *_parameterDic = @{@"channel"     : _channel,
                                     @"totalPrice"  : @"0.01",
                                     @"title"       : @"subject",
                                     @"body"        : @"test",
-                                    @"extra"       : @{@"user_id":@"4577472"},
+                                    @"extra"       : @{@"user_id":@"888888122918"},
                                     @"time_expire" : [self time_expire]};
     //获取订单数据
     NSData *_response = [self dataTaskWithURLStr:_urlString HTTPMethod:@"POST" parameterDic:_parameterDic];
@@ -72,8 +63,11 @@
              使用解析后的订单数据调取PaymaxSDK
              */
             [PaymaxSDK pay:_charge appScheme:@"wx5269eef08886e3d5" viewController:self completion:^(PaymaxResult *result) {
-                
-                [self showAlertMessage:result.backStr];
+                if (result.backStr == nil) {
+                    [self showAlertMessage:[NSString stringWithFormat:@"%lu",(unsigned long)result.type]];
+                }else {
+                    [self showAlertMessage:result.backStr];
+                }
             }];
         }else {
             NSLog(@"服务器返回json数据失败");

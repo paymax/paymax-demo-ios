@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bkF-tG-vXY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bkF-tG-vXY">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -161,24 +161,6 @@
                                     <action selector="lklpayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tFB-ow-vfm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32U-RZ-w21">
-                                <rect key="frame" x="20" y="348" width="335" height="60"/>
-                                <color key="backgroundColor" red="0.31764705879999999" green="0.55294117649999996" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="ORD-Or-fcX"/>
-                                </constraints>
-                                <state key="normal" title="调用人脸识别">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="faceRecoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VeA-KE-nqh"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -187,13 +169,10 @@
                             <constraint firstItem="bg4-M3-qkA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="75i-WP-sGv"/>
                             <constraint firstItem="6c7-c6-C4z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Cxj-ny-qua"/>
                             <constraint firstItem="S9W-V0-z4q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="HMn-HY-It7"/>
-                            <constraint firstItem="32U-RZ-w21" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="NfQ-Jk-tSd"/>
-                            <constraint firstItem="32U-RZ-w21" firstAttribute="top" secondItem="6c7-c6-C4z" secondAttribute="bottom" constant="20" id="Ohb-P7-Lhi"/>
                             <constraint firstAttribute="trailing" secondItem="S9W-V0-z4q" secondAttribute="trailing" constant="20" id="ZVv-Kn-tSX"/>
                             <constraint firstItem="6c7-c6-C4z" firstAttribute="top" secondItem="S9W-V0-z4q" secondAttribute="bottom" constant="20" id="l1l-7I-1se"/>
                             <constraint firstItem="S9W-V0-z4q" firstAttribute="top" secondItem="bg4-M3-qkA" secondAttribute="bottom" constant="20" id="new-et-Q0i"/>
                             <constraint firstItem="bg4-M3-qkA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="sn5-GB-Jnc"/>
-                            <constraint firstAttribute="trailing" secondItem="32U-RZ-w21" secondAttribute="trailing" constant="20" id="zPu-4Q-sBS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="PaymaxDemo" id="WkK-ob-eOE"/>

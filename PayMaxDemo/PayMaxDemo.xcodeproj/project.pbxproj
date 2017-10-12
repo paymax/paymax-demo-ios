@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005B886E1F8F55D200544218 /* lklloadingview_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B886A1F8F55D200544218 /* lklloadingview_circle@3x.png */; };
+		005B886F1F8F55D200544218 /* lklloadingview_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B886B1F8F55D200544218 /* lklloadingview_circle@2x.png */; };
+		005B88701F8F55D200544218 /* lklloadingview_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B886C1F8F55D200544218 /* lklloadingview_logo@3x.png */; };
+		005B88711F8F55D200544218 /* lklloadingview_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B886D1F8F55D200544218 /* lklloadingview_logo@2x.png */; };
+		00C44C5E1F8E09CD007E9F5A /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C44C5B1F8E09CC007E9F5A /* libWeChatSDK.a */; };
 		3D4155821E8B50370002F5EB /* libPaymaxLkl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4154FF1E8B50370002F5EB /* libPaymaxLkl.a */; };
 		3D4155831E8B50370002F5EB /* libLKLPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4155011E8B50370002F5EB /* libLKLPaySDK.a */; };
 		3D4155841E8B50370002F5EB /* Bar_导航条.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4155031E8B50370002F5EB /* Bar_导航条.png */; };
@@ -135,34 +140,6 @@
 		3D4155FF1E8B50370002F5EB /* 箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D41557E1E8B50370002F5EB /* 箭头@3x.png */; };
 		3D4156001E8B50370002F5EB /* 返回剪头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D41557F1E8B50370002F5EB /* 返回剪头@2x.png */; };
 		3D4156011E8B50370002F5EB /* 返回剪头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4155801E8B50370002F5EB /* 返回剪头@3x.png */; };
-		3D4156D21E8B85970002F5EB /* libFaceRecoSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4156CB1E8B85970002F5EB /* libFaceRecoSDK.a */; };
-		3D4156F71E8B87BB0002F5EB /* AnimationConstants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156D81E8B87BB0002F5EB /* AnimationConstants.plist */; };
-		3D4156F81E8B87BB0002F5EB /* AudioConstants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156D91E8B87BB0002F5EB /* AudioConstants.plist */; };
-		3D4156F91E8B87BB0002F5EB /* oliveapp_eyeclose.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156DB1E8B87BB0002F5EB /* oliveapp_eyeclose.gif */; };
-		3D4156FA1E8B87BB0002F5EB /* oliveapp_headleft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156DC1E8B87BB0002F5EB /* oliveapp_headleft.gif */; };
-		3D4156FB1E8B87BB0002F5EB /* oliveapp_headright.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156DD1E8B87BB0002F5EB /* oliveapp_headright.gif */; };
-		3D4156FC1E8B87BB0002F5EB /* oliveapp_headshake.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156DE1E8B87BB0002F5EB /* oliveapp_headshake.gif */; };
-		3D4156FD1E8B87BB0002F5EB /* oliveapp_headup.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156DF1E8B87BB0002F5EB /* oliveapp_headup.gif */; };
-		3D4156FE1E8B87BB0002F5EB /* oliveapp_mouthopen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156E01E8B87BB0002F5EB /* oliveapp_mouthopen.gif */; };
-		3D4156FF1E8B87BB0002F5EB /* oliveapp_normal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156E11E8B87BB0002F5EB /* oliveapp_normal.gif */; };
-		3D4157001E8B87BB0002F5EB /* oliveapp_face_skeleton_minimum2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156E41E8B87BB0002F5EB /* oliveapp_face_skeleton_minimum2.png */; };
-		3D4157011E8B87BB0002F5EB /* oliveapp_face_with_skeleton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156E51E8B87BB0002F5EB /* oliveapp_face_with_skeleton.png */; };
-		3D4157021E8B87BB0002F5EB /* oliveapp_combine_model.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156E61E8B87BB0002F5EB /* oliveapp_combine_model.bundle */; };
-		3D4157031E8B87BB0002F5EB /* oliveapp_face_skeleton_minimum2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156E71E8B87BB0002F5EB /* oliveapp_face_skeleton_minimum2.png */; };
-		3D4157041E8B87BB0002F5EB /* oliveapp_face_with_skeleton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156E81E8B87BB0002F5EB /* oliveapp_face_with_skeleton.png */; };
-		3D4157051E8B87BB0002F5EB /* OliveappOcrStatus.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156E91E8B87BB0002F5EB /* OliveappOcrStatus.plist */; };
-		3D4157061E8B87BB0002F5EB /* oliveapp_step_hint_eyeclose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156EB1E8B87BB0002F5EB /* oliveapp_step_hint_eyeclose.mp3 */; };
-		3D4157071E8B87BB0002F5EB /* oliveapp_step_hint_getready.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156EC1E8B87BB0002F5EB /* oliveapp_step_hint_getready.mp3 */; };
-		3D4157081E8B87BB0002F5EB /* oliveapp_step_hint_headleft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156ED1E8B87BB0002F5EB /* oliveapp_step_hint_headleft.mp3 */; };
-		3D4157091E8B87BB0002F5EB /* oliveapp_step_hint_headright.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156EE1E8B87BB0002F5EB /* oliveapp_step_hint_headright.mp3 */; };
-		3D41570A1E8B87BB0002F5EB /* oliveapp_step_hint_headshake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156EF1E8B87BB0002F5EB /* oliveapp_step_hint_headshake.mp3 */; };
-		3D41570B1E8B87BB0002F5EB /* oliveapp_step_hint_headup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156F01E8B87BB0002F5EB /* oliveapp_step_hint_headup.mp3 */; };
-		3D41570C1E8B87BB0002F5EB /* oliveapp_step_hint_mouthopen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156F11E8B87BB0002F5EB /* oliveapp_step_hint_mouthopen.mp3 */; };
-		3D41570D1E8B87BB0002F5EB /* oliveapp_step_hint_nextaction.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156F21E8B87BB0002F5EB /* oliveapp_step_hint_nextaction.mp3 */; };
-		3D41570E1E8B87BB0002F5EB /* oliveapp_step_hint_timeout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156F31E8B87BB0002F5EB /* oliveapp_step_hint_timeout.mp3 */; };
-		3D41570F1E8B87BB0002F5EB /* oliveapp_step_hint_verificationfail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156F41E8B87BB0002F5EB /* oliveapp_step_hint_verificationfail.mp3 */; };
-		3D4157101E8B87BB0002F5EB /* oliveapp_step_hint_verificationpass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156F51E8B87BB0002F5EB /* oliveapp_step_hint_verificationpass.mp3 */; };
-		3D4157111E8B87BB0002F5EB /* TextConstants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D4156F61E8B87BB0002F5EB /* TextConstants.plist */; };
 		3D517CE91CEEE5E70084E6AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D517CE81CEEE5E70084E6AD /* main.m */; };
 		3D517CEC1CEEE5E70084E6AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D517CEB1CEEE5E70084E6AD /* AppDelegate.m */; };
 		3D517CF71CEEE5E70084E6AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D517CF51CEEE5E70084E6AD /* LaunchScreen.storyboard */; };
@@ -177,17 +154,22 @@
 		3D517E261CEEE7750084E6AD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E251CEEE7750084E6AD /* libsqlite3.tbd */; };
 		3D517E281CEEE7890084E6AD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D517E271CEEE7890084E6AD /* CoreTelephony.framework */; };
 		3D5D1B941E5D3900005863A5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5D1B931E5D3900005863A5 /* CoreMotion.framework */; };
+		3D776DD01ED6CF13008C55E3 /* libPaymaxWx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D776DCF1ED6CF13008C55E3 /* libPaymaxWx.a */; };
 		3DEE60DC1D5DD9860034B75D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE60DB1D5DD9860034B75D /* AssetsLibrary.framework */; };
 		3DF5176F1E7BDF9C0083D4A7 /* libPaymaxSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF516C21E7BDF9C0083D4A7 /* libPaymaxSDK.a */; };
 		3DF517701E7BDF9C0083D4A7 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DF516C51E7BDF9C0083D4A7 /* AlipaySDK.bundle */; };
 		3DF517711E7BDF9C0083D4A7 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF516C61E7BDF9C0083D4A7 /* AlipaySDK.framework */; };
 		3DF517721E7BDF9C0083D4A7 /* libPaymaxAli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF516C71E7BDF9C0083D4A7 /* libPaymaxAli.a */; };
-		3DF517F31E7BDF9C0083D4A7 /* libPaymaxWx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF5174D1E7BDF9C0083D4A7 /* libPaymaxWx.a */; };
-		3DF517F41E7BDF9C0083D4A7 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF5174F1E7BDF9C0083D4A7 /* libWeChatSDK.a */; };
-		F936AD201D616DB500CB9810 /* FaceDetectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F936AD1F1D616DB500CB9810 /* FaceDetectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		005B886A1F8F55D200544218 /* lklloadingview_circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lklloadingview_circle@3x.png"; sourceTree = "<group>"; };
+		005B886B1F8F55D200544218 /* lklloadingview_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lklloadingview_circle@2x.png"; sourceTree = "<group>"; };
+		005B886C1F8F55D200544218 /* lklloadingview_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lklloadingview_logo@3x.png"; sourceTree = "<group>"; };
+		005B886D1F8F55D200544218 /* lklloadingview_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lklloadingview_logo@2x.png"; sourceTree = "<group>"; };
+		00C44C5B1F8E09CC007E9F5A /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		00C44C5C1F8E09CD007E9F5A /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		00C44C5D1F8E09CD007E9F5A /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		3D4154FF1E8B50370002F5EB /* libPaymaxLkl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxLkl.a; sourceTree = "<group>"; };
 		3D4155011E8B50370002F5EB /* libLKLPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLKLPaySDK.a; sourceTree = "<group>"; };
 		3D4155031E8B50370002F5EB /* Bar_导航条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar_导航条.png"; sourceTree = "<group>"; };
@@ -317,35 +299,6 @@
 		3D41557F1E8B50370002F5EB /* 返回剪头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回剪头@2x.png"; sourceTree = "<group>"; };
 		3D4155801E8B50370002F5EB /* 返回剪头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回剪头@3x.png"; sourceTree = "<group>"; };
 		3D4155811E8B50370002F5EB /* LKLPaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLPaySDK.h; sourceTree = "<group>"; };
-		3D4156CA1E8B85970002F5EB /* FaceRecoSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceRecoSDK.h; sourceTree = "<group>"; };
-		3D4156CB1E8B85970002F5EB /* libFaceRecoSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFaceRecoSDK.a; sourceTree = "<group>"; };
-		3D4156D81E8B87BB0002F5EB /* AnimationConstants.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = AnimationConstants.plist; sourceTree = "<group>"; };
-		3D4156D91E8B87BB0002F5EB /* AudioConstants.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = AudioConstants.plist; sourceTree = "<group>"; };
-		3D4156DB1E8B87BB0002F5EB /* oliveapp_eyeclose.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = oliveapp_eyeclose.gif; sourceTree = "<group>"; };
-		3D4156DC1E8B87BB0002F5EB /* oliveapp_headleft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = oliveapp_headleft.gif; sourceTree = "<group>"; };
-		3D4156DD1E8B87BB0002F5EB /* oliveapp_headright.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = oliveapp_headright.gif; sourceTree = "<group>"; };
-		3D4156DE1E8B87BB0002F5EB /* oliveapp_headshake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = oliveapp_headshake.gif; sourceTree = "<group>"; };
-		3D4156DF1E8B87BB0002F5EB /* oliveapp_headup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = oliveapp_headup.gif; sourceTree = "<group>"; };
-		3D4156E01E8B87BB0002F5EB /* oliveapp_mouthopen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = oliveapp_mouthopen.gif; sourceTree = "<group>"; };
-		3D4156E11E8B87BB0002F5EB /* oliveapp_normal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = oliveapp_normal.gif; sourceTree = "<group>"; };
-		3D4156E41E8B87BB0002F5EB /* oliveapp_face_skeleton_minimum2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oliveapp_face_skeleton_minimum2.png; sourceTree = "<group>"; };
-		3D4156E51E8B87BB0002F5EB /* oliveapp_face_with_skeleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oliveapp_face_with_skeleton.png; sourceTree = "<group>"; };
-		3D4156E61E8B87BB0002F5EB /* oliveapp_combine_model.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = oliveapp_combine_model.bundle; sourceTree = "<group>"; };
-		3D4156E71E8B87BB0002F5EB /* oliveapp_face_skeleton_minimum2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oliveapp_face_skeleton_minimum2.png; sourceTree = "<group>"; };
-		3D4156E81E8B87BB0002F5EB /* oliveapp_face_with_skeleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oliveapp_face_with_skeleton.png; sourceTree = "<group>"; };
-		3D4156E91E8B87BB0002F5EB /* OliveappOcrStatus.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = OliveappOcrStatus.plist; sourceTree = "<group>"; };
-		3D4156EB1E8B87BB0002F5EB /* oliveapp_step_hint_eyeclose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_eyeclose.mp3; sourceTree = "<group>"; };
-		3D4156EC1E8B87BB0002F5EB /* oliveapp_step_hint_getready.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_getready.mp3; sourceTree = "<group>"; };
-		3D4156ED1E8B87BB0002F5EB /* oliveapp_step_hint_headleft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_headleft.mp3; sourceTree = "<group>"; };
-		3D4156EE1E8B87BB0002F5EB /* oliveapp_step_hint_headright.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_headright.mp3; sourceTree = "<group>"; };
-		3D4156EF1E8B87BB0002F5EB /* oliveapp_step_hint_headshake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_headshake.mp3; sourceTree = "<group>"; };
-		3D4156F01E8B87BB0002F5EB /* oliveapp_step_hint_headup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_headup.mp3; sourceTree = "<group>"; };
-		3D4156F11E8B87BB0002F5EB /* oliveapp_step_hint_mouthopen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_mouthopen.mp3; sourceTree = "<group>"; };
-		3D4156F21E8B87BB0002F5EB /* oliveapp_step_hint_nextaction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_nextaction.mp3; sourceTree = "<group>"; };
-		3D4156F31E8B87BB0002F5EB /* oliveapp_step_hint_timeout.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_timeout.mp3; sourceTree = "<group>"; };
-		3D4156F41E8B87BB0002F5EB /* oliveapp_step_hint_verificationfail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_verificationfail.mp3; sourceTree = "<group>"; };
-		3D4156F51E8B87BB0002F5EB /* oliveapp_step_hint_verificationpass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oliveapp_step_hint_verificationpass.mp3; sourceTree = "<group>"; };
-		3D4156F61E8B87BB0002F5EB /* TextConstants.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = TextConstants.plist; sourceTree = "<group>"; };
 		3D517CE41CEEE5E70084E6AD /* PaymaxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymaxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D517CE81CEEE5E70084E6AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D517CEA1CEEE5E70084E6AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -364,18 +317,13 @@
 		3D517E251CEEE7750084E6AD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		3D517E271CEEE7890084E6AD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		3D5D1B931E5D3900005863A5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		3DEE5ED51D5D75F50034B75D /* FaceDetectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetectViewController.h; sourceTree = "<group>"; };
+		3D776DCF1ED6CF13008C55E3 /* libPaymaxWx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxWx.a; sourceTree = "<group>"; };
 		3DEE60DB1D5DD9860034B75D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		3DF516C21E7BDF9C0083D4A7 /* libPaymaxSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxSDK.a; sourceTree = "<group>"; };
 		3DF516C51E7BDF9C0083D4A7 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		3DF516C61E7BDF9C0083D4A7 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		3DF516C71E7BDF9C0083D4A7 /* libPaymaxAli.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxAli.a; sourceTree = "<group>"; };
-		3DF5174D1E7BDF9C0083D4A7 /* libPaymaxWx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymaxWx.a; sourceTree = "<group>"; };
-		3DF5174F1E7BDF9C0083D4A7 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		3DF517501E7BDF9C0083D4A7 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		3DF517511E7BDF9C0083D4A7 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		3DF517521E7BDF9C0083D4A7 /* PaymaxSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymaxSDK.h; sourceTree = "<group>"; };
-		F936AD1F1D616DB500CB9810 /* FaceDetectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDetectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,19 +333,18 @@
 			files = (
 				3D5D1B941E5D3900005863A5 /* CoreMotion.framework in Frameworks */,
 				3DEE60DC1D5DD9860034B75D /* AssetsLibrary.framework in Frameworks */,
+				00C44C5E1F8E09CD007E9F5A /* libWeChatSDK.a in Frameworks */,
+				3D776DD01ED6CF13008C55E3 /* libPaymaxWx.a in Frameworks */,
 				3D517E281CEEE7890084E6AD /* CoreTelephony.framework in Frameworks */,
 				3D517E261CEEE7750084E6AD /* libsqlite3.tbd in Frameworks */,
 				3DF517721E7BDF9C0083D4A7 /* libPaymaxAli.a in Frameworks */,
 				3D517E241CEEE7690084E6AD /* libz.tbd in Frameworks */,
 				3DF5176F1E7BDF9C0083D4A7 /* libPaymaxSDK.a in Frameworks */,
-				3DF517F31E7BDF9C0083D4A7 /* libPaymaxWx.a in Frameworks */,
 				3D517E221CEEE75B0084E6AD /* libc++.tbd in Frameworks */,
 				3DF517711E7BDF9C0083D4A7 /* AlipaySDK.framework in Frameworks */,
 				3D4155831E8B50370002F5EB /* libLKLPaySDK.a in Frameworks */,
-				3DF517F41E7BDF9C0083D4A7 /* libWeChatSDK.a in Frameworks */,
 				3D517E201CEEE7500084E6AD /* Security.framework in Frameworks */,
 				3D4155821E8B50370002F5EB /* libPaymaxLkl.a in Frameworks */,
-				3D4156D21E8B85970002F5EB /* libFaceRecoSDK.a in Frameworks */,
 				3D517E1E1CEEE7460084E6AD /* SystemConfiguration.framework in Frameworks */,
 				3D517E1C1CEEE73A0084E6AD /* CFNetwork.framework in Frameworks */,
 			);
@@ -520,6 +467,10 @@
 				3D41555C1E8B50370002F5EB /* Layer_修改密码成功580px.png */,
 				3D41555D1E8B50370002F5EB /* Layer_输入支付密码580px@2x.png */,
 				3D41555E1E8B50370002F5EB /* Layer_银行卡类型580px.png */,
+				005B886B1F8F55D200544218 /* lklloadingview_circle@2x.png */,
+				005B886A1F8F55D200544218 /* lklloadingview_circle@3x.png */,
+				005B886D1F8F55D200544218 /* lklloadingview_logo@2x.png */,
+				005B886C1F8F55D200544218 /* lklloadingview_logo@3x.png */,
 				3D41555F1E8B50370002F5EB /* mrlogo_btn@2x.png */,
 				3D4155601E8B50370002F5EB /* mrlogo_btn@3x.png */,
 				3D4155611E8B50370002F5EB /* nochoice_icon@2x.png */,
@@ -558,82 +509,6 @@
 			path = lklimages;
 			sourceTree = "<group>";
 		};
-		3D4156021E8B58570002F5EB /* FaceRecoSDK */ = {
-			isa = PBXGroup;
-			children = (
-				3D4156CA1E8B85970002F5EB /* FaceRecoSDK.h */,
-				3D4156CB1E8B85970002F5EB /* libFaceRecoSDK.a */,
-				3D4156D71E8B87BB0002F5EB /* Resources */,
-			);
-			path = FaceRecoSDK;
-			sourceTree = "<group>";
-		};
-		3D4156D71E8B87BB0002F5EB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3D4156E61E8B87BB0002F5EB /* oliveapp_combine_model.bundle */,
-				3D4156DA1E8B87BB0002F5EB /* Gif */,
-				3D4156E21E8B87BB0002F5EB /* Image */,
-				3D4156EA1E8B87BB0002F5EB /* Sound */,
-				3D4156D81E8B87BB0002F5EB /* AnimationConstants.plist */,
-				3D4156D91E8B87BB0002F5EB /* AudioConstants.plist */,
-				3D4156E71E8B87BB0002F5EB /* oliveapp_face_skeleton_minimum2.png */,
-				3D4156E81E8B87BB0002F5EB /* oliveapp_face_with_skeleton.png */,
-				3D4156E91E8B87BB0002F5EB /* OliveappOcrStatus.plist */,
-				3D4156F61E8B87BB0002F5EB /* TextConstants.plist */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		3D4156DA1E8B87BB0002F5EB /* Gif */ = {
-			isa = PBXGroup;
-			children = (
-				3D4156DB1E8B87BB0002F5EB /* oliveapp_eyeclose.gif */,
-				3D4156DC1E8B87BB0002F5EB /* oliveapp_headleft.gif */,
-				3D4156DD1E8B87BB0002F5EB /* oliveapp_headright.gif */,
-				3D4156DE1E8B87BB0002F5EB /* oliveapp_headshake.gif */,
-				3D4156DF1E8B87BB0002F5EB /* oliveapp_headup.gif */,
-				3D4156E01E8B87BB0002F5EB /* oliveapp_mouthopen.gif */,
-				3D4156E11E8B87BB0002F5EB /* oliveapp_normal.gif */,
-			);
-			path = Gif;
-			sourceTree = "<group>";
-		};
-		3D4156E21E8B87BB0002F5EB /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				3D4156E31E8B87BB0002F5EB /* LivenessDetection */,
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
-		3D4156E31E8B87BB0002F5EB /* LivenessDetection */ = {
-			isa = PBXGroup;
-			children = (
-				3D4156E41E8B87BB0002F5EB /* oliveapp_face_skeleton_minimum2.png */,
-				3D4156E51E8B87BB0002F5EB /* oliveapp_face_with_skeleton.png */,
-			);
-			path = LivenessDetection;
-			sourceTree = "<group>";
-		};
-		3D4156EA1E8B87BB0002F5EB /* Sound */ = {
-			isa = PBXGroup;
-			children = (
-				3D4156EB1E8B87BB0002F5EB /* oliveapp_step_hint_eyeclose.mp3 */,
-				3D4156EC1E8B87BB0002F5EB /* oliveapp_step_hint_getready.mp3 */,
-				3D4156ED1E8B87BB0002F5EB /* oliveapp_step_hint_headleft.mp3 */,
-				3D4156EE1E8B87BB0002F5EB /* oliveapp_step_hint_headright.mp3 */,
-				3D4156EF1E8B87BB0002F5EB /* oliveapp_step_hint_headshake.mp3 */,
-				3D4156F01E8B87BB0002F5EB /* oliveapp_step_hint_headup.mp3 */,
-				3D4156F11E8B87BB0002F5EB /* oliveapp_step_hint_mouthopen.mp3 */,
-				3D4156F21E8B87BB0002F5EB /* oliveapp_step_hint_nextaction.mp3 */,
-				3D4156F31E8B87BB0002F5EB /* oliveapp_step_hint_timeout.mp3 */,
-				3D4156F41E8B87BB0002F5EB /* oliveapp_step_hint_verificationfail.mp3 */,
-				3D4156F51E8B87BB0002F5EB /* oliveapp_step_hint_verificationpass.mp3 */,
-			);
-			path = Sound;
-			sourceTree = "<group>";
-		};
 		3D517CDB1CEEE5E60084E6AD = {
 			isa = PBXGroup;
 			children = (
@@ -658,8 +533,6 @@
 				3D517CEB1CEEE5E70084E6AD /* AppDelegate.m */,
 				3D517CFE1CEEE6310084E6AD /* ViewController.h */,
 				3D517CFF1CEEE6310084E6AD /* ViewController.m */,
-				3DEE5ED51D5D75F50034B75D /* FaceDetectViewController.h */,
-				F936AD1F1D616DB500CB9810 /* FaceDetectViewController.m */,
 				3D517D001CEEE6310084E6AD /* Main.storyboard */,
 				3D517D011CEEE6310084E6AD /* Assets.xcassets */,
 				3D517D021CEEE6310084E6AD /* Info.plist */,
@@ -702,7 +575,6 @@
 				3DF516C31E7BDF9C0083D4A7 /* Paymax+alipay */,
 				3DF5174C1E7BDF9C0083D4A7 /* Paymax+wx */,
 				3D4154FE1E8B50370002F5EB /* Paymax+lkl */,
-				3D4156021E8B58570002F5EB /* FaceRecoSDK */,
 			);
 			path = PaymaxSDK;
 			sourceTree = "<group>";
@@ -728,7 +600,7 @@
 		3DF5174C1E7BDF9C0083D4A7 /* Paymax+wx */ = {
 			isa = PBXGroup;
 			children = (
-				3DF5174D1E7BDF9C0083D4A7 /* libPaymaxWx.a */,
+				3D776DCF1ED6CF13008C55E3 /* libPaymaxWx.a */,
 				3DF5174E1E7BDF9C0083D4A7 /* WX */,
 			);
 			path = "Paymax+wx";
@@ -737,9 +609,9 @@
 		3DF5174E1E7BDF9C0083D4A7 /* WX */ = {
 			isa = PBXGroup;
 			children = (
-				3DF5174F1E7BDF9C0083D4A7 /* libWeChatSDK.a */,
-				3DF517501E7BDF9C0083D4A7 /* WXApi.h */,
-				3DF517511E7BDF9C0083D4A7 /* WXApiObject.h */,
+				00C44C5B1F8E09CC007E9F5A /* libWeChatSDK.a */,
+				00C44C5C1F8E09CD007E9F5A /* WXApi.h */,
+				00C44C5D1F8E09CD007E9F5A /* WXApiObject.h */,
 			);
 			path = WX;
 			sourceTree = "<group>";
@@ -812,7 +684,6 @@
 				3D4155D81E8B50370002F5EB /* Image_管家首页.png in Resources */,
 				3D4156001E8B50370002F5EB /* 返回剪头@2x.png in Resources */,
 				3D4155E11E8B50370002F5EB /* mrlogo_btn@3x.png in Resources */,
-				3D4157021E8B87BB0002F5EB /* oliveapp_combine_model.bundle in Resources */,
 				3D4155911E8B50370002F5EB /* Button_充值_line@2x.png in Resources */,
 				3D41558E1E8B50370002F5EB /* Button_信用卡还款_Circle@2x.png in Resources */,
 				3D4155B41E8B50370002F5EB /* Button_理财推荐_Circle@3x.png in Resources */,
@@ -821,15 +692,15 @@
 				3D4155D91E8B50370002F5EB /* Image_账单详情半圆_右.png in Resources */,
 				3D4155D51E8B50370002F5EB /* Image_Cover字.png in Resources */,
 				3D4155841E8B50370002F5EB /* Bar_导航条.png in Resources */,
+				005B88711F8F55D200544218 /* lklloadingview_logo@2x.png in Resources */,
 				3D4155D21E8B50370002F5EB /* choice_icon@2x.png in Resources */,
+				005B886F1F8F55D200544218 /* lklloadingview_circle@2x.png in Resources */,
 				3D4155CC1E8B50370002F5EB /* Button_重发按钮_220px.png in Resources */,
-				3D4156FC1E8B87BB0002F5EB /* oliveapp_headshake.gif in Resources */,
 				3D4155E21E8B50370002F5EB /* nochoice_icon@2x.png in Resources */,
 				3D4155AD1E8B50370002F5EB /* Button_流量充值_Circle@2x.png in Resources */,
 				3D4155CD1E8B50370002F5EB /* Button_重发按钮_等待220px.png in Resources */,
 				3D4155F71E8B50370002F5EB /* 支付成功@3x.png in Resources */,
 				3D4155FB1E8B50370002F5EB /* 未选@3x.png in Resources */,
-				3D41570D1E8B87BB0002F5EB /* oliveapp_step_hint_nextaction.mp3 in Resources */,
 				3D4155861E8B50370002F5EB /* Bar_导航条@3x.png in Resources */,
 				3D4155921E8B50370002F5EB /* Button_充值_line_white@2x.png in Resources */,
 				3D41559A1E8B50370002F5EB /* Button_密码_line_32px@2x.png in Resources */,
@@ -839,10 +710,8 @@
 				3D4155A41E8B50370002F5EB /* Button_扫码支付_Circle@3x.png in Resources */,
 				3D4155F31E8B50370002F5EB /* 对勾@3x.png in Resources */,
 				3D4155DC1E8B50370002F5EB /* jt_btn@3x.png in Resources */,
-				3D4157041E8B87BB0002F5EB /* oliveapp_face_with_skeleton.png in Resources */,
 				3D41559F1E8B50370002F5EB /* Button_待办_solid@2x.png in Resources */,
 				3D4155EC1E8B50370002F5EB /* tjyhk_icon@2x.png in Resources */,
-				3D4156FF1E8B87BB0002F5EB /* oliveapp_normal.gif in Resources */,
 				3D4155AA1E8B50370002F5EB /* Button_提现_solid@2x.png in Resources */,
 				3D4155D71E8B50370002F5EB /* Image_空页面.png in Resources */,
 				3D41558D1E8B50370002F5EB /* Button_交易状态.png in Resources */,
@@ -853,11 +722,9 @@
 				3D4155A91E8B50370002F5EB /* Button_提现_line_white@2x.png in Resources */,
 				3D4155B81E8B50370002F5EB /* Button_管家_solid@2x.png in Resources */,
 				3D4155C31E8B50370002F5EB /* Button_输入支付密码_取消@2x.png in Resources */,
-				3D4156F71E8B87BB0002F5EB /* AnimationConstants.plist in Resources */,
-				3D41570E1E8B87BB0002F5EB /* oliveapp_step_hint_timeout.mp3 in Resources */,
 				3D4155A51E8B50370002F5EB /* Button_扫码登陆_Circle@2x.png in Resources */,
-				3D4157001E8B87BB0002F5EB /* oliveapp_face_skeleton_minimum2.png in Resources */,
 				3D4155B91E8B50370002F5EB /* Button_箭头@2x.png in Resources */,
+				005B88701F8F55D200544218 /* lklloadingview_logo@3x.png in Resources */,
 				3D4155FD1E8B50370002F5EB /* 点击@3x.png in Resources */,
 				3D4155E01E8B50370002F5EB /* mrlogo_btn@2x.png in Resources */,
 				3D4155CB1E8B50370002F5EB /* Button_通讯录_line@2x.png in Resources */,
@@ -867,7 +734,6 @@
 				3D4155C61E8B50370002F5EB /* Button_输入框580px.png in Resources */,
 				3D4155871E8B50370002F5EB /* Bar_首页底部导航条.png in Resources */,
 				3D4155BA1E8B50370002F5EB /* Button_设置_line@2x.png in Resources */,
-				3D4157081E8B87BB0002F5EB /* oliveapp_step_hint_headleft.mp3 in Resources */,
 				3D4155EA1E8B50370002F5EB /* tck_yeqb_icon@2x.png in Resources */,
 				3D4155D41E8B50370002F5EB /* Cover_iPhone5.png in Resources */,
 				3D4155A01E8B50370002F5EB /* Button_手机_line_32px@2x.png in Resources */,
@@ -875,7 +741,6 @@
 				3D4155BE1E8B50370002F5EB /* Button_账户_line_32px@2x.png in Resources */,
 				3D4155BD1E8B50370002F5EB /* Button_账单_solid@2x.png in Resources */,
 				3D4155EF1E8B50370002F5EB /* unchoice@3x.png in Resources */,
-				3D41570C1E8B87BB0002F5EB /* oliveapp_step_hint_mouthopen.mp3 in Resources */,
 				3D41558B1E8B50370002F5EB /* button_jb_line_s@2x.png in Resources */,
 				3D4155C11E8B50370002F5EB /* Button_转账_line_white@2x.png in Resources */,
 				3D4155E91E8B50370002F5EB /* tck_qx_icon@3x.png in Resources */,
@@ -885,7 +750,6 @@
 				3D4155A11E8B50370002F5EB /* Button_手机充值_Circle@2x.png in Resources */,
 				3D4155C01E8B50370002F5EB /* Button_转账_line@2x.png in Resources */,
 				3D4156011E8B50370002F5EB /* 返回剪头@3x.png in Resources */,
-				3D4157061E8B87BB0002F5EB /* oliveapp_step_hint_eyeclose.mp3 in Resources */,
 				3D4155C71E8B50370002F5EB /* Button_输入框三栏580px.png in Resources */,
 				3D4155DE1E8B50370002F5EB /* Layer_输入支付密码580px@2x.png in Resources */,
 				3D4155A21E8B50370002F5EB /* Button_手机充值_Circle@3x.png in Resources */,
@@ -900,12 +764,7 @@
 				3D41559B1E8B50370002F5EB /* Button_帮付宝_line@2x.png in Resources */,
 				3D4155F21E8B50370002F5EB /* 对勾@2x.png in Resources */,
 				3D4155B21E8B50370002F5EB /* Button_添加银行卡.png in Resources */,
-				3D4157111E8B87BB0002F5EB /* TextConstants.plist in Resources */,
-				3D4156FE1E8B87BB0002F5EB /* oliveapp_mouthopen.gif in Resources */,
-				3D4157051E8B87BB0002F5EB /* OliveappOcrStatus.plist in Resources */,
 				3D41559D1E8B50370002F5EB /* Button_待办_Circle@2x.png in Resources */,
-				3D4157031E8B87BB0002F5EB /* oliveapp_face_skeleton_minimum2.png in Resources */,
-				3D41570B1E8B87BB0002F5EB /* oliveapp_step_hint_headup.mp3 in Resources */,
 				3D4155BB1E8B50370002F5EB /* Button_设置_solid@2x.png in Resources */,
 				3D4155CA1E8B50370002F5EB /* Button_返回@2x.png in Resources */,
 				3D4155E41E8B50370002F5EB /* qbye_btn@2x.png in Resources */,
@@ -918,14 +777,9 @@
 				3D4155A61E8B50370002F5EB /* Button_扫码登陆_Circle@3x.png in Resources */,
 				3D4155DF1E8B50370002F5EB /* Layer_银行卡类型580px.png in Resources */,
 				3D4155971E8B50370002F5EB /* Button_头像_110px@2x.png in Resources */,
-				3D4156FD1E8B87BB0002F5EB /* oliveapp_headup.gif in Resources */,
 				3D4155C41E8B50370002F5EB /* Button_输入支付密码_确认@2x.png in Resources */,
-				3D4156FA1E8B87BB0002F5EB /* oliveapp_headleft.gif in Resources */,
 				3D4155961E8B50370002F5EB /* Button_卡_line_32px@2x.png in Resources */,
 				3D4155FF1E8B50370002F5EB /* 箭头@3x.png in Resources */,
-				3D4157101E8B87BB0002F5EB /* oliveapp_step_hint_verificationpass.mp3 in Resources */,
-				3D4156FB1E8B87BB0002F5EB /* oliveapp_headright.gif in Resources */,
-				3D41570A1E8B87BB0002F5EB /* oliveapp_step_hint_headshake.mp3 in Resources */,
 				3D4155B11E8B50370002F5EB /* Button_添加银行卡+.png in Resources */,
 				3D4155E61E8B50370002F5EB /* tc_btn@2x.png in Resources */,
 				3D4155D31E8B50370002F5EB /* choice_icon@3x.png in Resources */,
@@ -936,9 +790,7 @@
 				3D4155931E8B50370002F5EB /* Button_充值_solid@2x.png in Resources */,
 				3D4155B31E8B50370002F5EB /* Button_理财推荐_Circle@2x.png in Resources */,
 				3D4155D01E8B50370002F5EB /* choice2@2x.png in Resources */,
-				3D4156F81E8B87BB0002F5EB /* AudioConstants.plist in Resources */,
 				3D4155F81E8B50370002F5EB /* 未点击@2x.png in Resources */,
-				3D4157071E8B87BB0002F5EB /* oliveapp_step_hint_getready.mp3 in Resources */,
 				3D4155CE1E8B50370002F5EB /* Button_银行卡_line@2x.png in Resources */,
 				3D4155F41E8B50370002F5EB /* 支付失败@2x.png in Resources */,
 				3D4155851E8B50370002F5EB /* Bar_导航条@2x.png in Resources */,
@@ -948,19 +800,16 @@
 				3D4155A71E8B50370002F5EB /* Button_提现_Circle@2x.png in Resources */,
 				3D4155F11E8B50370002F5EB /* 叹号@3x.png in Resources */,
 				3D4155DD1E8B50370002F5EB /* Layer_修改密码成功580px.png in Resources */,
-				3D4157091E8B87BB0002F5EB /* oliveapp_step_hint_headright.mp3 in Resources */,
-				3D41570F1E8B87BB0002F5EB /* oliveapp_step_hint_verificationfail.mp3 in Resources */,
-				3D4157011E8B87BB0002F5EB /* oliveapp_face_with_skeleton.png in Resources */,
 				3D4155B51E8B50370002F5EB /* Button_确认_line@2x.png in Resources */,
 				3D4155881E8B50370002F5EB /* Bar_首页顶部导航条.png in Resources */,
 				3D4155C91E8B50370002F5EB /* Button_输入框四栏580px.png in Resources */,
-				3D4156F91E8B87BB0002F5EB /* oliveapp_eyeclose.gif in Resources */,
 				3D41558A1E8B50370002F5EB /* Button_80px.png in Resources */,
 				3D4155CF1E8B50370002F5EB /* Button_银行卡_Solid@2x.png in Resources */,
 				3D4155A31E8B50370002F5EB /* Button_扫码支付_Circle@2x.png in Resources */,
 				3D517D041CEEE6310084E6AD /* Main.storyboard in Resources */,
 				3D4155C81E8B50370002F5EB /* Button_输入框两栏580px.png in Resources */,
 				3D4155BF1E8B50370002F5EB /* Button_转账_Circle@2x.png in Resources */,
+				005B886E1F8F55D200544218 /* lklloadingview_circle@3x.png in Resources */,
 				3D4155EB1E8B50370002F5EB /* tck_yeqb_icon@3x.png in Resources */,
 				3D4155F61E8B50370002F5EB /* 支付成功@2x.png in Resources */,
 				3D4155F51E8B50370002F5EB /* 支付失败@3x.png in Resources */,
@@ -977,7 +826,6 @@
 				3D517D031CEEE6310084E6AD /* ViewController.m in Sources */,
 				3D517CEC1CEEE5E70084E6AD /* AppDelegate.m in Sources */,
 				3D517CE91CEEE5E70084E6AD /* main.m in Sources */,
-				F936AD201D616DB500CB9810 /* FaceDetectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1095,7 +943,6 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/PaymaxSDK/FaceRecoSDK",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+alipay/Alipay",
 				);
 				INFOPLIST_FILE = PaymaxDemo/Info.plist;
@@ -1103,14 +950,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/PaymaxSDK/FaceRecoSDK/FaceRecoSDK",
 					"$(PROJECT_DIR)/PaymaxSDK",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+alipay",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+lkl",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+lkl/lkl",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+wx",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+wx/WX",
-					"$(PROJECT_DIR)/PaymaxSDK/FaceRecoSDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -1130,7 +975,6 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/PaymaxSDK/FaceRecoSDK",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+alipay/Alipay",
 				);
 				INFOPLIST_FILE = PaymaxDemo/Info.plist;
@@ -1138,14 +982,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/PaymaxSDK/FaceRecoSDK/FaceRecoSDK",
 					"$(PROJECT_DIR)/PaymaxSDK",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+alipay",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+lkl",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+lkl/lkl",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+wx",
 					"$(PROJECT_DIR)/PaymaxSDK/Paymax+wx/WX",
-					"$(PROJECT_DIR)/PaymaxSDK/FaceRecoSDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
