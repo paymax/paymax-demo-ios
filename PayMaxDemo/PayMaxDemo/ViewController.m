@@ -43,7 +43,7 @@
 }
 
 - (void)doPaymax {
-    static NSString *_urlString = @"http://172.30.21.23:8899/v1/chargeOrders/test";
+    static NSString *_urlString = @"https://www.paymax.cc/mock_merchant_server/v1/chargeOrders/product";
     //根据业务需求更换参数值
     NSDictionary *_parameterDic = @{@"channel"     : _channel,
                                     @"totalPrice"  : @"0.01",
